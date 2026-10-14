@@ -1,4 +1,8 @@
 * text=auto
+.gitattributes text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
 *.R text eol=lf
 *.md text eol=lf
 *.html text eol=lf
@@ -7,5 +11,11 @@
 *.shx binary
 *.dbf binary
 *.png binary
-docs/assets/** linguist-vendored
+docs/app/** linguist-generated
 docs/index.html linguist-generated
+docs/snapshot.json linguist-generated
+data/source-snapshot.json linguist-generated
+tests/reference.json linguist-generated
+*.mjs text eol=lf
+*.css text eol=lf
+*.yaml text eol=lf

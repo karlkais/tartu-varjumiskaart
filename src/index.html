@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tartu avalike varjumiskohtade kaart: aadressid, mahutavus, rahvastik ja piirkondlik koormussuhe. Avaandmed uuenevad vajadusel kaardi avamisel.">
+  <meta name="theme-color" content="#183e38">
+  <title>Tartu varjumiskaart</title>
+  <link rel="stylesheet" href="./app/leaflet.css">
+  <link rel="stylesheet" href="./app/style.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><h1>Tartu varjumiskaart</h1><p>Avalikud varjumiskohad ja piirkondlik koormus</p></div>
+    <div class="freshness"><div id="data-date">Laadin kaardi andmeid…</div><div class="status-row"><span id="status" role="status" aria-live="polite"></span><button id="retry" hidden>Proovi uuesti</button></div></div>
+  </header>
+  <main id="map" aria-label="Tartu varjumiskohtade interaktiivne kaart"></main>
+  <div id="fatal" hidden role="alert"></div>
+  <noscript>Kaardi kasutamiseks luba brauseris JavaScript.</noscript>
+  <script type="module" src="./app/app.js"></script>
+</body>
+</html>

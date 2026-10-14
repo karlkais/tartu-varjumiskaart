@@ -1,0 +1,9312 @@
+{
+  "populationYear": 2026,
+  "shelters": [
+    {
+      "id": 1,
+      "capacity": 428,
+      "assigned": 8916.00000000167,
+      "ratio": 20.831775700938
+    },
+    {
+      "id": 2,
+      "capacity": 285,
+      "assigned": 6266.646225472361,
+      "ratio": 21.988232370078
+    },
+    {
+      "id": 3,
+      "capacity": 357,
+      "assigned": 443.999999999916,
+      "ratio": 1.243697478991
+    },
+    {
+      "id": 4,
+      "capacity": 142,
+      "assigned": 2492.369021990781,
+      "ratio": 17.551894521062
+    },
+    {
+      "id": 5,
+      "capacity": 499,
+      "assigned": 3211.836825048179,
+      "ratio": 6.436546743584
+    },
+    {
+      "id": 6,
+      "capacity": 1000,
+      "assigned": 9351.999797521976,
+      "ratio": 9.351999797522
+    },
+    {
+      "id": 7,
+      "capacity": 285,
+      "assigned": 350.000000000051,
+      "ratio": 1.228070175439
+    },
+    {
+      "id": 8,
+      "capacity": 171,
+      "assigned": 4348.999999999283,
+      "ratio": 25.432748538008
+    },
+    {
+      "id": 9,
+      "capacity": 128,
+      "assigned": 5167.999999999656,
+      "ratio": 40.374999999997
+    },
+    {
+      "id": 10,
+      "capacity": 714,
+      "assigned": 1316.000000000199,
+      "ratio": 1.843137254902
+    },
+    {
+      "id": 11,
+      "capacity": 171,
+      "assigned": 3755.999999999893,
+      "ratio": 21.964912280701
+    },
+    {
+      "id": 12,
+      "capacity": 142,
+      "assigned": 445.999999999982,
+      "ratio": 3.140845070422
+    },
+    {
+      "id": 14,
+      "capacity": 142,
+      "assigned": 14019.747354929697,
+      "ratio": 98.730615175561
+    },
+    {
+      "id": 22,
+      "capacity": 824,
+      "assigned": 463.999999999974,
+      "ratio": 0.5631067961165
+    },
+    {
+      "id": 23,
+      "capacity": 6714,
+      "assigned": 1992.999714582081,
+      "ratio": 0.2968423763155
+    },
+    {
+      "id": 24,
+      "capacity": 407,
+      "assigned": 4729.64060510233,
+      "ratio": 11.620738587475
+    },
+    {
+      "id": 25,
+      "capacity": 250,
+      "assigned": 77.000000000023,
+      "ratio": 0.3080000000001
+    },
+    {
+      "id": 26,
+      "capacity": 912,
+      "assigned": 3491.737046224876,
+      "ratio": 3.828659041913
+    },
+    {
+      "id": 27,
+      "capacity": 170,
+      "assigned": 3454.999999999764,
+      "ratio": 20.323529411763
+    },
+    {
+      "id": 28,
+      "capacity": 122,
+      "assigned": 4844.999999999294,
+      "ratio": 39.713114754093
+    },
+    {
+      "id": 29,
+      "capacity": 8000,
+      "assigned": 31.000000000013,
+      "ratio": 0.003875000000002
+    },
+    {
+      "id": 30,
+      "capacity": 13333,
+      "assigned": 2744.000000000359,
+      "ratio": 0.2058051451287
+    },
+    {
+      "id": 31,
+      "capacity": 840,
+      "assigned": 880.000000000025,
+      "ratio": 1.047619047619
+    }
+  ],
+  "population": [
+    {
+      "id": 548,
+      "residents": 44.647528440936,
+      "shelterId": 2
+    },
+    {
+      "id": 747,
+      "residents": 183,
+      "shelterId": 2
+    },
+    {
+      "id": 748,
+      "residents": 51.000000000011,
+      "shelterId": 2
+    },
+    {
+      "id": 790,
+      "residents": 3.638361453655,
+      "shelterId": 26
+    },
+    {
+      "id": 950,
+      "residents": 13.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 986,
+      "residents": 4.000000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 987,
+      "residents": 3.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 988,
+      "residents": 16.00000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 989,
+      "residents": 11.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 990,
+      "residents": 15,
+      "shelterId": 26
+    },
+    {
+      "id": 991,
+      "residents": 11.362974680814,
+      "shelterId": 26
+    },
+    {
+      "id": 1187,
+      "residents": 12.999999999994,
+      "shelterId": 26
+    },
+    {
+      "id": 1188,
+      "residents": 6.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 1190,
+      "residents": 7.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 1191,
+      "residents": 4.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 1192,
+      "residents": 4.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 1193,
+      "residents": 4.735710090347,
+      "shelterId": 26
+    },
+    {
+      "id": 1380,
+      "residents": 3.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 1385,
+      "residents": 3.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 1387,
+      "residents": 8.999999999996,
+      "shelterId": 26
+    },
+    {
+      "id": 1389,
+      "residents": 3.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 1391,
+      "residents": 9.00000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 1393,
+      "residents": 9.000000000004,
+      "shelterId": 14
+    },
+    {
+      "id": 1394,
+      "residents": 5.999999999995,
+      "shelterId": 14
+    },
+    {
+      "id": 1580,
+      "residents": 6.000000000005,
+      "shelterId": 26
+    },
+    {
+      "id": 1581,
+      "residents": 4.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 1585,
+      "residents": 4.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 1586,
+      "residents": 9,
+      "shelterId": 26
+    },
+    {
+      "id": 1587,
+      "residents": 8.999999999996,
+      "shelterId": 26
+    },
+    {
+      "id": 1588,
+      "residents": 13.999999999994,
+      "shelterId": 26
+    },
+    {
+      "id": 1590,
+      "residents": 4,
+      "shelterId": 26
+    },
+    {
+      "id": 1593,
+      "residents": 3.999999999998,
+      "shelterId": 14
+    },
+    {
+      "id": 1726,
+      "residents": 4.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 1737,
+      "residents": 3.998697031438,
+      "shelterId": 2
+    },
+    {
+      "id": 1746,
+      "residents": 3.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 1748,
+      "residents": 15,
+      "shelterId": 2
+    },
+    {
+      "id": 1750,
+      "residents": 17.000000000029,
+      "shelterId": 2
+    },
+    {
+      "id": 1752,
+      "residents": 143.000000000092,
+      "shelterId": 2
+    },
+    {
+      "id": 1757,
+      "residents": 86.000000000037,
+      "shelterId": 2
+    },
+    {
+      "id": 1780,
+      "residents": 3.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 1781,
+      "residents": 3.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 1787,
+      "residents": 10,
+      "shelterId": 26
+    },
+    {
+      "id": 1789,
+      "residents": 8.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 1790,
+      "residents": 4.000000000006,
+      "shelterId": 26
+    },
+    {
+      "id": 1793,
+      "residents": 3.999999999999,
+      "shelterId": 14
+    },
+    {
+      "id": 1794,
+      "residents": 20.000000000004,
+      "shelterId": 14
+    },
+    {
+      "id": 1796,
+      "residents": 6.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 1934,
+      "residents": 4.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 1935,
+      "residents": 5.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 1936,
+      "residents": 4,
+      "shelterId": 2
+    },
+    {
+      "id": 1937,
+      "residents": 5.000000000004,
+      "shelterId": 2
+    },
+    {
+      "id": 1938,
+      "residents": 5.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 1939,
+      "residents": 19.999999999991,
+      "shelterId": 2
+    },
+    {
+      "id": 1940,
+      "residents": 16.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 1941,
+      "residents": 7.999999999993,
+      "shelterId": 2
+    },
+    {
+      "id": 1942,
+      "residents": 16.999999999978,
+      "shelterId": 2
+    },
+    {
+      "id": 1944,
+      "residents": 27.999999999982,
+      "shelterId": 2
+    },
+    {
+      "id": 1945,
+      "residents": 29.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 1946,
+      "residents": 7.999999999991,
+      "shelterId": 2
+    },
+    {
+      "id": 1947,
+      "residents": 11.999999999987,
+      "shelterId": 2
+    },
+    {
+      "id": 1948,
+      "residents": 27.999999999988,
+      "shelterId": 2
+    },
+    {
+      "id": 1949,
+      "residents": 26.000000000039,
+      "shelterId": 2
+    },
+    {
+      "id": 1950,
+      "residents": 36,
+      "shelterId": 2
+    },
+    {
+      "id": 1951,
+      "residents": 162,
+      "shelterId": 2
+    },
+    {
+      "id": 1952,
+      "residents": 324.99999999965,
+      "shelterId": 2
+    },
+    {
+      "id": 1953,
+      "residents": 88.000000000019,
+      "shelterId": 2
+    },
+    {
+      "id": 1980,
+      "residents": 4.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 1981,
+      "residents": 4.99999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 1982,
+      "residents": 3.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 1984,
+      "residents": 12.00000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 1985,
+      "residents": 5.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 1986,
+      "residents": 7.999999999993,
+      "shelterId": 26
+    },
+    {
+      "id": 1987,
+      "residents": 8.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 1988,
+      "residents": 3.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 1990,
+      "residents": 5.000000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 1991,
+      "residents": 7.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 1993,
+      "residents": 6,
+      "shelterId": 14
+    },
+    {
+      "id": 1994,
+      "residents": 11.000000000014,
+      "shelterId": 14
+    },
+    {
+      "id": 1995,
+      "residents": 8.000000000007,
+      "shelterId": 14
+    },
+    {
+      "id": 1996,
+      "residents": 7.967488608439,
+      "shelterId": 14
+    },
+    {
+      "id": 2124,
+      "residents": 69.000000000045,
+      "shelterId": 2
+    },
+    {
+      "id": 2127,
+      "residents": 6.000000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 2134,
+      "residents": 10,
+      "shelterId": 2
+    },
+    {
+      "id": 2135,
+      "residents": 14.999999999984,
+      "shelterId": 2
+    },
+    {
+      "id": 2136,
+      "residents": 48.999999999968,
+      "shelterId": 2
+    },
+    {
+      "id": 2137,
+      "residents": 14.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2138,
+      "residents": 12.999999999992,
+      "shelterId": 2
+    },
+    {
+      "id": 2139,
+      "residents": 10.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 2140,
+      "residents": 39.999999999966,
+      "shelterId": 2
+    },
+    {
+      "id": 2141,
+      "residents": 3.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2142,
+      "residents": 11.999999999992,
+      "shelterId": 2
+    },
+    {
+      "id": 2144,
+      "residents": 15.999999999993,
+      "shelterId": 2
+    },
+    {
+      "id": 2145,
+      "residents": 16,
+      "shelterId": 2
+    },
+    {
+      "id": 2146,
+      "residents": 11,
+      "shelterId": 2
+    },
+    {
+      "id": 2147,
+      "residents": 27.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 2148,
+      "residents": 23.000000000025,
+      "shelterId": 2
+    },
+    {
+      "id": 2149,
+      "residents": 21.000000000023,
+      "shelterId": 2
+    },
+    {
+      "id": 2150,
+      "residents": 25.000000000011,
+      "shelterId": 2
+    },
+    {
+      "id": 2151,
+      "residents": 38,
+      "shelterId": 2
+    },
+    {
+      "id": 2152,
+      "residents": 225.000000000194,
+      "shelterId": 2
+    },
+    {
+      "id": 2153,
+      "residents": 183.999999999881,
+      "shelterId": 2
+    },
+    {
+      "id": 2177,
+      "residents": 4.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 2178,
+      "residents": 5.999999999992,
+      "shelterId": 26
+    },
+    {
+      "id": 2179,
+      "residents": 4,
+      "shelterId": 26
+    },
+    {
+      "id": 2181,
+      "residents": 8.999999999996,
+      "shelterId": 26
+    },
+    {
+      "id": 2186,
+      "residents": 5,
+      "shelterId": 26
+    },
+    {
+      "id": 2187,
+      "residents": 5.000000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 2188,
+      "residents": 11.000000000005,
+      "shelterId": 26
+    },
+    {
+      "id": 2190,
+      "residents": 4.999999999999,
+      "shelterId": 14
+    },
+    {
+      "id": 2191,
+      "residents": 8.99999999999,
+      "shelterId": 14
+    },
+    {
+      "id": 2192,
+      "residents": 4.000000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 2193,
+      "residents": 3.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 2194,
+      "residents": 5.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 2196,
+      "residents": 4.816958077464,
+      "shelterId": 14
+    },
+    {
+      "id": 2323,
+      "residents": 11.000000000007,
+      "shelterId": 2
+    },
+    {
+      "id": 2324,
+      "residents": 125.999999999919,
+      "shelterId": 2
+    },
+    {
+      "id": 2325,
+      "residents": 88.000000000038,
+      "shelterId": 2
+    },
+    {
+      "id": 2334,
+      "residents": 4.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2335,
+      "residents": 3.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2336,
+      "residents": 8.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 2337,
+      "residents": 45.99999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 2338,
+      "residents": 6.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 2339,
+      "residents": 56,
+      "shelterId": 2
+    },
+    {
+      "id": 2340,
+      "residents": 17.999999999985,
+      "shelterId": 2
+    },
+    {
+      "id": 2341,
+      "residents": 55.99999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 2342,
+      "residents": 7.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 2343,
+      "residents": 4.999999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 2344,
+      "residents": 9,
+      "shelterId": 2
+    },
+    {
+      "id": 2345,
+      "residents": 11.999999999985,
+      "shelterId": 2
+    },
+    {
+      "id": 2346,
+      "residents": 17.000000000007,
+      "shelterId": 2
+    },
+    {
+      "id": 2347,
+      "residents": 35,
+      "shelterId": 2
+    },
+    {
+      "id": 2348,
+      "residents": 14.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 2349,
+      "residents": 30.000000000045,
+      "shelterId": 2
+    },
+    {
+      "id": 2350,
+      "residents": 21.999999999976,
+      "shelterId": 2
+    },
+    {
+      "id": 2351,
+      "residents": 37,
+      "shelterId": 2
+    },
+    {
+      "id": 2352,
+      "residents": 100.000000000043,
+      "shelterId": 2
+    },
+    {
+      "id": 2353,
+      "residents": 129.000000000083,
+      "shelterId": 2
+    },
+    {
+      "id": 2362,
+      "residents": 10.000000000006,
+      "shelterId": 26
+    },
+    {
+      "id": 2379,
+      "residents": 21.999999999995,
+      "shelterId": 26
+    },
+    {
+      "id": 2381,
+      "residents": 6.000000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 2382,
+      "residents": 7.999999999995,
+      "shelterId": 26
+    },
+    {
+      "id": 2383,
+      "residents": 4,
+      "shelterId": 26
+    },
+    {
+      "id": 2385,
+      "residents": 4.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 2386,
+      "residents": 11.999999999995,
+      "shelterId": 26
+    },
+    {
+      "id": 2387,
+      "residents": 11.99999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 2388,
+      "residents": 4.999999999995,
+      "shelterId": 14
+    },
+    {
+      "id": 2389,
+      "residents": 4.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 2390,
+      "residents": 9.999999999985,
+      "shelterId": 14
+    },
+    {
+      "id": 2391,
+      "residents": 4.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 2393,
+      "residents": 4.000000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 2523,
+      "residents": 58,
+      "shelterId": 2
+    },
+    {
+      "id": 2524,
+      "residents": 33.999999999985,
+      "shelterId": 2
+    },
+    {
+      "id": 2525,
+      "residents": 62.999999999905,
+      "shelterId": 2
+    },
+    {
+      "id": 2526,
+      "residents": 27.999999999988,
+      "shelterId": 2
+    },
+    {
+      "id": 2532,
+      "residents": 22,
+      "shelterId": 2
+    },
+    {
+      "id": 2533,
+      "residents": 3.999999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 2535,
+      "residents": 14.999999999987,
+      "shelterId": 2
+    },
+    {
+      "id": 2536,
+      "residents": 5.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2537,
+      "residents": 11.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 2538,
+      "residents": 19.000000000008,
+      "shelterId": 2
+    },
+    {
+      "id": 2539,
+      "residents": 25.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 2540,
+      "residents": 18,
+      "shelterId": 2
+    },
+    {
+      "id": 2541,
+      "residents": 6.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 2542,
+      "residents": 12.999999999992,
+      "shelterId": 2
+    },
+    {
+      "id": 2543,
+      "residents": 4.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2546,
+      "residents": 12.999999999986,
+      "shelterId": 2
+    },
+    {
+      "id": 2547,
+      "residents": 20.000000000022,
+      "shelterId": 2
+    },
+    {
+      "id": 2548,
+      "residents": 13.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2549,
+      "residents": 8.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2550,
+      "residents": 25.999999999972,
+      "shelterId": 2
+    },
+    {
+      "id": 2551,
+      "residents": 177,
+      "shelterId": 2
+    },
+    {
+      "id": 2552,
+      "residents": 91.999999999901,
+      "shelterId": 2
+    },
+    {
+      "id": 2585,
+      "residents": 3.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 2587,
+      "residents": 5.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 2588,
+      "residents": 5.000000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 2589,
+      "residents": 4.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 2590,
+      "residents": 4.999999999995,
+      "shelterId": 14
+    },
+    {
+      "id": 2722,
+      "residents": 48.999999999989,
+      "shelterId": 24
+    },
+    {
+      "id": 2723,
+      "residents": 67.999999999985,
+      "shelterId": 24
+    },
+    {
+      "id": 2724,
+      "residents": 62.999999999973,
+      "shelterId": 24
+    },
+    {
+      "id": 2732,
+      "residents": 14,
+      "shelterId": 2
+    },
+    {
+      "id": 2733,
+      "residents": 16.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2734,
+      "residents": 4,
+      "shelterId": 2
+    },
+    {
+      "id": 2735,
+      "residents": 5,
+      "shelterId": 2
+    },
+    {
+      "id": 2736,
+      "residents": 4.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2737,
+      "residents": 38.000000000033,
+      "shelterId": 2
+    },
+    {
+      "id": 2738,
+      "residents": 18.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 2739,
+      "residents": 10,
+      "shelterId": 2
+    },
+    {
+      "id": 2740,
+      "residents": 85,
+      "shelterId": 2
+    },
+    {
+      "id": 2741,
+      "residents": 8.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 2742,
+      "residents": 61.000000000026,
+      "shelterId": 2
+    },
+    {
+      "id": 2745,
+      "residents": 10.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 2746,
+      "residents": 7.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2747,
+      "residents": 16.999999999993,
+      "shelterId": 2
+    },
+    {
+      "id": 2748,
+      "residents": 7.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2749,
+      "residents": 26.999999999988,
+      "shelterId": 2
+    },
+    {
+      "id": 2750,
+      "residents": 19.000000000004,
+      "shelterId": 2
+    },
+    {
+      "id": 2751,
+      "residents": 5.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 2779,
+      "residents": 4.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 2787,
+      "residents": 13.999999999988,
+      "shelterId": 14
+    },
+    {
+      "id": 2793,
+      "residents": 12.000000000005,
+      "shelterId": 14
+    },
+    {
+      "id": 2794,
+      "residents": 3.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 2922,
+      "residents": 33.000000000007,
+      "shelterId": 24
+    },
+    {
+      "id": 2923,
+      "residents": 98.999999999915,
+      "shelterId": 24
+    },
+    {
+      "id": 2924,
+      "residents": 250,
+      "shelterId": 24
+    },
+    {
+      "id": 2931,
+      "residents": 8.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 2932,
+      "residents": 7.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 2933,
+      "residents": 6.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 2934,
+      "residents": 26.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 2935,
+      "residents": 23.00000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 2936,
+      "residents": 7.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 2937,
+      "residents": 24.999999999978,
+      "shelterId": 2
+    },
+    {
+      "id": 2939,
+      "residents": 5.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 2940,
+      "residents": 74,
+      "shelterId": 2
+    },
+    {
+      "id": 2941,
+      "residents": 77.000000000017,
+      "shelterId": 2
+    },
+    {
+      "id": 2942,
+      "residents": 7.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 2946,
+      "residents": 11.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 2947,
+      "residents": 13.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 2948,
+      "residents": 3.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 2949,
+      "residents": 31.999999999993,
+      "shelterId": 2
+    },
+    {
+      "id": 2950,
+      "residents": 15.00000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 2951,
+      "residents": 10.000000000017,
+      "shelterId": 2
+    },
+    {
+      "id": 2952,
+      "residents": 24,
+      "shelterId": 2
+    },
+    {
+      "id": 2953,
+      "residents": 23.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 2954,
+      "residents": 14.000000000012,
+      "shelterId": 2
+    },
+    {
+      "id": 2979,
+      "residents": 5.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 2980,
+      "residents": 8.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 2981,
+      "residents": 4.000000000001,
+      "shelterId": 26
+    },
+    {
+      "id": 2986,
+      "residents": 13.000000000014,
+      "shelterId": 14
+    },
+    {
+      "id": 2987,
+      "residents": 5.000000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 2993,
+      "residents": 9,
+      "shelterId": 14
+    },
+    {
+      "id": 2994,
+      "residents": 13.999999999985,
+      "shelterId": 14
+    },
+    {
+      "id": 3121,
+      "residents": 38.999999999992,
+      "shelterId": 24
+    },
+    {
+      "id": 3122,
+      "residents": 15.999999999986,
+      "shelterId": 24
+    },
+    {
+      "id": 3123,
+      "residents": 183.999999999842,
+      "shelterId": 24
+    },
+    {
+      "id": 3125,
+      "residents": 156.000000000034,
+      "shelterId": 24
+    },
+    {
+      "id": 3126,
+      "residents": 76.99999999995,
+      "shelterId": 24
+    },
+    {
+      "id": 3131,
+      "residents": 25.999999999978,
+      "shelterId": 2
+    },
+    {
+      "id": 3132,
+      "residents": 7.999999999993,
+      "shelterId": 2
+    },
+    {
+      "id": 3133,
+      "residents": 16.000000000007,
+      "shelterId": 2
+    },
+    {
+      "id": 3134,
+      "residents": 19.000000000004,
+      "shelterId": 2
+    },
+    {
+      "id": 3136,
+      "residents": 24.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 3138,
+      "residents": 4,
+      "shelterId": 2
+    },
+    {
+      "id": 3139,
+      "residents": 21,
+      "shelterId": 2
+    },
+    {
+      "id": 3140,
+      "residents": 16,
+      "shelterId": 2
+    },
+    {
+      "id": 3141,
+      "residents": 26,
+      "shelterId": 2
+    },
+    {
+      "id": 3142,
+      "residents": 9.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 3143,
+      "residents": 4,
+      "shelterId": 2
+    },
+    {
+      "id": 3144,
+      "residents": 17,
+      "shelterId": 2
+    },
+    {
+      "id": 3145,
+      "residents": 7.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 3146,
+      "residents": 10.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 3147,
+      "residents": 14.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 3148,
+      "residents": 8.00000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 3149,
+      "residents": 10.000000000011,
+      "shelterId": 2
+    },
+    {
+      "id": 3150,
+      "residents": 12.000000000008,
+      "shelterId": 2
+    },
+    {
+      "id": 3151,
+      "residents": 22.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 3152,
+      "residents": 19.999999999974,
+      "shelterId": 2
+    },
+    {
+      "id": 3153,
+      "residents": 3.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 3179,
+      "residents": 8,
+      "shelterId": 26
+    },
+    {
+      "id": 3180,
+      "residents": 14.000000000012,
+      "shelterId": 26
+    },
+    {
+      "id": 3181,
+      "residents": 8,
+      "shelterId": 26
+    },
+    {
+      "id": 3182,
+      "residents": 4.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 3184,
+      "residents": 10.000000000004,
+      "shelterId": 26
+    },
+    {
+      "id": 3185,
+      "residents": 4.999999999998,
+      "shelterId": 14
+    },
+    {
+      "id": 3194,
+      "residents": 14.99999999999,
+      "shelterId": 14
+    },
+    {
+      "id": 3195,
+      "residents": 4.922888355739,
+      "shelterId": 14
+    },
+    {
+      "id": 3319,
+      "residents": 3.451101701518,
+      "shelterId": 24
+    },
+    {
+      "id": 3321,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 3322,
+      "residents": 172.999999999888,
+      "shelterId": 24
+    },
+    {
+      "id": 3323,
+      "residents": 104.000000000045,
+      "shelterId": 24
+    },
+    {
+      "id": 3324,
+      "residents": 141.000000000061,
+      "shelterId": 24
+    },
+    {
+      "id": 3325,
+      "residents": 167.000000000072,
+      "shelterId": 24
+    },
+    {
+      "id": 3329,
+      "residents": 4.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 3331,
+      "residents": 34.000000000037,
+      "shelterId": 2
+    },
+    {
+      "id": 3332,
+      "residents": 11.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 3333,
+      "residents": 17.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 3334,
+      "residents": 67.000000000058,
+      "shelterId": 2
+    },
+    {
+      "id": 3335,
+      "residents": 16.00000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 3336,
+      "residents": 22.000000000014,
+      "shelterId": 2
+    },
+    {
+      "id": 3337,
+      "residents": 24.999999999989,
+      "shelterId": 2
+    },
+    {
+      "id": 3338,
+      "residents": 61.000000000013,
+      "shelterId": 2
+    },
+    {
+      "id": 3339,
+      "residents": 8.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 3340,
+      "residents": 8.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 3341,
+      "residents": 21.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 3342,
+      "residents": 26.000000000022,
+      "shelterId": 2
+    },
+    {
+      "id": 3344,
+      "residents": 5.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 3345,
+      "residents": 4.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 3346,
+      "residents": 4.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 3347,
+      "residents": 9.999999999991,
+      "shelterId": 2
+    },
+    {
+      "id": 3348,
+      "residents": 20.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 3349,
+      "residents": 21.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 3350,
+      "residents": 29.999999999981,
+      "shelterId": 2
+    },
+    {
+      "id": 3351,
+      "residents": 14.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 3352,
+      "residents": 12.00000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 3353,
+      "residents": 26.000000000017,
+      "shelterId": 2
+    },
+    {
+      "id": 3379,
+      "residents": 6,
+      "shelterId": 26
+    },
+    {
+      "id": 3380,
+      "residents": 5.999999999995,
+      "shelterId": 26
+    },
+    {
+      "id": 3381,
+      "residents": 3.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 3382,
+      "residents": 8.999999999996,
+      "shelterId": 26
+    },
+    {
+      "id": 3386,
+      "residents": 4.999999999999,
+      "shelterId": 14
+    },
+    {
+      "id": 3396,
+      "residents": 12.630713030945,
+      "shelterId": 14
+    },
+    {
+      "id": 3518,
+      "residents": 4.852785441887,
+      "shelterId": 24
+    },
+    {
+      "id": 3529,
+      "residents": 8.000000000007,
+      "shelterId": 24
+    },
+    {
+      "id": 3530,
+      "residents": 7.999999999993,
+      "shelterId": 24
+    },
+    {
+      "id": 3531,
+      "residents": 11.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 3532,
+      "residents": 9.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 3533,
+      "residents": 9.000000000004,
+      "shelterId": 2
+    },
+    {
+      "id": 3534,
+      "residents": 10.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 3535,
+      "residents": 12.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 3537,
+      "residents": 37.000000000024,
+      "shelterId": 2
+    },
+    {
+      "id": 3538,
+      "residents": 8.000000000002,
+      "shelterId": 2
+    },
+    {
+      "id": 3539,
+      "residents": 60.000000000013,
+      "shelterId": 2
+    },
+    {
+      "id": 3541,
+      "residents": 19.000000000016,
+      "shelterId": 2
+    },
+    {
+      "id": 3542,
+      "residents": 10.000000000015,
+      "shelterId": 2
+    },
+    {
+      "id": 3543,
+      "residents": 17.999999999988,
+      "shelterId": 2
+    },
+    {
+      "id": 3544,
+      "residents": 6.000000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 3545,
+      "residents": 8.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 3546,
+      "residents": 33.000000000014,
+      "shelterId": 2
+    },
+    {
+      "id": 3547,
+      "residents": 12.999999999992,
+      "shelterId": 2
+    },
+    {
+      "id": 3548,
+      "residents": 47.00000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 3549,
+      "residents": 35.000000000023,
+      "shelterId": 2
+    },
+    {
+      "id": 3550,
+      "residents": 29.000000000031,
+      "shelterId": 2
+    },
+    {
+      "id": 3551,
+      "residents": 24.999999999989,
+      "shelterId": 2
+    },
+    {
+      "id": 3552,
+      "residents": 17.000000000004,
+      "shelterId": 26
+    },
+    {
+      "id": 3553,
+      "residents": 15.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 3554,
+      "residents": 13.000000000017,
+      "shelterId": 26
+    },
+    {
+      "id": 3579,
+      "residents": 11,
+      "shelterId": 26
+    },
+    {
+      "id": 3580,
+      "residents": 6.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 3583,
+      "residents": 4.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 3585,
+      "residents": 5.000000000004,
+      "shelterId": 14
+    },
+    {
+      "id": 3588,
+      "residents": 10.000000000002,
+      "shelterId": 14
+    },
+    {
+      "id": 3596,
+      "residents": 5.000000000005,
+      "shelterId": 14
+    },
+    {
+      "id": 3730,
+      "residents": 28.999999999975,
+      "shelterId": 24
+    },
+    {
+      "id": 3731,
+      "residents": 18.000000000019,
+      "shelterId": 24
+    },
+    {
+      "id": 3733,
+      "residents": 7.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 3734,
+      "residents": 8.000000000005,
+      "shelterId": 2
+    },
+    {
+      "id": 3735,
+      "residents": 9.00000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 3736,
+      "residents": 12.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 3737,
+      "residents": 13,
+      "shelterId": 2
+    },
+    {
+      "id": 3738,
+      "residents": 17.999999999992,
+      "shelterId": 2
+    },
+    {
+      "id": 3739,
+      "residents": 7.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 3740,
+      "residents": 15.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 3743,
+      "residents": 9.000000000012,
+      "shelterId": 2
+    },
+    {
+      "id": 3745,
+      "residents": 23.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 3746,
+      "residents": 12.00000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 3747,
+      "residents": 26.999999999977,
+      "shelterId": 2
+    },
+    {
+      "id": 3748,
+      "residents": 9.999999999989,
+      "shelterId": 2
+    },
+    {
+      "id": 3749,
+      "residents": 13.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 3750,
+      "residents": 12.999999999992,
+      "shelterId": 26
+    },
+    {
+      "id": 3751,
+      "residents": 12.999999999994,
+      "shelterId": 26
+    },
+    {
+      "id": 3752,
+      "residents": 28.00000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 3753,
+      "residents": 23.00000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 3754,
+      "residents": 31.999999999979,
+      "shelterId": 26
+    },
+    {
+      "id": 3755,
+      "residents": 5.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 3756,
+      "residents": 10.999999999991,
+      "shelterId": 26
+    },
+    {
+      "id": 3757,
+      "residents": 22.99999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 3780,
+      "residents": 7.999999999993,
+      "shelterId": 26
+    },
+    {
+      "id": 3781,
+      "residents": 3.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 3783,
+      "residents": 3.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 3792,
+      "residents": 8.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 3795,
+      "residents": 10.999999999993,
+      "shelterId": 14
+    },
+    {
+      "id": 3796,
+      "residents": 11,
+      "shelterId": 14
+    },
+    {
+      "id": 3797,
+      "residents": 7.969678501601,
+      "shelterId": 14
+    },
+    {
+      "id": 3921,
+      "residents": 5.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 3928,
+      "residents": 36.999999999984,
+      "shelterId": 24
+    },
+    {
+      "id": 3929,
+      "residents": 40.000000000026,
+      "shelterId": 24
+    },
+    {
+      "id": 3930,
+      "residents": 92.000000000099,
+      "shelterId": 24
+    },
+    {
+      "id": 3931,
+      "residents": 37.000000000008,
+      "shelterId": 24
+    },
+    {
+      "id": 3932,
+      "residents": 67.000000000072,
+      "shelterId": 24
+    },
+    {
+      "id": 3933,
+      "residents": 4.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 3934,
+      "residents": 11.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 3935,
+      "residents": 4.999999999998,
+      "shelterId": 2
+    },
+    {
+      "id": 3936,
+      "residents": 9.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 3937,
+      "residents": 24.999999999984,
+      "shelterId": 2
+    },
+    {
+      "id": 3938,
+      "residents": 37.000000000048,
+      "shelterId": 2
+    },
+    {
+      "id": 3939,
+      "residents": 40.000000000026,
+      "shelterId": 2
+    },
+    {
+      "id": 3940,
+      "residents": 33.000000000021,
+      "shelterId": 2
+    },
+    {
+      "id": 3941,
+      "residents": 8.999999999994,
+      "shelterId": 2
+    },
+    {
+      "id": 3942,
+      "residents": 4.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 3951,
+      "residents": 18.000000000004,
+      "shelterId": 26
+    },
+    {
+      "id": 3952,
+      "residents": 51.000000000033,
+      "shelterId": 26
+    },
+    {
+      "id": 3954,
+      "residents": 32.999999999986,
+      "shelterId": 26
+    },
+    {
+      "id": 3955,
+      "residents": 15.000000000006,
+      "shelterId": 26
+    },
+    {
+      "id": 3957,
+      "residents": 14.99999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 3958,
+      "residents": 20.999999999991,
+      "shelterId": 26
+    },
+    {
+      "id": 3980,
+      "residents": 62.000000000027,
+      "shelterId": 26
+    },
+    {
+      "id": 3981,
+      "residents": 75.999999999902,
+      "shelterId": 26
+    },
+    {
+      "id": 3982,
+      "residents": 15.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 3990,
+      "residents": 9.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 3991,
+      "residents": 11.999999999995,
+      "shelterId": 14
+    },
+    {
+      "id": 3992,
+      "residents": 8.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 3993,
+      "residents": 22,
+      "shelterId": 14
+    },
+    {
+      "id": 3994,
+      "residents": 15.00000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 3995,
+      "residents": 5.000000000004,
+      "shelterId": 14
+    },
+    {
+      "id": 3996,
+      "residents": 9.000000000002,
+      "shelterId": 14
+    },
+    {
+      "id": 3997,
+      "residents": 8,
+      "shelterId": 14
+    },
+    {
+      "id": 4121,
+      "residents": 9.000000000014,
+      "shelterId": 24
+    },
+    {
+      "id": 4128,
+      "residents": 128.999999999944,
+      "shelterId": 24
+    },
+    {
+      "id": 4130,
+      "residents": 36.000000000023,
+      "shelterId": 24
+    },
+    {
+      "id": 4131,
+      "residents": 71.000000000015,
+      "shelterId": 24
+    },
+    {
+      "id": 4132,
+      "residents": 17.000000000011,
+      "shelterId": 24
+    },
+    {
+      "id": 4133,
+      "residents": 12.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 4134,
+      "residents": 64.000000000055,
+      "shelterId": 24
+    },
+    {
+      "id": 4135,
+      "residents": 43.000000000037,
+      "shelterId": 2
+    },
+    {
+      "id": 4136,
+      "residents": 13.000000000003,
+      "shelterId": 2
+    },
+    {
+      "id": 4137,
+      "residents": 13.999999999997,
+      "shelterId": 2
+    },
+    {
+      "id": 4138,
+      "residents": 5.000000000001,
+      "shelterId": 2
+    },
+    {
+      "id": 4139,
+      "residents": 12,
+      "shelterId": 2
+    },
+    {
+      "id": 4140,
+      "residents": 3.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 4141,
+      "residents": 11.999999999995,
+      "shelterId": 2
+    },
+    {
+      "id": 4142,
+      "residents": 17.999999999996,
+      "shelterId": 2
+    },
+    {
+      "id": 4150,
+      "residents": 4.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 4151,
+      "residents": 224.999999999903,
+      "shelterId": 26
+    },
+    {
+      "id": 4152,
+      "residents": 81.000000000087,
+      "shelterId": 26
+    },
+    {
+      "id": 4153,
+      "residents": 148.999999999904,
+      "shelterId": 26
+    },
+    {
+      "id": 4154,
+      "residents": 133.0000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 4155,
+      "residents": 135.999999999912,
+      "shelterId": 26
+    },
+    {
+      "id": 4156,
+      "residents": 10.999999999991,
+      "shelterId": 26
+    },
+    {
+      "id": 4157,
+      "residents": 25.000000000005,
+      "shelterId": 26
+    },
+    {
+      "id": 4180,
+      "residents": 22.000000000009,
+      "shelterId": 26
+    },
+    {
+      "id": 4189,
+      "residents": 20.00000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 4191,
+      "residents": 8.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 4192,
+      "residents": 18.000000000004,
+      "shelterId": 14
+    },
+    {
+      "id": 4193,
+      "residents": 4.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 4195,
+      "residents": 5.000000000002,
+      "shelterId": 14
+    },
+    {
+      "id": 4327,
+      "residents": 22,
+      "shelterId": 24
+    },
+    {
+      "id": 4328,
+      "residents": 72.000000000046,
+      "shelterId": 24
+    },
+    {
+      "id": 4329,
+      "residents": 98.999999999979,
+      "shelterId": 24
+    },
+    {
+      "id": 4330,
+      "residents": 205.999999999867,
+      "shelterId": 24
+    },
+    {
+      "id": 4331,
+      "residents": 21.999999999981,
+      "shelterId": 24
+    },
+    {
+      "id": 4332,
+      "residents": 24.000000000015,
+      "shelterId": 24
+    },
+    {
+      "id": 4333,
+      "residents": 13.999999999988,
+      "shelterId": 24
+    },
+    {
+      "id": 4334,
+      "residents": 3.999999999999,
+      "shelterId": 24
+    },
+    {
+      "id": 4335,
+      "residents": 10.999999999995,
+      "shelterId": 24
+    },
+    {
+      "id": 4336,
+      "residents": 8.999999999998,
+      "shelterId": 24
+    },
+    {
+      "id": 4338,
+      "residents": 4.999999999994,
+      "shelterId": 11
+    },
+    {
+      "id": 4339,
+      "residents": 33.000000000035,
+      "shelterId": 2
+    },
+    {
+      "id": 4340,
+      "residents": 33.999999999956,
+      "shelterId": 11
+    },
+    {
+      "id": 4341,
+      "residents": 12,
+      "shelterId": 2
+    },
+    {
+      "id": 4342,
+      "residents": 10.999999999986,
+      "shelterId": 2
+    },
+    {
+      "id": 4343,
+      "residents": 11.99999999999,
+      "shelterId": 2
+    },
+    {
+      "id": 4344,
+      "residents": 15.000000000006,
+      "shelterId": 2
+    },
+    {
+      "id": 4350,
+      "residents": 3.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 4351,
+      "residents": 79,
+      "shelterId": 26
+    },
+    {
+      "id": 4352,
+      "residents": 156.000000000034,
+      "shelterId": 26
+    },
+    {
+      "id": 4353,
+      "residents": 195.00000000021,
+      "shelterId": 26
+    },
+    {
+      "id": 4354,
+      "residents": 46.99999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 4355,
+      "residents": 10.000000000004,
+      "shelterId": 26
+    },
+    {
+      "id": 4360,
+      "residents": 5.000000000003,
+      "shelterId": 26
+    },
+    {
+      "id": 4388,
+      "residents": 8.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 4389,
+      "residents": 15,
+      "shelterId": 14
+    },
+    {
+      "id": 4390,
+      "residents": 7.999999999998,
+      "shelterId": 14
+    },
+    {
+      "id": 4391,
+      "residents": 43.000000000046,
+      "shelterId": 14
+    },
+    {
+      "id": 4392,
+      "residents": 33,
+      "shelterId": 14
+    },
+    {
+      "id": 4393,
+      "residents": 50.999999999967,
+      "shelterId": 14
+    },
+    {
+      "id": 4394,
+      "residents": 9.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 4395,
+      "residents": 12.999999999992,
+      "shelterId": 14
+    },
+    {
+      "id": 4396,
+      "residents": 11.999999999995,
+      "shelterId": 14
+    },
+    {
+      "id": 4397,
+      "residents": 4,
+      "shelterId": 14
+    },
+    {
+      "id": 4529,
+      "residents": 102.000000000022,
+      "shelterId": 24
+    },
+    {
+      "id": 4530,
+      "residents": 51.000000000022,
+      "shelterId": 24
+    },
+    {
+      "id": 4531,
+      "residents": 22.999999999995,
+      "shelterId": 24
+    },
+    {
+      "id": 4532,
+      "residents": 40.000000000026,
+      "shelterId": 24
+    },
+    {
+      "id": 4533,
+      "residents": 15,
+      "shelterId": 24
+    },
+    {
+      "id": 4534,
+      "residents": 22.000000000014,
+      "shelterId": 24
+    },
+    {
+      "id": 4535,
+      "residents": 17.000000000007,
+      "shelterId": 24
+    },
+    {
+      "id": 4536,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 4537,
+      "residents": 23.999999999995,
+      "shelterId": 11
+    },
+    {
+      "id": 4538,
+      "residents": 36.000000000015,
+      "shelterId": 11
+    },
+    {
+      "id": 4539,
+      "residents": 31.000000000027,
+      "shelterId": 11
+    },
+    {
+      "id": 4540,
+      "residents": 10.999999999993,
+      "shelterId": 11
+    },
+    {
+      "id": 4541,
+      "residents": 25.999999999989,
+      "shelterId": 11
+    },
+    {
+      "id": 4542,
+      "residents": 15.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 4543,
+      "residents": 21.999999999991,
+      "shelterId": 11
+    },
+    {
+      "id": 4544,
+      "residents": 17.000000000015,
+      "shelterId": 11
+    },
+    {
+      "id": 4550,
+      "residents": 28.000000000012,
+      "shelterId": 26
+    },
+    {
+      "id": 4551,
+      "residents": 261.999999999718,
+      "shelterId": 26
+    },
+    {
+      "id": 4552,
+      "residents": 167.000000000036,
+      "shelterId": 26
+    },
+    {
+      "id": 4553,
+      "residents": 228.999999999852,
+      "shelterId": 26
+    },
+    {
+      "id": 4554,
+      "residents": 19.000000000008,
+      "shelterId": 26
+    },
+    {
+      "id": 4555,
+      "residents": 19.000000000037,
+      "shelterId": 26
+    },
+    {
+      "id": 4556,
+      "residents": 25.000000000011,
+      "shelterId": 26
+    },
+    {
+      "id": 4588,
+      "residents": 38.000000000008,
+      "shelterId": 14
+    },
+    {
+      "id": 4589,
+      "residents": 32.999999999979,
+      "shelterId": 14
+    },
+    {
+      "id": 4590,
+      "residents": 38.000000000025,
+      "shelterId": 14
+    },
+    {
+      "id": 4591,
+      "residents": 20.000000000034,
+      "shelterId": 14
+    },
+    {
+      "id": 4592,
+      "residents": 4.999999999999,
+      "shelterId": 14
+    },
+    {
+      "id": 4593,
+      "residents": 15.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 4594,
+      "residents": 24,
+      "shelterId": 14
+    },
+    {
+      "id": 4595,
+      "residents": 19.999999999974,
+      "shelterId": 14
+    },
+    {
+      "id": 4596,
+      "residents": 5.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 4598,
+      "residents": 4.000000000001,
+      "shelterId": 14
+    },
+    {
+      "id": 4721,
+      "residents": 7.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 4724,
+      "residents": 7.999999999998,
+      "shelterId": 24
+    },
+    {
+      "id": 4729,
+      "residents": 9,
+      "shelterId": 24
+    },
+    {
+      "id": 4730,
+      "residents": 24.00000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 4731,
+      "residents": 7,
+      "shelterId": 24
+    },
+    {
+      "id": 4733,
+      "residents": 8.999999999998,
+      "shelterId": 24
+    },
+    {
+      "id": 4734,
+      "residents": 14.000000000012,
+      "shelterId": 24
+    },
+    {
+      "id": 4735,
+      "residents": 23.999999999969,
+      "shelterId": 24
+    },
+    {
+      "id": 4736,
+      "residents": 10.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 4737,
+      "residents": 21.999999999972,
+      "shelterId": 11
+    },
+    {
+      "id": 4738,
+      "residents": 25.000000000027,
+      "shelterId": 11
+    },
+    {
+      "id": 4739,
+      "residents": 32.000000000021,
+      "shelterId": 11
+    },
+    {
+      "id": 4740,
+      "residents": 17.000000000011,
+      "shelterId": 11
+    },
+    {
+      "id": 4741,
+      "residents": 31.000000000007,
+      "shelterId": 11
+    },
+    {
+      "id": 4742,
+      "residents": 9,
+      "shelterId": 11
+    },
+    {
+      "id": 4743,
+      "residents": 11.000000000005,
+      "shelterId": 11
+    },
+    {
+      "id": 4744,
+      "residents": 18.000000000031,
+      "shelterId": 11
+    },
+    {
+      "id": 4745,
+      "residents": 19.000000000008,
+      "shelterId": 11
+    },
+    {
+      "id": 4750,
+      "residents": 43.000000000009,
+      "shelterId": 26
+    },
+    {
+      "id": 4751,
+      "residents": 195.000000000252,
+      "shelterId": 26
+    },
+    {
+      "id": 4752,
+      "residents": 4.000000000002,
+      "shelterId": 26
+    },
+    {
+      "id": 4754,
+      "residents": 9.000000000008,
+      "shelterId": 26
+    },
+    {
+      "id": 4755,
+      "residents": 17,
+      "shelterId": 26
+    },
+    {
+      "id": 4756,
+      "residents": 55.999999999988,
+      "shelterId": 26
+    },
+    {
+      "id": 4761,
+      "residents": 3.999999999998,
+      "shelterId": 26
+    },
+    {
+      "id": 4789,
+      "residents": 26,
+      "shelterId": 14
+    },
+    {
+      "id": 4790,
+      "residents": 8.999999999992,
+      "shelterId": 14
+    },
+    {
+      "id": 4791,
+      "residents": 13.999999999994,
+      "shelterId": 14
+    },
+    {
+      "id": 4792,
+      "residents": 25,
+      "shelterId": 14
+    },
+    {
+      "id": 4794,
+      "residents": 47.999999999969,
+      "shelterId": 14
+    },
+    {
+      "id": 4795,
+      "residents": 16.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 4796,
+      "residents": 12.000000000008,
+      "shelterId": 14
+    },
+    {
+      "id": 4797,
+      "residents": 4,
+      "shelterId": 14
+    },
+    {
+      "id": 4798,
+      "residents": 13.000000000003,
+      "shelterId": 14
+    },
+    {
+      "id": 4800,
+      "residents": 3.076385516997,
+      "shelterId": 14
+    },
+    {
+      "id": 4923,
+      "residents": 14.99999999999,
+      "shelterId": 24
+    },
+    {
+      "id": 4924,
+      "residents": 4.000000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 4929,
+      "residents": 7,
+      "shelterId": 24
+    },
+    {
+      "id": 4931,
+      "residents": 11.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 4932,
+      "residents": 16.999999999996,
+      "shelterId": 24
+    },
+    {
+      "id": 4934,
+      "residents": 21.000000000018,
+      "shelterId": 24
+    },
+    {
+      "id": 4935,
+      "residents": 12.999999999997,
+      "shelterId": 24
+    },
+    {
+      "id": 4936,
+      "residents": 8.999999999998,
+      "shelterId": 24
+    },
+    {
+      "id": 4937,
+      "residents": 5,
+      "shelterId": 11
+    },
+    {
+      "id": 4938,
+      "residents": 22.000000000014,
+      "shelterId": 11
+    },
+    {
+      "id": 4939,
+      "residents": 14.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 4940,
+      "residents": 26.000000000034,
+      "shelterId": 11
+    },
+    {
+      "id": 4941,
+      "residents": 22.000000000005,
+      "shelterId": 11
+    },
+    {
+      "id": 4942,
+      "residents": 19.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 4943,
+      "residents": 26.999999999994,
+      "shelterId": 11
+    },
+    {
+      "id": 4944,
+      "residents": 31,
+      "shelterId": 11
+    },
+    {
+      "id": 4945,
+      "residents": 22.000000000005,
+      "shelterId": 11
+    },
+    {
+      "id": 4946,
+      "residents": 3.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 4947,
+      "residents": 7.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 4948,
+      "residents": 5.000000000005,
+      "shelterId": 26
+    },
+    {
+      "id": 4949,
+      "residents": 3.999999999997,
+      "shelterId": 26
+    },
+    {
+      "id": 4951,
+      "residents": 4.999999999999,
+      "shelterId": 26
+    },
+    {
+      "id": 4952,
+      "residents": 9.999999999991,
+      "shelterId": 26
+    },
+    {
+      "id": 4953,
+      "residents": 17.999999999992,
+      "shelterId": 26
+    },
+    {
+      "id": 4954,
+      "residents": 73.999999999952,
+      "shelterId": 26
+    },
+    {
+      "id": 4969,
+      "residents": 9,
+      "shelterId": 28
+    },
+    {
+      "id": 4989,
+      "residents": 3.999999999998,
+      "shelterId": 14
+    },
+    {
+      "id": 4997,
+      "residents": 7.999999999997,
+      "shelterId": 14
+    },
+    {
+      "id": 4999,
+      "residents": 3.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 5000,
+      "residents": 3.201715781405,
+      "shelterId": 14
+    },
+    {
+      "id": 5121,
+      "residents": 4.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 5122,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 5123,
+      "residents": 4.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 5124,
+      "residents": 4.000000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 5125,
+      "residents": 4.000000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 5126,
+      "residents": 6.999999999995,
+      "shelterId": 24
+    },
+    {
+      "id": 5129,
+      "residents": 9,
+      "shelterId": 24
+    },
+    {
+      "id": 5131,
+      "residents": 8,
+      "shelterId": 24
+    },
+    {
+      "id": 5132,
+      "residents": 19.000000000025,
+      "shelterId": 24
+    },
+    {
+      "id": 5133,
+      "residents": 27,
+      "shelterId": 24
+    },
+    {
+      "id": 5134,
+      "residents": 59.999999999935,
+      "shelterId": 24
+    },
+    {
+      "id": 5135,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 5136,
+      "residents": 10.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 5137,
+      "residents": 25.999999999994,
+      "shelterId": 11
+    },
+    {
+      "id": 5138,
+      "residents": 26.000000000011,
+      "shelterId": 11
+    },
+    {
+      "id": 5139,
+      "residents": 22.99999999998,
+      "shelterId": 11
+    },
+    {
+      "id": 5140,
+      "residents": 9.000000000012,
+      "shelterId": 11
+    },
+    {
+      "id": 5141,
+      "residents": 9.000000000012,
+      "shelterId": 11
+    },
+    {
+      "id": 5142,
+      "residents": 25,
+      "shelterId": 11
+    },
+    {
+      "id": 5143,
+      "residents": 5,
+      "shelterId": 11
+    },
+    {
+      "id": 5144,
+      "residents": 9.000000000002,
+      "shelterId": 11
+    },
+    {
+      "id": 5145,
+      "residents": 10.999999999998,
+      "shelterId": 11
+    },
+    {
+      "id": 5146,
+      "residents": 5.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 5150,
+      "residents": 13,
+      "shelterId": 28
+    },
+    {
+      "id": 5151,
+      "residents": 16.999999999996,
+      "shelterId": 28
+    },
+    {
+      "id": 5152,
+      "residents": 25.999999999961,
+      "shelterId": 28
+    },
+    {
+      "id": 5153,
+      "residents": 21,
+      "shelterId": 28
+    },
+    {
+      "id": 5154,
+      "residents": 22.000000000005,
+      "shelterId": 28
+    },
+    {
+      "id": 5155,
+      "residents": 9.999999999985,
+      "shelterId": 28
+    },
+    {
+      "id": 5156,
+      "residents": 15.99999999999,
+      "shelterId": 28
+    },
+    {
+      "id": 5158,
+      "residents": 6.000000000003,
+      "shelterId": 28
+    },
+    {
+      "id": 5168,
+      "residents": 3.999999999998,
+      "shelterId": 28
+    },
+    {
+      "id": 5169,
+      "residents": 4.000000000003,
+      "shelterId": 28
+    },
+    {
+      "id": 5198,
+      "residents": 8.999999999998,
+      "shelterId": 14
+    },
+    {
+      "id": 5199,
+      "residents": 10.999999999993,
+      "shelterId": 14
+    },
+    {
+      "id": 5200,
+      "residents": 4.166524499307,
+      "shelterId": 14
+    },
+    {
+      "id": 5323,
+      "residents": 17.999999999992,
+      "shelterId": 24
+    },
+    {
+      "id": 5324,
+      "residents": 3.999999999996,
+      "shelterId": 24
+    },
+    {
+      "id": 5325,
+      "residents": 4.999999999998,
+      "shelterId": 24
+    },
+    {
+      "id": 5329,
+      "residents": 14.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 5331,
+      "residents": 14.000000000021,
+      "shelterId": 24
+    },
+    {
+      "id": 5332,
+      "residents": 30,
+      "shelterId": 24
+    },
+    {
+      "id": 5333,
+      "residents": 25.999999999983,
+      "shelterId": 24
+    },
+    {
+      "id": 5334,
+      "residents": 32.000000000014,
+      "shelterId": 24
+    },
+    {
+      "id": 5335,
+      "residents": 9.000000000002,
+      "shelterId": 24
+    },
+    {
+      "id": 5336,
+      "residents": 11.000000000012,
+      "shelterId": 24
+    },
+    {
+      "id": 5337,
+      "residents": 41.999999999973,
+      "shelterId": 11
+    },
+    {
+      "id": 5338,
+      "residents": 67.999999999927,
+      "shelterId": 11
+    },
+    {
+      "id": 5339,
+      "residents": 12.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 5340,
+      "residents": 24,
+      "shelterId": 11
+    },
+    {
+      "id": 5341,
+      "residents": 13.000000000006,
+      "shelterId": 11
+    },
+    {
+      "id": 5342,
+      "residents": 18.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 5343,
+      "residents": 34,
+      "shelterId": 11
+    },
+    {
+      "id": 5344,
+      "residents": 25.000000000016,
+      "shelterId": 11
+    },
+    {
+      "id": 5345,
+      "residents": 20.000000000009,
+      "shelterId": 11
+    },
+    {
+      "id": 5347,
+      "residents": 19.000000000008,
+      "shelterId": 11
+    },
+    {
+      "id": 5349,
+      "residents": 5.000000000003,
+      "shelterId": 28
+    },
+    {
+      "id": 5351,
+      "residents": 12,
+      "shelterId": 28
+    },
+    {
+      "id": 5352,
+      "residents": 14.999999999994,
+      "shelterId": 28
+    },
+    {
+      "id": 5353,
+      "residents": 18.999999999996,
+      "shelterId": 28
+    },
+    {
+      "id": 5354,
+      "residents": 27.999999999982,
+      "shelterId": 28
+    },
+    {
+      "id": 5355,
+      "residents": 7.999999999988,
+      "shelterId": 28
+    },
+    {
+      "id": 5356,
+      "residents": 44.000000000028,
+      "shelterId": 28
+    },
+    {
+      "id": 5357,
+      "residents": 42.000000000027,
+      "shelterId": 28
+    },
+    {
+      "id": 5358,
+      "residents": 45.000000000019,
+      "shelterId": 28
+    },
+    {
+      "id": 5359,
+      "residents": 12.000000000008,
+      "shelterId": 28
+    },
+    {
+      "id": 5360,
+      "residents": 47.00000000001,
+      "shelterId": 28
+    },
+    {
+      "id": 5362,
+      "residents": 38.000000000008,
+      "shelterId": 28
+    },
+    {
+      "id": 5364,
+      "residents": 7.000000000005,
+      "shelterId": 28
+    },
+    {
+      "id": 5399,
+      "residents": 13.999999999994,
+      "shelterId": 14
+    },
+    {
+      "id": 5528,
+      "residents": 13.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 5529,
+      "residents": 31.000000000007,
+      "shelterId": 24
+    },
+    {
+      "id": 5530,
+      "residents": 11.999999999985,
+      "shelterId": 24
+    },
+    {
+      "id": 5531,
+      "residents": 14.999999999987,
+      "shelterId": 24
+    },
+    {
+      "id": 5532,
+      "residents": 16.000000000021,
+      "shelterId": 24
+    },
+    {
+      "id": 5533,
+      "residents": 17.000000000007,
+      "shelterId": 24
+    },
+    {
+      "id": 5534,
+      "residents": 22.000000000014,
+      "shelterId": 24
+    },
+    {
+      "id": 5535,
+      "residents": 19.000000000012,
+      "shelterId": 24
+    },
+    {
+      "id": 5536,
+      "residents": 24.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 5537,
+      "residents": 26.000000000011,
+      "shelterId": 11
+    },
+    {
+      "id": 5539,
+      "residents": 4.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 5540,
+      "residents": 44.99999999999,
+      "shelterId": 11
+    },
+    {
+      "id": 5541,
+      "residents": 18.999999999984,
+      "shelterId": 11
+    },
+    {
+      "id": 5542,
+      "residents": 24.00000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 5543,
+      "residents": 28.000000000012,
+      "shelterId": 11
+    },
+    {
+      "id": 5544,
+      "residents": 25.000000000016,
+      "shelterId": 11
+    },
+    {
+      "id": 5545,
+      "residents": 32.999999999979,
+      "shelterId": 11
+    },
+    {
+      "id": 5546,
+      "residents": 19.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 5548,
+      "residents": 8.999999999992,
+      "shelterId": 11
+    },
+    {
+      "id": 5549,
+      "residents": 26.000000000006,
+      "shelterId": 28
+    },
+    {
+      "id": 5550,
+      "residents": 13.000000000011,
+      "shelterId": 28
+    },
+    {
+      "id": 5551,
+      "residents": 4.000000000002,
+      "shelterId": 28
+    },
+    {
+      "id": 5552,
+      "residents": 9.999999999989,
+      "shelterId": 28
+    },
+    {
+      "id": 5553,
+      "residents": 19.999999999996,
+      "shelterId": 28
+    },
+    {
+      "id": 5554,
+      "residents": 34.000000000015,
+      "shelterId": 28
+    },
+    {
+      "id": 5555,
+      "residents": 93.00000000006,
+      "shelterId": 28
+    },
+    {
+      "id": 5556,
+      "residents": 166.999999999964,
+      "shelterId": 28
+    },
+    {
+      "id": 5557,
+      "residents": 101.000000000022,
+      "shelterId": 28
+    },
+    {
+      "id": 5558,
+      "residents": 19.999999999996,
+      "shelterId": 28
+    },
+    {
+      "id": 5559,
+      "residents": 10.999999999998,
+      "shelterId": 28
+    },
+    {
+      "id": 5560,
+      "residents": 28.999999999981,
+      "shelterId": 28
+    },
+    {
+      "id": 5561,
+      "residents": 58.000000000025,
+      "shelterId": 28
+    },
+    {
+      "id": 5563,
+      "residents": 3.999999999998,
+      "shelterId": 28
+    },
+    {
+      "id": 5564,
+      "residents": 9,
+      "shelterId": 28
+    },
+    {
+      "id": 5599,
+      "residents": 9.999999999991,
+      "shelterId": 14
+    },
+    {
+      "id": 5727,
+      "residents": 5.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 5728,
+      "residents": 9.999999999998,
+      "shelterId": 24
+    },
+    {
+      "id": 5729,
+      "residents": 27,
+      "shelterId": 24
+    },
+    {
+      "id": 5730,
+      "residents": 16,
+      "shelterId": 24
+    },
+    {
+      "id": 5731,
+      "residents": 17.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 5732,
+      "residents": 19.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 5733,
+      "residents": 12.000000000008,
+      "shelterId": 24
+    },
+    {
+      "id": 5734,
+      "residents": 12,
+      "shelterId": 24
+    },
+    {
+      "id": 5735,
+      "residents": 22,
+      "shelterId": 24
+    },
+    {
+      "id": 5736,
+      "residents": 35.999999999961,
+      "shelterId": 24
+    },
+    {
+      "id": 5737,
+      "residents": 32.000000000007,
+      "shelterId": 11
+    },
+    {
+      "id": 5738,
+      "residents": 26,
+      "shelterId": 11
+    },
+    {
+      "id": 5740,
+      "residents": 27.000000000006,
+      "shelterId": 11
+    },
+    {
+      "id": 5741,
+      "residents": 4.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 5742,
+      "residents": 36.000000000062,
+      "shelterId": 11
+    },
+    {
+      "id": 5743,
+      "residents": 33.999999999985,
+      "shelterId": 11
+    },
+    {
+      "id": 5744,
+      "residents": 26.999999999977,
+      "shelterId": 11
+    },
+    {
+      "id": 5745,
+      "residents": 16,
+      "shelterId": 11
+    },
+    {
+      "id": 5746,
+      "residents": 11.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 5748,
+      "residents": 5.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 5749,
+      "residents": 13.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 5750,
+      "residents": 23,
+      "shelterId": 28
+    },
+    {
+      "id": 5751,
+      "residents": 11.999999999992,
+      "shelterId": 28
+    },
+    {
+      "id": 5752,
+      "residents": 16.000000000003,
+      "shelterId": 28
+    },
+    {
+      "id": 5753,
+      "residents": 23.999999999995,
+      "shelterId": 28
+    },
+    {
+      "id": 5754,
+      "residents": 15.999999999993,
+      "shelterId": 28
+    },
+    {
+      "id": 5755,
+      "residents": 37.999999999975,
+      "shelterId": 28
+    },
+    {
+      "id": 5756,
+      "residents": 39.000000000034,
+      "shelterId": 28
+    },
+    {
+      "id": 5757,
+      "residents": 21.000000000014,
+      "shelterId": 28
+    },
+    {
+      "id": 5758,
+      "residents": 27.99999999997,
+      "shelterId": 28
+    },
+    {
+      "id": 5759,
+      "residents": 39.999999999966,
+      "shelterId": 28
+    },
+    {
+      "id": 5760,
+      "residents": 66.999999999885,
+      "shelterId": 28
+    },
+    {
+      "id": 5761,
+      "residents": 82.999999999982,
+      "shelterId": 28
+    },
+    {
+      "id": 5762,
+      "residents": 87.000000000019,
+      "shelterId": 28
+    },
+    {
+      "id": 5763,
+      "residents": 11.000000000002,
+      "shelterId": 28
+    },
+    {
+      "id": 5920,
+      "residents": 2.336717958949,
+      "shelterId": 24
+    },
+    {
+      "id": 5922,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 5923,
+      "residents": 4.999999999992,
+      "shelterId": 24
+    },
+    {
+      "id": 5924,
+      "residents": 8.999999999996,
+      "shelterId": 24
+    },
+    {
+      "id": 5925,
+      "residents": 6.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 5928,
+      "residents": 52.000000000045,
+      "shelterId": 24
+    },
+    {
+      "id": 5929,
+      "residents": 16.00000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 5930,
+      "residents": 7.999999999997,
+      "shelterId": 24
+    },
+    {
+      "id": 5931,
+      "residents": 17.000000000007,
+      "shelterId": 24
+    },
+    {
+      "id": 5932,
+      "residents": 12.999999999989,
+      "shelterId": 24
+    },
+    {
+      "id": 5933,
+      "residents": 23.00000000002,
+      "shelterId": 24
+    },
+    {
+      "id": 5934,
+      "residents": 20.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 5935,
+      "residents": 40.000000000009,
+      "shelterId": 24
+    },
+    {
+      "id": 5936,
+      "residents": 4.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 5937,
+      "residents": 31.00000000004,
+      "shelterId": 11
+    },
+    {
+      "id": 5938,
+      "residents": 11.999999999995,
+      "shelterId": 11
+    },
+    {
+      "id": 5939,
+      "residents": 32.999999999957,
+      "shelterId": 11
+    },
+    {
+      "id": 5940,
+      "residents": 17.999999999981,
+      "shelterId": 11
+    },
+    {
+      "id": 5942,
+      "residents": 22,
+      "shelterId": 11
+    },
+    {
+      "id": 5943,
+      "residents": 27.000000000006,
+      "shelterId": 11
+    },
+    {
+      "id": 5944,
+      "residents": 15.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 5945,
+      "residents": 21.000000000009,
+      "shelterId": 11
+    },
+    {
+      "id": 5946,
+      "residents": 4.000000000004,
+      "shelterId": 11
+    },
+    {
+      "id": 5949,
+      "residents": 33.999999999956,
+      "shelterId": 11
+    },
+    {
+      "id": 5950,
+      "residents": 37.000000000032,
+      "shelterId": 11
+    },
+    {
+      "id": 5951,
+      "residents": 14.99999999999,
+      "shelterId": 28
+    },
+    {
+      "id": 5952,
+      "residents": 26,
+      "shelterId": 28
+    },
+    {
+      "id": 5953,
+      "residents": 9.999999999998,
+      "shelterId": 28
+    },
+    {
+      "id": 5954,
+      "residents": 18.000000000015,
+      "shelterId": 28
+    },
+    {
+      "id": 5955,
+      "residents": 38.999999999992,
+      "shelterId": 28
+    },
+    {
+      "id": 5956,
+      "residents": 19.999999999983,
+      "shelterId": 28
+    },
+    {
+      "id": 5957,
+      "residents": 34.000000000022,
+      "shelterId": 28
+    },
+    {
+      "id": 5958,
+      "residents": 24.000000000005,
+      "shelterId": 28
+    },
+    {
+      "id": 5959,
+      "residents": 72.000000000077,
+      "shelterId": 28
+    },
+    {
+      "id": 5960,
+      "residents": 28,
+      "shelterId": 28
+    },
+    {
+      "id": 5961,
+      "residents": 87.999999999962,
+      "shelterId": 28
+    },
+    {
+      "id": 5962,
+      "residents": 70,
+      "shelterId": 28
+    },
+    {
+      "id": 5975,
+      "residents": 5.000000000003,
+      "shelterId": 1
+    },
+    {
+      "id": 6122,
+      "residents": 4.000000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 6123,
+      "residents": 5.999999999999,
+      "shelterId": 24
+    },
+    {
+      "id": 6124,
+      "residents": 7.999999999991,
+      "shelterId": 24
+    },
+    {
+      "id": 6125,
+      "residents": 10.000000000006,
+      "shelterId": 24
+    },
+    {
+      "id": 6129,
+      "residents": 12.999999999978,
+      "shelterId": 24
+    },
+    {
+      "id": 6131,
+      "residents": 12.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 6132,
+      "residents": 11.999999999987,
+      "shelterId": 24
+    },
+    {
+      "id": 6133,
+      "residents": 23.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 6134,
+      "residents": 16.00000000001,
+      "shelterId": 24
+    },
+    {
+      "id": 6135,
+      "residents": 3.999999999999,
+      "shelterId": 24
+    },
+    {
+      "id": 6136,
+      "residents": 15.999999999986,
+      "shelterId": 24
+    },
+    {
+      "id": 6137,
+      "residents": 14,
+      "shelterId": 11
+    },
+    {
+      "id": 6138,
+      "residents": 20.999999999964,
+      "shelterId": 11
+    },
+    {
+      "id": 6139,
+      "residents": 22.99999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 6140,
+      "residents": 30.999999999967,
+      "shelterId": 11
+    },
+    {
+      "id": 6141,
+      "residents": 4.000000000003,
+      "shelterId": 11
+    },
+    {
+      "id": 6142,
+      "residents": 7.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 6143,
+      "residents": 19.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 6144,
+      "residents": 5.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 6145,
+      "residents": 9.000000000014,
+      "shelterId": 11
+    },
+    {
+      "id": 6149,
+      "residents": 5.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 6150,
+      "residents": 45.99999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 6151,
+      "residents": 38.000000000008,
+      "shelterId": 28
+    },
+    {
+      "id": 6152,
+      "residents": 7.999999999995,
+      "shelterId": 28
+    },
+    {
+      "id": 6153,
+      "residents": 23.999999999964,
+      "shelterId": 28
+    },
+    {
+      "id": 6154,
+      "residents": 26.999999999994,
+      "shelterId": 28
+    },
+    {
+      "id": 6155,
+      "residents": 38.000000000049,
+      "shelterId": 28
+    },
+    {
+      "id": 6156,
+      "residents": 29,
+      "shelterId": 28
+    },
+    {
+      "id": 6157,
+      "residents": 26.999999999977,
+      "shelterId": 28
+    },
+    {
+      "id": 6158,
+      "residents": 43.000000000028,
+      "shelterId": 28
+    },
+    {
+      "id": 6159,
+      "residents": 21.000000000005,
+      "shelterId": 28
+    },
+    {
+      "id": 6160,
+      "residents": 16.999999999993,
+      "shelterId": 28
+    },
+    {
+      "id": 6161,
+      "residents": 81.999999999982,
+      "shelterId": 28
+    },
+    {
+      "id": 6162,
+      "residents": 91.000000000059,
+      "shelterId": 28
+    },
+    {
+      "id": 6322,
+      "residents": 5.999999999995,
+      "shelterId": 24
+    },
+    {
+      "id": 6325,
+      "residents": 8.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 6333,
+      "residents": 21,
+      "shelterId": 24
+    },
+    {
+      "id": 6334,
+      "residents": 34,
+      "shelterId": 24
+    },
+    {
+      "id": 6335,
+      "residents": 38.000000000033,
+      "shelterId": 24
+    },
+    {
+      "id": 6336,
+      "residents": 18.999999999988,
+      "shelterId": 24
+    },
+    {
+      "id": 6337,
+      "residents": 6.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 6338,
+      "residents": 20.000000000017,
+      "shelterId": 11
+    },
+    {
+      "id": 6340,
+      "residents": 8,
+      "shelterId": 11
+    },
+    {
+      "id": 6341,
+      "residents": 24.000000000046,
+      "shelterId": 11
+    },
+    {
+      "id": 6342,
+      "residents": 4.000000000006,
+      "shelterId": 11
+    },
+    {
+      "id": 6343,
+      "residents": 5,
+      "shelterId": 11
+    },
+    {
+      "id": 6348,
+      "residents": 43.000000000018,
+      "shelterId": 11
+    },
+    {
+      "id": 6349,
+      "residents": 45.00000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 6350,
+      "residents": 68.000000000044,
+      "shelterId": 11
+    },
+    {
+      "id": 6351,
+      "residents": 46.000000000049,
+      "shelterId": 11
+    },
+    {
+      "id": 6352,
+      "residents": 43.000000000018,
+      "shelterId": 28
+    },
+    {
+      "id": 6353,
+      "residents": 46.99999999998,
+      "shelterId": 28
+    },
+    {
+      "id": 6354,
+      "residents": 44.999999999971,
+      "shelterId": 28
+    },
+    {
+      "id": 6355,
+      "residents": 58.999999999911,
+      "shelterId": 28
+    },
+    {
+      "id": 6356,
+      "residents": 36,
+      "shelterId": 28
+    },
+    {
+      "id": 6357,
+      "residents": 50.999999999956,
+      "shelterId": 28
+    },
+    {
+      "id": 6358,
+      "residents": 41.000000000009,
+      "shelterId": 28
+    },
+    {
+      "id": 6359,
+      "residents": 14,
+      "shelterId": 28
+    },
+    {
+      "id": 6360,
+      "residents": 140.00000000003,
+      "shelterId": 28
+    },
+    {
+      "id": 6361,
+      "residents": 147.999999999841,
+      "shelterId": 28
+    },
+    {
+      "id": 6362,
+      "residents": 64.999999999958,
+      "shelterId": 28
+    },
+    {
+      "id": 6363,
+      "residents": 22.000000000014,
+      "shelterId": 28
+    },
+    {
+      "id": 6364,
+      "residents": 4,
+      "shelterId": 28
+    },
+    {
+      "id": 6366,
+      "residents": 39.000000000017,
+      "shelterId": 28
+    },
+    {
+      "id": 6367,
+      "residents": 11.999999999992,
+      "shelterId": 28
+    },
+    {
+      "id": 6368,
+      "residents": 80,
+      "shelterId": 1
+    },
+    {
+      "id": 6375,
+      "residents": 6,
+      "shelterId": 1
+    },
+    {
+      "id": 6376,
+      "residents": 28.000000000024,
+      "shelterId": 1
+    },
+    {
+      "id": 6378,
+      "residents": 102.000000000022,
+      "shelterId": 1
+    },
+    {
+      "id": 6379,
+      "residents": 98,
+      "shelterId": 1
+    },
+    {
+      "id": 6384,
+      "residents": 172,
+      "shelterId": 14
+    },
+    {
+      "id": 6385,
+      "residents": 134.999999999971,
+      "shelterId": 14
+    },
+    {
+      "id": 6386,
+      "residents": 42.000000000054,
+      "shelterId": 14
+    },
+    {
+      "id": 6524,
+      "residents": 31.999999999966,
+      "shelterId": 24
+    },
+    {
+      "id": 6539,
+      "residents": 29.999999999968,
+      "shelterId": 11
+    },
+    {
+      "id": 6540,
+      "residents": 14,
+      "shelterId": 11
+    },
+    {
+      "id": 6541,
+      "residents": 4.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 6542,
+      "residents": 6.999999999998,
+      "shelterId": 11
+    },
+    {
+      "id": 6548,
+      "residents": 52.999999999989,
+      "shelterId": 11
+    },
+    {
+      "id": 6549,
+      "residents": 42.999999999963,
+      "shelterId": 11
+    },
+    {
+      "id": 6550,
+      "residents": 113.999999999951,
+      "shelterId": 11
+    },
+    {
+      "id": 6551,
+      "residents": 45.000000000029,
+      "shelterId": 11
+    },
+    {
+      "id": 6552,
+      "residents": 65.999999999986,
+      "shelterId": 11
+    },
+    {
+      "id": 6553,
+      "residents": 75.999999999902,
+      "shelterId": 28
+    },
+    {
+      "id": 6554,
+      "residents": 20,
+      "shelterId": 28
+    },
+    {
+      "id": 6555,
+      "residents": 92.99999999992,
+      "shelterId": 28
+    },
+    {
+      "id": 6556,
+      "residents": 91.000000000098,
+      "shelterId": 28
+    },
+    {
+      "id": 6557,
+      "residents": 38.000000000008,
+      "shelterId": 28
+    },
+    {
+      "id": 6558,
+      "residents": 44.999999999971,
+      "shelterId": 28
+    },
+    {
+      "id": 6559,
+      "residents": 92.99999999994,
+      "shelterId": 28
+    },
+    {
+      "id": 6560,
+      "residents": 162.000000000174,
+      "shelterId": 28
+    },
+    {
+      "id": 6561,
+      "residents": 202.999999999825,
+      "shelterId": 28
+    },
+    {
+      "id": 6562,
+      "residents": 60.999999999974,
+      "shelterId": 28
+    },
+    {
+      "id": 6563,
+      "residents": 11.999999999995,
+      "shelterId": 28
+    },
+    {
+      "id": 6564,
+      "residents": 24.000000000031,
+      "shelterId": 28
+    },
+    {
+      "id": 6566,
+      "residents": 50.000000000054,
+      "shelterId": 1
+    },
+    {
+      "id": 6567,
+      "residents": 96.000000000021,
+      "shelterId": 1
+    },
+    {
+      "id": 6568,
+      "residents": 27.99999999997,
+      "shelterId": 1
+    },
+    {
+      "id": 6576,
+      "residents": 68.000000000029,
+      "shelterId": 1
+    },
+    {
+      "id": 6577,
+      "residents": 95,
+      "shelterId": 1
+    },
+    {
+      "id": 6583,
+      "residents": 240.000000000258,
+      "shelterId": 14
+    },
+    {
+      "id": 6584,
+      "residents": 166.000000000143,
+      "shelterId": 14
+    },
+    {
+      "id": 6585,
+      "residents": 137,
+      "shelterId": 14
+    },
+    {
+      "id": 6724,
+      "residents": 15.999999999993,
+      "shelterId": 24
+    },
+    {
+      "id": 6730,
+      "residents": 5,
+      "shelterId": 24
+    },
+    {
+      "id": 6737,
+      "residents": 4,
+      "shelterId": 11
+    },
+    {
+      "id": 6738,
+      "residents": 9.000000000002,
+      "shelterId": 11
+    },
+    {
+      "id": 6739,
+      "residents": 18.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 6740,
+      "residents": 25.999999999989,
+      "shelterId": 11
+    },
+    {
+      "id": 6741,
+      "residents": 19.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 6742,
+      "residents": 25.999999999994,
+      "shelterId": 11
+    },
+    {
+      "id": 6743,
+      "residents": 8.000000000007,
+      "shelterId": 11
+    },
+    {
+      "id": 6744,
+      "residents": 23.00000000002,
+      "shelterId": 11
+    },
+    {
+      "id": 6746,
+      "residents": 9.000000000004,
+      "shelterId": 11
+    },
+    {
+      "id": 6747,
+      "residents": 81.999999999947,
+      "shelterId": 11
+    },
+    {
+      "id": 6748,
+      "residents": 48.999999999989,
+      "shelterId": 11
+    },
+    {
+      "id": 6749,
+      "residents": 44.000000000019,
+      "shelterId": 11
+    },
+    {
+      "id": 6750,
+      "residents": 16.999999999989,
+      "shelterId": 11
+    },
+    {
+      "id": 6751,
+      "residents": 22,
+      "shelterId": 11
+    },
+    {
+      "id": 6752,
+      "residents": 58.00000000005,
+      "shelterId": 11
+    },
+    {
+      "id": 6753,
+      "residents": 72,
+      "shelterId": 28
+    },
+    {
+      "id": 6754,
+      "residents": 68.999999999955,
+      "shelterId": 28
+    },
+    {
+      "id": 6755,
+      "residents": 88.999999999962,
+      "shelterId": 28
+    },
+    {
+      "id": 6756,
+      "residents": 76.999999999917,
+      "shelterId": 28
+    },
+    {
+      "id": 6757,
+      "residents": 32.000000000014,
+      "shelterId": 28
+    },
+    {
+      "id": 6758,
+      "residents": 19.999999999996,
+      "shelterId": 28
+    },
+    {
+      "id": 6759,
+      "residents": 39.999999999948,
+      "shelterId": 28
+    },
+    {
+      "id": 6760,
+      "residents": 4.999999999998,
+      "shelterId": 28
+    },
+    {
+      "id": 6761,
+      "residents": 55,
+      "shelterId": 28
+    },
+    {
+      "id": 6763,
+      "residents": 7.000000000002,
+      "shelterId": 28
+    },
+    {
+      "id": 6764,
+      "residents": 3.999999999997,
+      "shelterId": 28
+    },
+    {
+      "id": 6765,
+      "residents": 96.999999999917,
+      "shelterId": 28
+    },
+    {
+      "id": 6767,
+      "residents": 49.000000000021,
+      "shelterId": 1
+    },
+    {
+      "id": 6774,
+      "residents": 24.999999999995,
+      "shelterId": 1
+    },
+    {
+      "id": 6775,
+      "residents": 69.999999999985,
+      "shelterId": 1
+    },
+    {
+      "id": 6782,
+      "residents": 125.999999999973,
+      "shelterId": 14
+    },
+    {
+      "id": 6783,
+      "residents": 100.000000000065,
+      "shelterId": 14
+    },
+    {
+      "id": 6784,
+      "residents": 136,
+      "shelterId": 14
+    },
+    {
+      "id": 6922,
+      "residents": 14.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 6923,
+      "residents": 12.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 6924,
+      "residents": 21.999999999991,
+      "shelterId": 24
+    },
+    {
+      "id": 6925,
+      "residents": 8.999999999996,
+      "shelterId": 24
+    },
+    {
+      "id": 6926,
+      "residents": 9.000000000006,
+      "shelterId": 24
+    },
+    {
+      "id": 6930,
+      "residents": 18.999999999996,
+      "shelterId": 24
+    },
+    {
+      "id": 6931,
+      "residents": 7.999999999995,
+      "shelterId": 24
+    },
+    {
+      "id": 6937,
+      "residents": 13.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 6938,
+      "residents": 8.000000000003,
+      "shelterId": 11
+    },
+    {
+      "id": 6939,
+      "residents": 23.000000000005,
+      "shelterId": 11
+    },
+    {
+      "id": 6940,
+      "residents": 12.999999999975,
+      "shelterId": 11
+    },
+    {
+      "id": 6941,
+      "residents": 9,
+      "shelterId": 11
+    },
+    {
+      "id": 6942,
+      "residents": 10.000000000002,
+      "shelterId": 11
+    },
+    {
+      "id": 6943,
+      "residents": 15,
+      "shelterId": 11
+    },
+    {
+      "id": 6946,
+      "residents": 48.000000000031,
+      "shelterId": 11
+    },
+    {
+      "id": 6947,
+      "residents": 55.999999999928,
+      "shelterId": 11
+    },
+    {
+      "id": 6948,
+      "residents": 19.000000000004,
+      "shelterId": 11
+    },
+    {
+      "id": 6949,
+      "residents": 10.999999999991,
+      "shelterId": 11
+    },
+    {
+      "id": 6950,
+      "residents": 37.999999999967,
+      "shelterId": 11
+    },
+    {
+      "id": 6951,
+      "residents": 19.999999999996,
+      "shelterId": 11
+    },
+    {
+      "id": 6952,
+      "residents": 28.999999999994,
+      "shelterId": 8
+    },
+    {
+      "id": 6953,
+      "residents": 45.000000000058,
+      "shelterId": 8
+    },
+    {
+      "id": 6954,
+      "residents": 113.999999999951,
+      "shelterId": 8
+    },
+    {
+      "id": 6955,
+      "residents": 65.00000000007,
+      "shelterId": 28
+    },
+    {
+      "id": 6956,
+      "residents": 64.999999999986,
+      "shelterId": 30
+    },
+    {
+      "id": 6957,
+      "residents": 65.999999999986,
+      "shelterId": 28
+    },
+    {
+      "id": 6958,
+      "residents": 37.999999999992,
+      "shelterId": 30
+    },
+    {
+      "id": 6960,
+      "residents": 6.000000000001,
+      "shelterId": 30
+    },
+    {
+      "id": 6982,
+      "residents": 243.000000000105,
+      "shelterId": 14
+    },
+    {
+      "id": 6983,
+      "residents": 63.000000000095,
+      "shelterId": 14
+    },
+    {
+      "id": 6984,
+      "residents": 216.000000000232,
+      "shelterId": 14
+    },
+    {
+      "id": 7122,
+      "residents": 26.999999999988,
+      "shelterId": 9
+    },
+    {
+      "id": 7123,
+      "residents": 23,
+      "shelterId": 24
+    },
+    {
+      "id": 7124,
+      "residents": 8.999999999998,
+      "shelterId": 9
+    },
+    {
+      "id": 7125,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 7126,
+      "residents": 24.999999999989,
+      "shelterId": 24
+    },
+    {
+      "id": 7128,
+      "residents": 7.999999999991,
+      "shelterId": 24
+    },
+    {
+      "id": 7129,
+      "residents": 5.000000000004,
+      "shelterId": 24
+    },
+    {
+      "id": 7130,
+      "residents": 15,
+      "shelterId": 24
+    },
+    {
+      "id": 7131,
+      "residents": 23.000000000015,
+      "shelterId": 24
+    },
+    {
+      "id": 7132,
+      "residents": 4,
+      "shelterId": 24
+    },
+    {
+      "id": 7136,
+      "residents": 5.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 7137,
+      "residents": 20.000000000004,
+      "shelterId": 11
+    },
+    {
+      "id": 7138,
+      "residents": 14.999999999997,
+      "shelterId": 11
+    },
+    {
+      "id": 7145,
+      "residents": 7.999999999998,
+      "shelterId": 11
+    },
+    {
+      "id": 7146,
+      "residents": 9,
+      "shelterId": 11
+    },
+    {
+      "id": 7147,
+      "residents": 11.000000000005,
+      "shelterId": 11
+    },
+    {
+      "id": 7148,
+      "residents": 28.000000000006,
+      "shelterId": 8
+    },
+    {
+      "id": 7149,
+      "residents": 95.999999999917,
+      "shelterId": 11
+    },
+    {
+      "id": 7150,
+      "residents": 63.000000000068,
+      "shelterId": 8
+    },
+    {
+      "id": 7151,
+      "residents": 68.999999999985,
+      "shelterId": 8
+    },
+    {
+      "id": 7152,
+      "residents": 47.00000000004,
+      "shelterId": 8
+    },
+    {
+      "id": 7153,
+      "residents": 50.999999999978,
+      "shelterId": 8
+    },
+    {
+      "id": 7154,
+      "residents": 102.999999999889,
+      "shelterId": 8
+    },
+    {
+      "id": 7155,
+      "residents": 81.000000000035,
+      "shelterId": 30
+    },
+    {
+      "id": 7156,
+      "residents": 43.000000000009,
+      "shelterId": 30
+    },
+    {
+      "id": 7157,
+      "residents": 79.000000000017,
+      "shelterId": 30
+    },
+    {
+      "id": 7158,
+      "residents": 103.000000000022,
+      "shelterId": 30
+    },
+    {
+      "id": 7159,
+      "residents": 74.000000000032,
+      "shelterId": 30
+    },
+    {
+      "id": 7160,
+      "residents": 30,
+      "shelterId": 30
+    },
+    {
+      "id": 7182,
+      "residents": 50.999999999956,
+      "shelterId": 14
+    },
+    {
+      "id": 7184,
+      "residents": 278.000000000359,
+      "shelterId": 14
+    },
+    {
+      "id": 7185,
+      "residents": 176.000000000038,
+      "shelterId": 14
+    },
+    {
+      "id": 7186,
+      "residents": 18.999999999996,
+      "shelterId": 14
+    },
+    {
+      "id": 7322,
+      "residents": 4,
+      "shelterId": 9
+    },
+    {
+      "id": 7323,
+      "residents": 7.999999999997,
+      "shelterId": 9
+    },
+    {
+      "id": 7324,
+      "residents": 15.999999999997,
+      "shelterId": 9
+    },
+    {
+      "id": 7325,
+      "residents": 17.999999999985,
+      "shelterId": 9
+    },
+    {
+      "id": 7326,
+      "residents": 14.999999999994,
+      "shelterId": 9
+    },
+    {
+      "id": 7327,
+      "residents": 38.999999999992,
+      "shelterId": 9
+    },
+    {
+      "id": 7328,
+      "residents": 15.999999999983,
+      "shelterId": 9
+    },
+    {
+      "id": 7329,
+      "residents": 4.000000000002,
+      "shelterId": 24
+    },
+    {
+      "id": 7330,
+      "residents": 8.999999999996,
+      "shelterId": 9
+    },
+    {
+      "id": 7331,
+      "residents": 8.999999999994,
+      "shelterId": 24
+    },
+    {
+      "id": 7332,
+      "residents": 16.999999999996,
+      "shelterId": 24
+    },
+    {
+      "id": 7336,
+      "residents": 11.000000000005,
+      "shelterId": 24
+    },
+    {
+      "id": 7337,
+      "residents": 10.000000000002,
+      "shelterId": 11
+    },
+    {
+      "id": 7338,
+      "residents": 18,
+      "shelterId": 11
+    },
+    {
+      "id": 7344,
+      "residents": 90,
+      "shelterId": 11
+    },
+    {
+      "id": 7345,
+      "residents": 18,
+      "shelterId": 11
+    },
+    {
+      "id": 7346,
+      "residents": 7.999999999997,
+      "shelterId": 8
+    },
+    {
+      "id": 7348,
+      "residents": 76.999999999983,
+      "shelterId": 8
+    },
+    {
+      "id": 7349,
+      "residents": 13.000000000003,
+      "shelterId": 8
+    },
+    {
+      "id": 7350,
+      "residents": 56.999999999975,
+      "shelterId": 8
+    },
+    {
+      "id": 7351,
+      "residents": 30.000000000013,
+      "shelterId": 8
+    },
+    {
+      "id": 7352,
+      "residents": 71.999999999969,
+      "shelterId": 8
+    },
+    {
+      "id": 7353,
+      "residents": 29.999999999987,
+      "shelterId": 8
+    },
+    {
+      "id": 7354,
+      "residents": 62.000000000013,
+      "shelterId": 30
+    },
+    {
+      "id": 7355,
+      "residents": 41.000000000009,
+      "shelterId": 30
+    },
+    {
+      "id": 7356,
+      "residents": 5.999999999994,
+      "shelterId": 30
+    },
+    {
+      "id": 7357,
+      "residents": 32.000000000007,
+      "shelterId": 30
+    },
+    {
+      "id": 7358,
+      "residents": 32.999999999993,
+      "shelterId": 30
+    },
+    {
+      "id": 7359,
+      "residents": 26.999999999994,
+      "shelterId": 30
+    },
+    {
+      "id": 7360,
+      "residents": 40,
+      "shelterId": 30
+    },
+    {
+      "id": 7361,
+      "residents": 13.000000000006,
+      "shelterId": 30
+    },
+    {
+      "id": 7373,
+      "residents": 90.000000000097,
+      "shelterId": 1
+    },
+    {
+      "id": 7381,
+      "residents": 159.999999999931,
+      "shelterId": 14
+    },
+    {
+      "id": 7382,
+      "residents": 141.000000000061,
+      "shelterId": 14
+    },
+    {
+      "id": 7383,
+      "residents": 151.000000000065,
+      "shelterId": 14
+    },
+    {
+      "id": 7384,
+      "residents": 202,
+      "shelterId": 14
+    },
+    {
+      "id": 7385,
+      "residents": 90.999999999883,
+      "shelterId": 14
+    },
+    {
+      "id": 7386,
+      "residents": 133.999999999885,
+      "shelterId": 14
+    },
+    {
+      "id": 7522,
+      "residents": 46,
+      "shelterId": 9
+    },
+    {
+      "id": 7523,
+      "residents": 132.999999999886,
+      "shelterId": 9
+    },
+    {
+      "id": 7524,
+      "residents": 17,
+      "shelterId": 9
+    },
+    {
+      "id": 7525,
+      "residents": 14.999999999987,
+      "shelterId": 9
+    },
+    {
+      "id": 7526,
+      "residents": 19.999999999991,
+      "shelterId": 9
+    },
+    {
+      "id": 7528,
+      "residents": 24.999999999995,
+      "shelterId": 9
+    },
+    {
+      "id": 7529,
+      "residents": 62.000000000013,
+      "shelterId": 9
+    },
+    {
+      "id": 7530,
+      "residents": 23.999999999995,
+      "shelterId": 9
+    },
+    {
+      "id": 7531,
+      "residents": 4.999999999994,
+      "shelterId": 9
+    },
+    {
+      "id": 7532,
+      "residents": 12.999999999992,
+      "shelterId": 9
+    },
+    {
+      "id": 7536,
+      "residents": 13.000000000003,
+      "shelterId": 24
+    },
+    {
+      "id": 7537,
+      "residents": 34.000000000022,
+      "shelterId": 11
+    },
+    {
+      "id": 7542,
+      "residents": 116.000000000075,
+      "shelterId": 8
+    },
+    {
+      "id": 7543,
+      "residents": 143.000000000062,
+      "shelterId": 11
+    },
+    {
+      "id": 7544,
+      "residents": 83.999999999982,
+      "shelterId": 8
+    },
+    {
+      "id": 7545,
+      "residents": 47.00000000003,
+      "shelterId": 8
+    },
+    {
+      "id": 7547,
+      "residents": 4,
+      "shelterId": 8
+    },
+    {
+      "id": 7548,
+      "residents": 156.999999999966,
+      "shelterId": 8
+    },
+    {
+      "id": 7549,
+      "residents": 17.999999999988,
+      "shelterId": 8
+    },
+    {
+      "id": 7550,
+      "residents": 26.000000000017,
+      "shelterId": 8
+    },
+    {
+      "id": 7551,
+      "residents": 62.999999999932,
+      "shelterId": 8
+    },
+    {
+      "id": 7552,
+      "residents": 36.000000000008,
+      "shelterId": 8
+    },
+    {
+      "id": 7553,
+      "residents": 152.999999999934,
+      "shelterId": 8
+    },
+    {
+      "id": 7554,
+      "residents": 59.999999999961,
+      "shelterId": 30
+    },
+    {
+      "id": 7556,
+      "residents": 27.999999999994,
+      "shelterId": 30
+    },
+    {
+      "id": 7557,
+      "residents": 5.000000000001,
+      "shelterId": 30
+    },
+    {
+      "id": 7558,
+      "residents": 8.000000000002,
+      "shelterId": 30
+    },
+    {
+      "id": 7559,
+      "residents": 13.999999999988,
+      "shelterId": 30
+    },
+    {
+      "id": 7573,
+      "residents": 157,
+      "shelterId": 1
+    },
+    {
+      "id": 7578,
+      "residents": 142,
+      "shelterId": 1
+    },
+    {
+      "id": 7581,
+      "residents": 343.000000000074,
+      "shelterId": 14
+    },
+    {
+      "id": 7582,
+      "residents": 256.999999999668,
+      "shelterId": 14
+    },
+    {
+      "id": 7583,
+      "residents": 187.000000000362,
+      "shelterId": 14
+    },
+    {
+      "id": 7584,
+      "residents": 223.000000000192,
+      "shelterId": 14
+    },
+    {
+      "id": 7585,
+      "residents": 182.000000000157,
+      "shelterId": 14
+    },
+    {
+      "id": 7586,
+      "residents": 78.999999999915,
+      "shelterId": 14
+    },
+    {
+      "id": 7587,
+      "residents": 158.000000000068,
+      "shelterId": 14
+    },
+    {
+      "id": 7588,
+      "residents": 145,
+      "shelterId": 14
+    },
+    {
+      "id": 7722,
+      "residents": 19.000000000008,
+      "shelterId": 9
+    },
+    {
+      "id": 7723,
+      "residents": 19.000000000012,
+      "shelterId": 9
+    },
+    {
+      "id": 7724,
+      "residents": 15.99999999999,
+      "shelterId": 9
+    },
+    {
+      "id": 7725,
+      "residents": 22.000000000005,
+      "shelterId": 9
+    },
+    {
+      "id": 7726,
+      "residents": 21.999999999986,
+      "shelterId": 9
+    },
+    {
+      "id": 7727,
+      "residents": 29.000000000012,
+      "shelterId": 9
+    },
+    {
+      "id": 7728,
+      "residents": 4.999999999998,
+      "shelterId": 9
+    },
+    {
+      "id": 7729,
+      "residents": 9.000000000004,
+      "shelterId": 9
+    },
+    {
+      "id": 7730,
+      "residents": 22,
+      "shelterId": 9
+    },
+    {
+      "id": 7731,
+      "residents": 19.000000000004,
+      "shelterId": 9
+    },
+    {
+      "id": 7732,
+      "residents": 10,
+      "shelterId": 9
+    },
+    {
+      "id": 7733,
+      "residents": 24.999999999978,
+      "shelterId": 9
+    },
+    {
+      "id": 7734,
+      "residents": 10.000000000011,
+      "shelterId": 9
+    },
+    {
+      "id": 7735,
+      "residents": 12.000000000005,
+      "shelterId": 9
+    },
+    {
+      "id": 7736,
+      "residents": 4.000000000004,
+      "shelterId": 9
+    },
+    {
+      "id": 7737,
+      "residents": 5.000000000001,
+      "shelterId": 11
+    },
+    {
+      "id": 7742,
+      "residents": 32.000000000021,
+      "shelterId": 8
+    },
+    {
+      "id": 7743,
+      "residents": 114,
+      "shelterId": 8
+    },
+    {
+      "id": 7744,
+      "residents": 131.999999999886,
+      "shelterId": 8
+    },
+    {
+      "id": 7745,
+      "residents": 31.999999999972,
+      "shelterId": 8
+    },
+    {
+      "id": 7748,
+      "residents": 90,
+      "shelterId": 8
+    },
+    {
+      "id": 7750,
+      "residents": 9.000000000008,
+      "shelterId": 8
+    },
+    {
+      "id": 7751,
+      "residents": 60.999999999987,
+      "shelterId": 8
+    },
+    {
+      "id": 7752,
+      "residents": 8.999999999994,
+      "shelterId": 8
+    },
+    {
+      "id": 7753,
+      "residents": 22.999999999995,
+      "shelterId": 8
+    },
+    {
+      "id": 7754,
+      "residents": 5.000000000004,
+      "shelterId": 30
+    },
+    {
+      "id": 7755,
+      "residents": 34.999999999955,
+      "shelterId": 30
+    },
+    {
+      "id": 7756,
+      "residents": 69.000000000045,
+      "shelterId": 30
+    },
+    {
+      "id": 7757,
+      "residents": 26,
+      "shelterId": 30
+    },
+    {
+      "id": 7758,
+      "residents": 48.999999999989,
+      "shelterId": 30
+    },
+    {
+      "id": 7770,
+      "residents": 5.000000000003,
+      "shelterId": 1
+    },
+    {
+      "id": 7774,
+      "residents": 141.999999999786,
+      "shelterId": 1
+    },
+    {
+      "id": 7776,
+      "residents": 299.999999999935,
+      "shelterId": 1
+    },
+    {
+      "id": 7777,
+      "residents": 75.000000000048,
+      "shelterId": 1
+    },
+    {
+      "id": 7778,
+      "residents": 137,
+      "shelterId": 1
+    },
+    {
+      "id": 7779,
+      "residents": 167.000000000072,
+      "shelterId": 1
+    },
+    {
+      "id": 7780,
+      "residents": 163.000000000105,
+      "shelterId": 14
+    },
+    {
+      "id": 7781,
+      "residents": 173.999999999925,
+      "shelterId": 14
+    },
+    {
+      "id": 7782,
+      "residents": 255.000000000055,
+      "shelterId": 14
+    },
+    {
+      "id": 7783,
+      "residents": 191,
+      "shelterId": 14
+    },
+    {
+      "id": 7784,
+      "residents": 220.000000000237,
+      "shelterId": 14
+    },
+    {
+      "id": 7785,
+      "residents": 262.000000000225,
+      "shelterId": 14
+    },
+    {
+      "id": 7786,
+      "residents": 142.000000000031,
+      "shelterId": 14
+    },
+    {
+      "id": 7787,
+      "residents": 285.999999999877,
+      "shelterId": 14
+    },
+    {
+      "id": 7788,
+      "residents": 690.000000000297,
+      "shelterId": 14
+    },
+    {
+      "id": 7922,
+      "residents": 12.000000000005,
+      "shelterId": 9
+    },
+    {
+      "id": 7923,
+      "residents": 38.000000000041,
+      "shelterId": 9
+    },
+    {
+      "id": 7924,
+      "residents": 102.999999999934,
+      "shelterId": 9
+    },
+    {
+      "id": 7925,
+      "residents": 18.999999999984,
+      "shelterId": 9
+    },
+    {
+      "id": 7926,
+      "residents": 37,
+      "shelterId": 9
+    },
+    {
+      "id": 7927,
+      "residents": 12,
+      "shelterId": 9
+    },
+    {
+      "id": 7928,
+      "residents": 57.99999999995,
+      "shelterId": 9
+    },
+    {
+      "id": 7929,
+      "residents": 66.000000000071,
+      "shelterId": 9
+    },
+    {
+      "id": 7930,
+      "residents": 52.000000000022,
+      "shelterId": 9
+    },
+    {
+      "id": 7931,
+      "residents": 29.999999999981,
+      "shelterId": 9
+    },
+    {
+      "id": 7932,
+      "residents": 21,
+      "shelterId": 9
+    },
+    {
+      "id": 7933,
+      "residents": 35.000000000008,
+      "shelterId": 9
+    },
+    {
+      "id": 7934,
+      "residents": 21.999999999972,
+      "shelterId": 9
+    },
+    {
+      "id": 7935,
+      "residents": 56.00000000006,
+      "shelterId": 9
+    },
+    {
+      "id": 7936,
+      "residents": 81.999999999982,
+      "shelterId": 9
+    },
+    {
+      "id": 7940,
+      "residents": 17.999999999996,
+      "shelterId": 8
+    },
+    {
+      "id": 7942,
+      "residents": 62.999999999986,
+      "shelterId": 8
+    },
+    {
+      "id": 7943,
+      "residents": 57.000000000037,
+      "shelterId": 8
+    },
+    {
+      "id": 7944,
+      "residents": 57.000000000025,
+      "shelterId": 8
+    },
+    {
+      "id": 7945,
+      "residents": 4,
+      "shelterId": 8
+    },
+    {
+      "id": 7946,
+      "residents": 15.000000000019,
+      "shelterId": 8
+    },
+    {
+      "id": 7947,
+      "residents": 102.999999999978,
+      "shelterId": 8
+    },
+    {
+      "id": 7949,
+      "residents": 17,
+      "shelterId": 8
+    },
+    {
+      "id": 7950,
+      "residents": 129,
+      "shelterId": 8
+    },
+    {
+      "id": 7951,
+      "residents": 7.000000000002,
+      "shelterId": 8
+    },
+    {
+      "id": 7952,
+      "residents": 145,
+      "shelterId": 8
+    },
+    {
+      "id": 7955,
+      "residents": 33.999999999993,
+      "shelterId": 30
+    },
+    {
+      "id": 7956,
+      "residents": 17.000000000007,
+      "shelterId": 30
+    },
+    {
+      "id": 7957,
+      "residents": 95.999999999979,
+      "shelterId": 30
+    },
+    {
+      "id": 7958,
+      "residents": 121.999999999921,
+      "shelterId": 30
+    },
+    {
+      "id": 7959,
+      "residents": 55.999999999988,
+      "shelterId": 30
+    },
+    {
+      "id": 7972,
+      "residents": 153.999999999901,
+      "shelterId": 1
+    },
+    {
+      "id": 7974,
+      "residents": 170.999999999963,
+      "shelterId": 1
+    },
+    {
+      "id": 7975,
+      "residents": 312.999999999933,
+      "shelterId": 1
+    },
+    {
+      "id": 7977,
+      "residents": 139.00000000006,
+      "shelterId": 1
+    },
+    {
+      "id": 7978,
+      "residents": 221.999999999905,
+      "shelterId": 1
+    },
+    {
+      "id": 7979,
+      "residents": 181.000000000156,
+      "shelterId": 14
+    },
+    {
+      "id": 7980,
+      "residents": 276.999999999821,
+      "shelterId": 14
+    },
+    {
+      "id": 7983,
+      "residents": 140.00000000009,
+      "shelterId": 14
+    },
+    {
+      "id": 7984,
+      "residents": 160,
+      "shelterId": 14
+    },
+    {
+      "id": 7985,
+      "residents": 117.000000000076,
+      "shelterId": 14
+    },
+    {
+      "id": 7986,
+      "residents": 481,
+      "shelterId": 14
+    },
+    {
+      "id": 7987,
+      "residents": 139,
+      "shelterId": 14
+    },
+    {
+      "id": 7988,
+      "residents": 273.000000000117,
+      "shelterId": 14
+    },
+    {
+      "id": 7989,
+      "residents": 378.999999999755,
+      "shelterId": 14
+    },
+    {
+      "id": 8122,
+      "residents": 7.99999999999,
+      "shelterId": 9
+    },
+    {
+      "id": 8123,
+      "residents": 13.999999999991,
+      "shelterId": 9
+    },
+    {
+      "id": 8124,
+      "residents": 24.999999999973,
+      "shelterId": 9
+    },
+    {
+      "id": 8125,
+      "residents": 4.000000000006,
+      "shelterId": 9
+    },
+    {
+      "id": 8127,
+      "residents": 71.999999999954,
+      "shelterId": 9
+    },
+    {
+      "id": 8128,
+      "residents": 68.999999999955,
+      "shelterId": 9
+    },
+    {
+      "id": 8129,
+      "residents": 133.000000000029,
+      "shelterId": 9
+    },
+    {
+      "id": 8130,
+      "residents": 24.999999999995,
+      "shelterId": 9
+    },
+    {
+      "id": 8131,
+      "residents": 78.000000000034,
+      "shelterId": 9
+    },
+    {
+      "id": 8132,
+      "residents": 15,
+      "shelterId": 9
+    },
+    {
+      "id": 8133,
+      "residents": 23.000000000015,
+      "shelterId": 9
+    },
+    {
+      "id": 8134,
+      "residents": 4.000000000002,
+      "shelterId": 9
+    },
+    {
+      "id": 8135,
+      "residents": 9.000000000002,
+      "shelterId": 9
+    },
+    {
+      "id": 8136,
+      "residents": 28.000000000036,
+      "shelterId": 9
+    },
+    {
+      "id": 8139,
+      "residents": 6.999999999994,
+      "shelterId": 8
+    },
+    {
+      "id": 8141,
+      "residents": 27.999999999994,
+      "shelterId": 8
+    },
+    {
+      "id": 8142,
+      "residents": 57.999999999988,
+      "shelterId": 8
+    },
+    {
+      "id": 8143,
+      "residents": 5.999999999997,
+      "shelterId": 8
+    },
+    {
+      "id": 8144,
+      "residents": 74.999999999968,
+      "shelterId": 8
+    },
+    {
+      "id": 8146,
+      "residents": 16.000000000007,
+      "shelterId": 8
+    },
+    {
+      "id": 8147,
+      "residents": 58.999999999975,
+      "shelterId": 8
+    },
+    {
+      "id": 8148,
+      "residents": 69.99999999994,
+      "shelterId": 8
+    },
+    {
+      "id": 8150,
+      "residents": 114.000000000049,
+      "shelterId": 8
+    },
+    {
+      "id": 8151,
+      "residents": 116.999999999874,
+      "shelterId": 8
+    },
+    {
+      "id": 8152,
+      "residents": 58.999999999987,
+      "shelterId": 7
+    },
+    {
+      "id": 8153,
+      "residents": 28,
+      "shelterId": 30
+    },
+    {
+      "id": 8154,
+      "residents": 9.999999999998,
+      "shelterId": 30
+    },
+    {
+      "id": 8155,
+      "residents": 89.000000000096,
+      "shelterId": 30
+    },
+    {
+      "id": 8156,
+      "residents": 96.000000000103,
+      "shelterId": 30
+    },
+    {
+      "id": 8157,
+      "residents": 63.000000000014,
+      "shelterId": 30
+    },
+    {
+      "id": 8158,
+      "residents": 36.000000000031,
+      "shelterId": 30
+    },
+    {
+      "id": 8159,
+      "residents": 84.000000000072,
+      "shelterId": 30
+    },
+    {
+      "id": 8170,
+      "residents": 179.999999999884,
+      "shelterId": 1
+    },
+    {
+      "id": 8171,
+      "residents": 204,
+      "shelterId": 1
+    },
+    {
+      "id": 8172,
+      "residents": 211.999999999954,
+      "shelterId": 1
+    },
+    {
+      "id": 8173,
+      "residents": 138.999999999851,
+      "shelterId": 1
+    },
+    {
+      "id": 8174,
+      "residents": 240.000000000258,
+      "shelterId": 1
+    },
+    {
+      "id": 8175,
+      "residents": 236.000000000203,
+      "shelterId": 1
+    },
+    {
+      "id": 8177,
+      "residents": 270.999999999883,
+      "shelterId": 1
+    },
+    {
+      "id": 8178,
+      "residents": 207.000000000223,
+      "shelterId": 1
+    },
+    {
+      "id": 8179,
+      "residents": 268.000000000173,
+      "shelterId": 14
+    },
+    {
+      "id": 8185,
+      "residents": 131.999999999943,
+      "shelterId": 14
+    },
+    {
+      "id": 8187,
+      "residents": 288.999999999938,
+      "shelterId": 14
+    },
+    {
+      "id": 8188,
+      "residents": 177.000000000038,
+      "shelterId": 14
+    },
+    {
+      "id": 8322,
+      "residents": 114.000000000123,
+      "shelterId": 9
+    },
+    {
+      "id": 8323,
+      "residents": 78.000000000017,
+      "shelterId": 9
+    },
+    {
+      "id": 8324,
+      "residents": 41.999999999973,
+      "shelterId": 9
+    },
+    {
+      "id": 8328,
+      "residents": 3.999999999999,
+      "shelterId": 9
+    },
+    {
+      "id": 8329,
+      "residents": 106.000000000023,
+      "shelterId": 9
+    },
+    {
+      "id": 8330,
+      "residents": 73.999999999984,
+      "shelterId": 9
+    },
+    {
+      "id": 8331,
+      "residents": 83.999999999982,
+      "shelterId": 9
+    },
+    {
+      "id": 8332,
+      "residents": 20.000000000013,
+      "shelterId": 9
+    },
+    {
+      "id": 8333,
+      "residents": 6.999999999998,
+      "shelterId": 9
+    },
+    {
+      "id": 8334,
+      "residents": 53.000000000023,
+      "shelterId": 9
+    },
+    {
+      "id": 8338,
+      "residents": 3.999999999998,
+      "shelterId": 8
+    },
+    {
+      "id": 8339,
+      "residents": 139.999999999849,
+      "shelterId": 8
+    },
+    {
+      "id": 8340,
+      "residents": 29.000000000012,
+      "shelterId": 8
+    },
+    {
+      "id": 8341,
+      "residents": 31.999999999986,
+      "shelterId": 8
+    },
+    {
+      "id": 8342,
+      "residents": 62.999999999973,
+      "shelterId": 8
+    },
+    {
+      "id": 8343,
+      "residents": 38.999999999958,
+      "shelterId": 8
+    },
+    {
+      "id": 8344,
+      "residents": 60.999999999961,
+      "shelterId": 8
+    },
+    {
+      "id": 8345,
+      "residents": 64.000000000041,
+      "shelterId": 8
+    },
+    {
+      "id": 8346,
+      "residents": 166.999999999928,
+      "shelterId": 8
+    },
+    {
+      "id": 8347,
+      "residents": 57.999999999925,
+      "shelterId": 8
+    },
+    {
+      "id": 8348,
+      "residents": 66.999999999986,
+      "shelterId": 8
+    },
+    {
+      "id": 8349,
+      "residents": 12.00000000001,
+      "shelterId": 8
+    },
+    {
+      "id": 8350,
+      "residents": 66.999999999986,
+      "shelterId": 7
+    },
+    {
+      "id": 8351,
+      "residents": 84.000000000036,
+      "shelterId": 7
+    },
+    {
+      "id": 8352,
+      "residents": 56.000000000048,
+      "shelterId": 30
+    },
+    {
+      "id": 8354,
+      "residents": 119.999999999923,
+      "shelterId": 30
+    },
+    {
+      "id": 8355,
+      "residents": 149.000000000096,
+      "shelterId": 30
+    },
+    {
+      "id": 8357,
+      "residents": 219.999999999953,
+      "shelterId": 30
+    },
+    {
+      "id": 8368,
+      "residents": 116.000000000025,
+      "shelterId": 6
+    },
+    {
+      "id": 8370,
+      "residents": 164.000000000071,
+      "shelterId": 1
+    },
+    {
+      "id": 8372,
+      "residents": 284.999999999939,
+      "shelterId": 1
+    },
+    {
+      "id": 8377,
+      "residents": 123,
+      "shelterId": 1
+    },
+    {
+      "id": 8378,
+      "residents": 136.999999999971,
+      "shelterId": 1
+    },
+    {
+      "id": 8379,
+      "residents": 268,
+      "shelterId": 14
+    },
+    {
+      "id": 8380,
+      "residents": 77.00000000005,
+      "shelterId": 14
+    },
+    {
+      "id": 8387,
+      "residents": 70.000000000045,
+      "shelterId": 14
+    },
+    {
+      "id": 8388,
+      "residents": 79.000000000051,
+      "shelterId": 14
+    },
+    {
+      "id": 8522,
+      "residents": 37.000000000008,
+      "shelterId": 9
+    },
+    {
+      "id": 8523,
+      "residents": 243.000000000157,
+      "shelterId": 9
+    },
+    {
+      "id": 8524,
+      "residents": 148.000000000095,
+      "shelterId": 9
+    },
+    {
+      "id": 8525,
+      "residents": 19.000000000025,
+      "shelterId": 9
+    },
+    {
+      "id": 8526,
+      "residents": 81,
+      "shelterId": 9
+    },
+    {
+      "id": 8528,
+      "residents": 21.999999999986,
+      "shelterId": 9
+    },
+    {
+      "id": 8529,
+      "residents": 63.000000000041,
+      "shelterId": 9
+    },
+    {
+      "id": 8530,
+      "residents": 18.999999999988,
+      "shelterId": 9
+    },
+    {
+      "id": 8535,
+      "residents": 34.000000000037,
+      "shelterId": 9
+    },
+    {
+      "id": 8538,
+      "residents": 101.000000000065,
+      "shelterId": 10
+    },
+    {
+      "id": 8539,
+      "residents": 60.000000000013,
+      "shelterId": 8
+    },
+    {
+      "id": 8540,
+      "residents": 28.000000000036,
+      "shelterId": 8
+    },
+    {
+      "id": 8541,
+      "residents": 30.000000000026,
+      "shelterId": 8
+    },
+    {
+      "id": 8543,
+      "residents": 85,
+      "shelterId": 8
+    },
+    {
+      "id": 8544,
+      "residents": 46.000000000059,
+      "shelterId": 8
+    },
+    {
+      "id": 8545,
+      "residents": 157,
+      "shelterId": 8
+    },
+    {
+      "id": 8546,
+      "residents": 25.999999999989,
+      "shelterId": 7
+    },
+    {
+      "id": 8547,
+      "residents": 102.000000000066,
+      "shelterId": 7
+    },
+    {
+      "id": 8548,
+      "residents": 81.999999999947,
+      "shelterId": 22
+    },
+    {
+      "id": 8551,
+      "residents": 54.000000000035,
+      "shelterId": 22
+    },
+    {
+      "id": 8553,
+      "residents": 30.999999999973,
+      "shelterId": 30
+    },
+    {
+      "id": 8554,
+      "residents": 59.000000000025,
+      "shelterId": 30
+    },
+    {
+      "id": 8555,
+      "residents": 130.000000000028,
+      "shelterId": 30
+    },
+    {
+      "id": 8556,
+      "residents": 35,
+      "shelterId": 30
+    },
+    {
+      "id": 8557,
+      "residents": 68.000000000015,
+      "shelterId": 30
+    },
+    {
+      "id": 8566,
+      "residents": 199.999999999656,
+      "shelterId": 6
+    },
+    {
+      "id": 8567,
+      "residents": 153.000000000066,
+      "shelterId": 6
+    },
+    {
+      "id": 8568,
+      "residents": 217.999999999953,
+      "shelterId": 6
+    },
+    {
+      "id": 8570,
+      "residents": 195.000000000126,
+      "shelterId": 1
+    },
+    {
+      "id": 8572,
+      "residents": 316.000000000136,
+      "shelterId": 1
+    },
+    {
+      "id": 8577,
+      "residents": 125.000000000027,
+      "shelterId": 1
+    },
+    {
+      "id": 8578,
+      "residents": 255.000000000165,
+      "shelterId": 1
+    },
+    {
+      "id": 8579,
+      "residents": 365.999999999764,
+      "shelterId": 14
+    },
+    {
+      "id": 8722,
+      "residents": 82.999999999929,
+      "shelterId": 9
+    },
+    {
+      "id": 8723,
+      "residents": 169.999999999963,
+      "shelterId": 9
+    },
+    {
+      "id": 8724,
+      "residents": 192.999999999875,
+      "shelterId": 9
+    },
+    {
+      "id": 8725,
+      "residents": 185.99999999988,
+      "shelterId": 9
+    },
+    {
+      "id": 8726,
+      "residents": 3.999999999997,
+      "shelterId": 9
+    },
+    {
+      "id": 8727,
+      "residents": 66.999999999957,
+      "shelterId": 9
+    },
+    {
+      "id": 8729,
+      "residents": 27,
+      "shelterId": 9
+    },
+    {
+      "id": 8737,
+      "residents": 7.000000000011,
+      "shelterId": 10
+    },
+    {
+      "id": 8738,
+      "residents": 62.999999999986,
+      "shelterId": 10
+    },
+    {
+      "id": 8739,
+      "residents": 51.999999999978,
+      "shelterId": 10
+    },
+    {
+      "id": 8740,
+      "residents": 107,
+      "shelterId": 10
+    },
+    {
+      "id": 8741,
+      "residents": 27,
+      "shelterId": 10
+    },
+    {
+      "id": 8742,
+      "residents": 59,
+      "shelterId": 10
+    },
+    {
+      "id": 8744,
+      "residents": 4.000000000004,
+      "shelterId": 10
+    },
+    {
+      "id": 8745,
+      "residents": 11.999999999987,
+      "shelterId": 7
+    },
+    {
+      "id": 8746,
+      "residents": 29.000000000019,
+      "shelterId": 10
+    },
+    {
+      "id": 8747,
+      "residents": 92.99999999998,
+      "shelterId": 22
+    },
+    {
+      "id": 8748,
+      "residents": 120.000000000052,
+      "shelterId": 22
+    },
+    {
+      "id": 8750,
+      "residents": 5.999999999999,
+      "shelterId": 22
+    },
+    {
+      "id": 8759,
+      "residents": 73.000000000047,
+      "shelterId": 30
+    },
+    {
+      "id": 8765,
+      "residents": 22.999999999985,
+      "shelterId": 6
+    },
+    {
+      "id": 8766,
+      "residents": 124,
+      "shelterId": 6
+    },
+    {
+      "id": 8767,
+      "residents": 229,
+      "shelterId": 6
+    },
+    {
+      "id": 8768,
+      "residents": 198.000000000085,
+      "shelterId": 6
+    },
+    {
+      "id": 8771,
+      "residents": 175.000000000038,
+      "shelterId": 1
+    },
+    {
+      "id": 8774,
+      "residents": 7.999999999997,
+      "shelterId": 1
+    },
+    {
+      "id": 8778,
+      "residents": 292.000000000126,
+      "shelterId": 1
+    },
+    {
+      "id": 8779,
+      "residents": 297.999999999872,
+      "shelterId": 14
+    },
+    {
+      "id": 8780,
+      "residents": 138.000000000059,
+      "shelterId": 14
+    },
+    {
+      "id": 8922,
+      "residents": 25.000000000005,
+      "shelterId": 9
+    },
+    {
+      "id": 8923,
+      "residents": 252.999999999837,
+      "shelterId": 9
+    },
+    {
+      "id": 8925,
+      "residents": 62.999999999946,
+      "shelterId": 9
+    },
+    {
+      "id": 8927,
+      "residents": 46.99999999997,
+      "shelterId": 9
+    },
+    {
+      "id": 8936,
+      "residents": 9.999999999991,
+      "shelterId": 9
+    },
+    {
+      "id": 8937,
+      "residents": 76.000000000016,
+      "shelterId": 10
+    },
+    {
+      "id": 8938,
+      "residents": 119.000000000026,
+      "shelterId": 10
+    },
+    {
+      "id": 8939,
+      "residents": 32.000000000034,
+      "shelterId": 10
+    },
+    {
+      "id": 8940,
+      "residents": 99.000000000085,
+      "shelterId": 10
+    },
+    {
+      "id": 8941,
+      "residents": 80,
+      "shelterId": 10
+    },
+    {
+      "id": 8942,
+      "residents": 36.000000000023,
+      "shelterId": 10
+    },
+    {
+      "id": 8943,
+      "residents": 41,
+      "shelterId": 10
+    },
+    {
+      "id": 8946,
+      "residents": 13.999999999994,
+      "shelterId": 10
+    },
+    {
+      "id": 8947,
+      "residents": 48.000000000041,
+      "shelterId": 10
+    },
+    {
+      "id": 8948,
+      "residents": 12.999999999986,
+      "shelterId": 10
+    },
+    {
+      "id": 8949,
+      "residents": 68.99999999997,
+      "shelterId": 22
+    },
+    {
+      "id": 8951,
+      "residents": 39.999999999991,
+      "shelterId": 22
+    },
+    {
+      "id": 8952,
+      "residents": 14.000000000006,
+      "shelterId": 29
+    },
+    {
+      "id": 8964,
+      "residents": 125.999999999892,
+      "shelterId": 6
+    },
+    {
+      "id": 8965,
+      "residents": 123.999999999973,
+      "shelterId": 6
+    },
+    {
+      "id": 8966,
+      "residents": 118.000000000051,
+      "shelterId": 6
+    },
+    {
+      "id": 8967,
+      "residents": 91.999999999881,
+      "shelterId": 6
+    },
+    {
+      "id": 8968,
+      "residents": 161.000000000035,
+      "shelterId": 6
+    },
+    {
+      "id": 8969,
+      "residents": 306.999999999934,
+      "shelterId": 6
+    },
+    {
+      "id": 8970,
+      "residents": 84.99999999989,
+      "shelterId": 6
+    },
+    {
+      "id": 8973,
+      "residents": 11.000000000007,
+      "shelterId": 1
+    },
+    {
+      "id": 8974,
+      "residents": 6.000000000003,
+      "shelterId": 1
+    },
+    {
+      "id": 8975,
+      "residents": 10.999999999993,
+      "shelterId": 1
+    },
+    {
+      "id": 8977,
+      "residents": 286.000000000308,
+      "shelterId": 1
+    },
+    {
+      "id": 8978,
+      "residents": 711.000000000918,
+      "shelterId": 1
+    },
+    {
+      "id": 8979,
+      "residents": 273.999999999646,
+      "shelterId": 14
+    },
+    {
+      "id": 8980,
+      "residents": 459.000000000099,
+      "shelterId": 14
+    },
+    {
+      "id": 8987,
+      "residents": 24.995002556304,
+      "shelterId": 14
+    },
+    {
+      "id": 9135,
+      "residents": 18,
+      "shelterId": 9
+    },
+    {
+      "id": 9136,
+      "residents": 4.999999999999,
+      "shelterId": 9
+    },
+    {
+      "id": 9137,
+      "residents": 45.000000000019,
+      "shelterId": 10
+    },
+    {
+      "id": 9138,
+      "residents": 22.99999999998,
+      "shelterId": 10
+    },
+    {
+      "id": 9139,
+      "residents": 52.000000000011,
+      "shelterId": 10
+    },
+    {
+      "id": 9140,
+      "residents": 56.999999999988,
+      "shelterId": 10
+    },
+    {
+      "id": 9141,
+      "residents": 30.999999999967,
+      "shelterId": 10
+    },
+    {
+      "id": 9142,
+      "residents": 26.000000000022,
+      "shelterId": 10
+    },
+    {
+      "id": 9144,
+      "residents": 3.999999999998,
+      "shelterId": 10
+    },
+    {
+      "id": 9149,
+      "residents": 7.99999999999,
+      "shelterId": 10
+    },
+    {
+      "id": 9150,
+      "residents": 36.000000000031,
+      "shelterId": 25
+    },
+    {
+      "id": 9151,
+      "residents": 17.000000000007,
+      "shelterId": 29
+    },
+    {
+      "id": 9162,
+      "residents": 77.999999999966,
+      "shelterId": 6
+    },
+    {
+      "id": 9163,
+      "residents": 109.999999999953,
+      "shelterId": 6
+    },
+    {
+      "id": 9164,
+      "residents": 87.000000000037,
+      "shelterId": 6
+    },
+    {
+      "id": 9168,
+      "residents": 170.000000000073,
+      "shelterId": 6
+    },
+    {
+      "id": 9170,
+      "residents": 73.999999999968,
+      "shelterId": 6
+    },
+    {
+      "id": 9174,
+      "residents": 13.000000000003,
+      "shelterId": 1
+    },
+    {
+      "id": 9175,
+      "residents": 13.000000000003,
+      "shelterId": 1
+    },
+    {
+      "id": 9176,
+      "residents": 61.000000000052,
+      "shelterId": 1
+    },
+    {
+      "id": 9178,
+      "residents": 198.999999999872,
+      "shelterId": 1
+    },
+    {
+      "id": 9179,
+      "residents": 287.999999999876,
+      "shelterId": 14
+    },
+    {
+      "id": 9180,
+      "residents": 277.999999999701,
+      "shelterId": 14
+    },
+    {
+      "id": 9334,
+      "residents": 22.000000000038,
+      "shelterId": 9
+    },
+    {
+      "id": 9335,
+      "residents": 27,
+      "shelterId": 9
+    },
+    {
+      "id": 9336,
+      "residents": 9.000000000002,
+      "shelterId": 27
+    },
+    {
+      "id": 9337,
+      "residents": 6.000000000006,
+      "shelterId": 27
+    },
+    {
+      "id": 9338,
+      "residents": 25.000000000032,
+      "shelterId": 27
+    },
+    {
+      "id": 9340,
+      "residents": 85.000000000037,
+      "shelterId": 27
+    },
+    {
+      "id": 9341,
+      "residents": 5.000000000001,
+      "shelterId": 10
+    },
+    {
+      "id": 9342,
+      "residents": 21.999999999976,
+      "shelterId": 27
+    },
+    {
+      "id": 9345,
+      "residents": 52.999999999954,
+      "shelterId": 10
+    },
+    {
+      "id": 9347,
+      "residents": 4.999999999999,
+      "shelterId": 10
+    },
+    {
+      "id": 9348,
+      "residents": 4,
+      "shelterId": 25
+    },
+    {
+      "id": 9351,
+      "residents": 81.000000000035,
+      "shelterId": 12
+    },
+    {
+      "id": 9352,
+      "residents": 38.000000000041,
+      "shelterId": 12
+    },
+    {
+      "id": 9361,
+      "residents": 4,
+      "shelterId": 6
+    },
+    {
+      "id": 9362,
+      "residents": 78.999999999932,
+      "shelterId": 6
+    },
+    {
+      "id": 9363,
+      "residents": 200.000000000129,
+      "shelterId": 6
+    },
+    {
+      "id": 9364,
+      "residents": 51.999999999989,
+      "shelterId": 6
+    },
+    {
+      "id": 9365,
+      "residents": 148.999999999968,
+      "shelterId": 6
+    },
+    {
+      "id": 9366,
+      "residents": 5.000000000001,
+      "shelterId": 6
+    },
+    {
+      "id": 9367,
+      "residents": 26.000000000028,
+      "shelterId": 6
+    },
+    {
+      "id": 9369,
+      "residents": 177.999999999962,
+      "shelterId": 6
+    },
+    {
+      "id": 9370,
+      "residents": 62.000000000013,
+      "shelterId": 6
+    },
+    {
+      "id": 9374,
+      "residents": 15.00000000001,
+      "shelterId": 1
+    },
+    {
+      "id": 9375,
+      "residents": 8.999999999996,
+      "shelterId": 1
+    },
+    {
+      "id": 9376,
+      "residents": 9.999999999991,
+      "shelterId": 1
+    },
+    {
+      "id": 9377,
+      "residents": 92.99999999996,
+      "shelterId": 1
+    },
+    {
+      "id": 9532,
+      "residents": 4.000000000001,
+      "shelterId": 9
+    },
+    {
+      "id": 9533,
+      "residents": 20.000000000004,
+      "shelterId": 9
+    },
+    {
+      "id": 9534,
+      "residents": 12.000000000005,
+      "shelterId": 9
+    },
+    {
+      "id": 9535,
+      "residents": 10.999999999995,
+      "shelterId": 9
+    },
+    {
+      "id": 9536,
+      "residents": 9,
+      "shelterId": 27
+    },
+    {
+      "id": 9537,
+      "residents": 19.999999999987,
+      "shelterId": 27
+    },
+    {
+      "id": 9538,
+      "residents": 26,
+      "shelterId": 27
+    },
+    {
+      "id": 9539,
+      "residents": 45.000000000039,
+      "shelterId": 27
+    },
+    {
+      "id": 9540,
+      "residents": 130.000000000056,
+      "shelterId": 27
+    },
+    {
+      "id": 9541,
+      "residents": 32.000000000007,
+      "shelterId": 27
+    },
+    {
+      "id": 9546,
+      "residents": 25.000000000022,
+      "shelterId": 27
+    },
+    {
+      "id": 9549,
+      "residents": 36.999999999992,
+      "shelterId": 25
+    },
+    {
+      "id": 9550,
+      "residents": 7.999999999986,
+      "shelterId": 12
+    },
+    {
+      "id": 9551,
+      "residents": 27.000000000012,
+      "shelterId": 12
+    },
+    {
+      "id": 9556,
+      "residents": 53.000000000011,
+      "shelterId": 31
+    },
+    {
+      "id": 9557,
+      "residents": 10.000000000004,
+      "shelterId": 31
+    },
+    {
+      "id": 9558,
+      "residents": 43.000000000037,
+      "shelterId": 31
+    },
+    {
+      "id": 9559,
+      "residents": 13.999999999994,
+      "shelterId": 31
+    },
+    {
+      "id": 9560,
+      "residents": 82.000000000053,
+      "shelterId": 6
+    },
+    {
+      "id": 9562,
+      "residents": 11.999999999992,
+      "shelterId": 6
+    },
+    {
+      "id": 9563,
+      "residents": 98,
+      "shelterId": 6
+    },
+    {
+      "id": 9564,
+      "residents": 16.000000000007,
+      "shelterId": 6
+    },
+    {
+      "id": 9565,
+      "residents": 17.000000000011,
+      "shelterId": 6
+    },
+    {
+      "id": 9566,
+      "residents": 39.999999999991,
+      "shelterId": 6
+    },
+    {
+      "id": 9567,
+      "residents": 12,
+      "shelterId": 6
+    },
+    {
+      "id": 9569,
+      "residents": 190.999999999918,
+      "shelterId": 6
+    },
+    {
+      "id": 9570,
+      "residents": 19.000000000008,
+      "shelterId": 6
+    },
+    {
+      "id": 9571,
+      "residents": 15.000000000026,
+      "shelterId": 6
+    },
+    {
+      "id": 9572,
+      "residents": 11.000000000002,
+      "shelterId": 6
+    },
+    {
+      "id": 9574,
+      "residents": 58.000000000037,
+      "shelterId": 1
+    },
+    {
+      "id": 9575,
+      "residents": 11.000000000012,
+      "shelterId": 1
+    },
+    {
+      "id": 9576,
+      "residents": 13.999999999991,
+      "shelterId": 1
+    },
+    {
+      "id": 9577,
+      "residents": 5,
+      "shelterId": 1
+    },
+    {
+      "id": 9578,
+      "residents": 9.999999999985,
+      "shelterId": 1
+    },
+    {
+      "id": 9732,
+      "residents": 20.999999999995,
+      "shelterId": 9
+    },
+    {
+      "id": 9733,
+      "residents": 24,
+      "shelterId": 9
+    },
+    {
+      "id": 9734,
+      "residents": 15.000000000006,
+      "shelterId": 9
+    },
+    {
+      "id": 9735,
+      "residents": 12,
+      "shelterId": 27
+    },
+    {
+      "id": 9736,
+      "residents": 19.999999999987,
+      "shelterId": 27
+    },
+    {
+      "id": 9737,
+      "residents": 48.000000000021,
+      "shelterId": 27
+    },
+    {
+      "id": 9738,
+      "residents": 15.000000000003,
+      "shelterId": 27
+    },
+    {
+      "id": 9739,
+      "residents": 23.000000000025,
+      "shelterId": 27
+    },
+    {
+      "id": 9740,
+      "residents": 34.999999999985,
+      "shelterId": 27
+    },
+    {
+      "id": 9742,
+      "residents": 25.000000000005,
+      "shelterId": 27
+    },
+    {
+      "id": 9743,
+      "residents": 6.000000000001,
+      "shelterId": 27
+    },
+    {
+      "id": 9744,
+      "residents": 41.000000000026,
+      "shelterId": 27
+    },
+    {
+      "id": 9746,
+      "residents": 3.999999999996,
+      "shelterId": 27
+    },
+    {
+      "id": 9748,
+      "residents": 21.999999999967,
+      "shelterId": 3
+    },
+    {
+      "id": 9749,
+      "residents": 14.999999999994,
+      "shelterId": 3
+    },
+    {
+      "id": 9750,
+      "residents": 31.999999999993,
+      "shelterId": 12
+    },
+    {
+      "id": 9756,
+      "residents": 54.999999999953,
+      "shelterId": 31
+    },
+    {
+      "id": 9757,
+      "residents": 13.000000000022,
+      "shelterId": 31
+    },
+    {
+      "id": 9758,
+      "residents": 17.999999999988,
+      "shelterId": 31
+    },
+    {
+      "id": 9759,
+      "residents": 32.999999999993,
+      "shelterId": 31
+    },
+    {
+      "id": 9760,
+      "residents": 219.000000000094,
+      "shelterId": 6
+    },
+    {
+      "id": 9761,
+      "residents": 103.000000000111,
+      "shelterId": 6
+    },
+    {
+      "id": 9762,
+      "residents": 23,
+      "shelterId": 6
+    },
+    {
+      "id": 9763,
+      "residents": 231.9999999999,
+      "shelterId": 6
+    },
+    {
+      "id": 9764,
+      "residents": 144.000000000062,
+      "shelterId": 6
+    },
+    {
+      "id": 9765,
+      "residents": 3.999999999999,
+      "shelterId": 6
+    },
+    {
+      "id": 9766,
+      "residents": 9.000000000008,
+      "shelterId": 6
+    },
+    {
+      "id": 9767,
+      "residents": 16.000000000007,
+      "shelterId": 6
+    },
+    {
+      "id": 9768,
+      "residents": 35.000000000008,
+      "shelterId": 6
+    },
+    {
+      "id": 9769,
+      "residents": 8.999999999996,
+      "shelterId": 6
+    },
+    {
+      "id": 9770,
+      "residents": 150.000000000065,
+      "shelterId": 6
+    },
+    {
+      "id": 9771,
+      "residents": 50,
+      "shelterId": 6
+    },
+    {
+      "id": 9772,
+      "residents": 109.000000000023,
+      "shelterId": 6
+    },
+    {
+      "id": 9773,
+      "residents": 80.999999999948,
+      "shelterId": 1
+    },
+    {
+      "id": 9774,
+      "residents": 107,
+      "shelterId": 1
+    },
+    {
+      "id": 9775,
+      "residents": 67.000000000043,
+      "shelterId": 1
+    },
+    {
+      "id": 9776,
+      "residents": 15.00000000001,
+      "shelterId": 1
+    },
+    {
+      "id": 9777,
+      "residents": 21.999999999976,
+      "shelterId": 1
+    },
+    {
+      "id": 9778,
+      "residents": 4.000000000002,
+      "shelterId": 1
+    },
+    {
+      "id": 9779,
+      "residents": 29.999999999968,
+      "shelterId": 14
+    },
+    {
+      "id": 9780,
+      "residents": 19.999999999974,
+      "shelterId": 14
+    },
+    {
+      "id": 9931,
+      "residents": 88.000000000019,
+      "shelterId": 9
+    },
+    {
+      "id": 9932,
+      "residents": 57,
+      "shelterId": 9
+    },
+    {
+      "id": 9933,
+      "residents": 3.999999999997,
+      "shelterId": 9
+    },
+    {
+      "id": 9934,
+      "residents": 13.000000000003,
+      "shelterId": 9
+    },
+    {
+      "id": 9935,
+      "residents": 29.000000000025,
+      "shelterId": 27
+    },
+    {
+      "id": 9936,
+      "residents": 18.000000000015,
+      "shelterId": 27
+    },
+    {
+      "id": 9937,
+      "residents": 61.999999999987,
+      "shelterId": 27
+    },
+    {
+      "id": 9938,
+      "residents": 42,
+      "shelterId": 27
+    },
+    {
+      "id": 9939,
+      "residents": 26.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 9941,
+      "residents": 67,
+      "shelterId": 27
+    },
+    {
+      "id": 9942,
+      "residents": 7.999999999991,
+      "shelterId": 27
+    },
+    {
+      "id": 9943,
+      "residents": 22,
+      "shelterId": 27
+    },
+    {
+      "id": 9944,
+      "residents": 35.000000000008,
+      "shelterId": 27
+    },
+    {
+      "id": 9945,
+      "residents": 34.000000000015,
+      "shelterId": 27
+    },
+    {
+      "id": 9946,
+      "residents": 22.000000000014,
+      "shelterId": 27
+    },
+    {
+      "id": 9947,
+      "residents": 34.999999999962,
+      "shelterId": 27
+    },
+    {
+      "id": 9948,
+      "residents": 70.999999999924,
+      "shelterId": 3
+    },
+    {
+      "id": 9949,
+      "residents": 27.999999999994,
+      "shelterId": 3
+    },
+    {
+      "id": 9950,
+      "residents": 14,
+      "shelterId": 3
+    },
+    {
+      "id": 9954,
+      "residents": 134.999999999942,
+      "shelterId": 12
+    },
+    {
+      "id": 9955,
+      "residents": 33.999999999993,
+      "shelterId": 12
+    },
+    {
+      "id": 9956,
+      "residents": 90.99999999998,
+      "shelterId": 12
+    },
+    {
+      "id": 9957,
+      "residents": 351.999999999697,
+      "shelterId": 31
+    },
+    {
+      "id": 9958,
+      "residents": 5.000000000004,
+      "shelterId": 31
+    },
+    {
+      "id": 9959,
+      "residents": 178.000000000115,
+      "shelterId": 31
+    },
+    {
+      "id": 9960,
+      "residents": 166.999999999964,
+      "shelterId": 6
+    },
+    {
+      "id": 9961,
+      "residents": 98,
+      "shelterId": 6
+    },
+    {
+      "id": 9962,
+      "residents": 135.000000000087,
+      "shelterId": 6
+    },
+    {
+      "id": 9963,
+      "residents": 231.99999999995,
+      "shelterId": 6
+    },
+    {
+      "id": 9964,
+      "residents": 87.000000000037,
+      "shelterId": 6
+    },
+    {
+      "id": 9965,
+      "residents": 133,
+      "shelterId": 6
+    },
+    {
+      "id": 9966,
+      "residents": 4.000000000001,
+      "shelterId": 6
+    },
+    {
+      "id": 9967,
+      "residents": 17.999999999988,
+      "shelterId": 6
+    },
+    {
+      "id": 9970,
+      "residents": 183.000000000039,
+      "shelterId": 6
+    },
+    {
+      "id": 9971,
+      "residents": 232.0000000001,
+      "shelterId": 6
+    },
+    {
+      "id": 9972,
+      "residents": 232.9999999999,
+      "shelterId": 6
+    },
+    {
+      "id": 9973,
+      "residents": 109.999999999929,
+      "shelterId": 6
+    },
+    {
+      "id": 9974,
+      "residents": 90.999999999941,
+      "shelterId": 1
+    },
+    {
+      "id": 9975,
+      "residents": 66.999999999914,
+      "shelterId": 1
+    },
+    {
+      "id": 9976,
+      "residents": 31.000000000007,
+      "shelterId": 1
+    },
+    {
+      "id": 9977,
+      "residents": 6.000000000009,
+      "shelterId": 1
+    },
+    {
+      "id": 9978,
+      "residents": 5.000000000006,
+      "shelterId": 1
+    },
+    {
+      "id": 9979,
+      "residents": 40.000000000069,
+      "shelterId": 14
+    },
+    {
+      "id": 9980,
+      "residents": 12.000000000005,
+      "shelterId": 14
+    },
+    {
+      "id": 10130,
+      "residents": 169,
+      "shelterId": 9
+    },
+    {
+      "id": 10131,
+      "residents": 120.999999999974,
+      "shelterId": 9
+    },
+    {
+      "id": 10132,
+      "residents": 39.999999999991,
+      "shelterId": 9
+    },
+    {
+      "id": 10133,
+      "residents": 10.000000000002,
+      "shelterId": 9
+    },
+    {
+      "id": 10134,
+      "residents": 20.000000000004,
+      "shelterId": 27
+    },
+    {
+      "id": 10135,
+      "residents": 4.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 10136,
+      "residents": 14.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 10137,
+      "residents": 9.999999999991,
+      "shelterId": 27
+    },
+    {
+      "id": 10138,
+      "residents": 37.999999999959,
+      "shelterId": 27
+    },
+    {
+      "id": 10139,
+      "residents": 8.000000000003,
+      "shelterId": 27
+    },
+    {
+      "id": 10140,
+      "residents": 4.999999999991,
+      "shelterId": 27
+    },
+    {
+      "id": 10142,
+      "residents": 37.000000000008,
+      "shelterId": 27
+    },
+    {
+      "id": 10143,
+      "residents": 41,
+      "shelterId": 27
+    },
+    {
+      "id": 10144,
+      "residents": 63.000000000041,
+      "shelterId": 27
+    },
+    {
+      "id": 10145,
+      "residents": 50.999999999978,
+      "shelterId": 27
+    },
+    {
+      "id": 10146,
+      "residents": 63.999999999945,
+      "shelterId": 27
+    },
+    {
+      "id": 10147,
+      "residents": 27.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 10148,
+      "residents": 91.000000000039,
+      "shelterId": 3
+    },
+    {
+      "id": 10149,
+      "residents": 72.000000000015,
+      "shelterId": 3
+    },
+    {
+      "id": 10150,
+      "residents": 21,
+      "shelterId": 3
+    },
+    {
+      "id": 10154,
+      "residents": 135.000000000087,
+      "shelterId": 23
+    },
+    {
+      "id": 10155,
+      "residents": 15,
+      "shelterId": 23
+    },
+    {
+      "id": 10156,
+      "residents": 53.000000000046,
+      "shelterId": 23
+    },
+    {
+      "id": 10157,
+      "residents": 57.999999999975,
+      "shelterId": 23
+    },
+    {
+      "id": 10158,
+      "residents": 16.000000000003,
+      "shelterId": 23
+    },
+    {
+      "id": 10159,
+      "residents": 106.000000000205,
+      "shelterId": 31
+    },
+    {
+      "id": 10160,
+      "residents": 119.999999999897,
+      "shelterId": 6
+    },
+    {
+      "id": 10161,
+      "residents": 60.000000000065,
+      "shelterId": 6
+    },
+    {
+      "id": 10162,
+      "residents": 156.000000000034,
+      "shelterId": 6
+    },
+    {
+      "id": 10163,
+      "residents": 100.999999999935,
+      "shelterId": 6
+    },
+    {
+      "id": 10164,
+      "residents": 40.999999999991,
+      "shelterId": 6
+    },
+    {
+      "id": 10165,
+      "residents": 112.999999999976,
+      "shelterId": 6
+    },
+    {
+      "id": 10166,
+      "residents": 30.999999999973,
+      "shelterId": 6
+    },
+    {
+      "id": 10167,
+      "residents": 7.000000000003,
+      "shelterId": 6
+    },
+    {
+      "id": 10168,
+      "residents": 16.999999999985,
+      "shelterId": 6
+    },
+    {
+      "id": 10170,
+      "residents": 138.000000000089,
+      "shelterId": 6
+    },
+    {
+      "id": 10171,
+      "residents": 119.000000000051,
+      "shelterId": 6
+    },
+    {
+      "id": 10172,
+      "residents": 69.000000000074,
+      "shelterId": 6
+    },
+    {
+      "id": 10173,
+      "residents": 40.000000000017,
+      "shelterId": 6
+    },
+    {
+      "id": 10175,
+      "residents": 56.000000000012,
+      "shelterId": 1
+    },
+    {
+      "id": 10176,
+      "residents": 14.999999999994,
+      "shelterId": 1
+    },
+    {
+      "id": 10177,
+      "residents": 20,
+      "shelterId": 1
+    },
+    {
+      "id": 10179,
+      "residents": 4.999999999995,
+      "shelterId": 14
+    },
+    {
+      "id": 10331,
+      "residents": 31.000000000013,
+      "shelterId": 9
+    },
+    {
+      "id": 10334,
+      "residents": 15.000000000013,
+      "shelterId": 27
+    },
+    {
+      "id": 10335,
+      "residents": 13,
+      "shelterId": 27
+    },
+    {
+      "id": 10336,
+      "residents": 18.000000000004,
+      "shelterId": 27
+    },
+    {
+      "id": 10337,
+      "residents": 12,
+      "shelterId": 27
+    },
+    {
+      "id": 10338,
+      "residents": 20,
+      "shelterId": 27
+    },
+    {
+      "id": 10339,
+      "residents": 16.00000000001,
+      "shelterId": 27
+    },
+    {
+      "id": 10340,
+      "residents": 15,
+      "shelterId": 27
+    },
+    {
+      "id": 10341,
+      "residents": 33.999999999956,
+      "shelterId": 27
+    },
+    {
+      "id": 10342,
+      "residents": 47.999999999969,
+      "shelterId": 27
+    },
+    {
+      "id": 10343,
+      "residents": 77.99999999995,
+      "shelterId": 27
+    },
+    {
+      "id": 10344,
+      "residents": 62.00000000004,
+      "shelterId": 27
+    },
+    {
+      "id": 10345,
+      "residents": 139.99999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 10346,
+      "residents": 45,
+      "shelterId": 27
+    },
+    {
+      "id": 10347,
+      "residents": 68.999999999985,
+      "shelterId": 27
+    },
+    {
+      "id": 10348,
+      "residents": 53.999999999977,
+      "shelterId": 3
+    },
+    {
+      "id": 10349,
+      "residents": 17.000000000015,
+      "shelterId": 3
+    },
+    {
+      "id": 10354,
+      "residents": 27,
+      "shelterId": 23
+    },
+    {
+      "id": 10355,
+      "residents": 43.999999999991,
+      "shelterId": 23
+    },
+    {
+      "id": 10356,
+      "residents": 23.000000000005,
+      "shelterId": 23
+    },
+    {
+      "id": 10357,
+      "residents": 106.000000000046,
+      "shelterId": 23
+    },
+    {
+      "id": 10358,
+      "residents": 55.999999999988,
+      "shelterId": 23
+    },
+    {
+      "id": 10360,
+      "residents": 13.999999999994,
+      "shelterId": 23
+    },
+    {
+      "id": 10361,
+      "residents": 43.999999999981,
+      "shelterId": 6
+    },
+    {
+      "id": 10362,
+      "residents": 65.000000000084,
+      "shelterId": 6
+    },
+    {
+      "id": 10363,
+      "residents": 50.999999999967,
+      "shelterId": 6
+    },
+    {
+      "id": 10364,
+      "residents": 20.999912591605,
+      "shelterId": 6
+    },
+    {
+      "id": 10365,
+      "residents": 17.999890382496,
+      "shelterId": 6
+    },
+    {
+      "id": 10366,
+      "residents": 8.00000000001,
+      "shelterId": 6
+    },
+    {
+      "id": 10371,
+      "residents": 188.000000000121,
+      "shelterId": 6
+    },
+    {
+      "id": 10372,
+      "residents": 140,
+      "shelterId": 6
+    },
+    {
+      "id": 10373,
+      "residents": 217.000000000047,
+      "shelterId": 6
+    },
+    {
+      "id": 10374,
+      "residents": 129.000000000056,
+      "shelterId": 6
+    },
+    {
+      "id": 10375,
+      "residents": 14.999999999994,
+      "shelterId": 1
+    },
+    {
+      "id": 10533,
+      "residents": 30.000000000019,
+      "shelterId": 27
+    },
+    {
+      "id": 10534,
+      "residents": 35.999999999969,
+      "shelterId": 27
+    },
+    {
+      "id": 10535,
+      "residents": 20.000000000017,
+      "shelterId": 27
+    },
+    {
+      "id": 10536,
+      "residents": 11.999999999997,
+      "shelterId": 27
+    },
+    {
+      "id": 10537,
+      "residents": 17.999999999992,
+      "shelterId": 27
+    },
+    {
+      "id": 10541,
+      "residents": 26.999999999983,
+      "shelterId": 27
+    },
+    {
+      "id": 10542,
+      "residents": 66.999999999986,
+      "shelterId": 27
+    },
+    {
+      "id": 10543,
+      "residents": 61.000000000092,
+      "shelterId": 27
+    },
+    {
+      "id": 10544,
+      "residents": 65.999999999957,
+      "shelterId": 27
+    },
+    {
+      "id": 10545,
+      "residents": 15.000000000003,
+      "shelterId": 27
+    },
+    {
+      "id": 10546,
+      "residents": 57,
+      "shelterId": 27
+    },
+    {
+      "id": 10547,
+      "residents": 44.99999999999,
+      "shelterId": 27
+    },
+    {
+      "id": 10548,
+      "residents": 38.999999999992,
+      "shelterId": 3
+    },
+    {
+      "id": 10553,
+      "residents": 32.000000000028,
+      "shelterId": 23
+    },
+    {
+      "id": 10554,
+      "residents": 25.999999999972,
+      "shelterId": 23
+    },
+    {
+      "id": 10555,
+      "residents": 172.999999999963,
+      "shelterId": 23
+    },
+    {
+      "id": 10556,
+      "residents": 39.000000000008,
+      "shelterId": 23
+    },
+    {
+      "id": 10557,
+      "residents": 19.000000000004,
+      "shelterId": 23
+    },
+    {
+      "id": 10558,
+      "residents": 30.000000000006,
+      "shelterId": 23
+    },
+    {
+      "id": 10559,
+      "residents": 41,
+      "shelterId": 23
+    },
+    {
+      "id": 10560,
+      "residents": 7,
+      "shelterId": 23
+    },
+    {
+      "id": 10561,
+      "residents": 33,
+      "shelterId": 6
+    },
+    {
+      "id": 10562,
+      "residents": 61.000000000013,
+      "shelterId": 6
+    },
+    {
+      "id": 10563,
+      "residents": 178.999994547994,
+      "shelterId": 6
+    },
+    {
+      "id": 10571,
+      "residents": 195.999999999831,
+      "shelterId": 6
+    },
+    {
+      "id": 10572,
+      "residents": 87.999999999924,
+      "shelterId": 6
+    },
+    {
+      "id": 10730,
+      "residents": 95.999999999959,
+      "shelterId": 9
+    },
+    {
+      "id": 10734,
+      "residents": 8,
+      "shelterId": 27
+    },
+    {
+      "id": 10740,
+      "residents": 5.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 10741,
+      "residents": 37,
+      "shelterId": 27
+    },
+    {
+      "id": 10742,
+      "residents": 6.999999999992,
+      "shelterId": 27
+    },
+    {
+      "id": 10743,
+      "residents": 76.000000000065,
+      "shelterId": 27
+    },
+    {
+      "id": 10744,
+      "residents": 59.99999999991,
+      "shelterId": 27
+    },
+    {
+      "id": 10745,
+      "residents": 55.999999999976,
+      "shelterId": 27
+    },
+    {
+      "id": 10746,
+      "residents": 19.000000000008,
+      "shelterId": 27
+    },
+    {
+      "id": 10747,
+      "residents": 8.999999999998,
+      "shelterId": 27
+    },
+    {
+      "id": 10748,
+      "residents": 41.999999999973,
+      "shelterId": 23
+    },
+    {
+      "id": 10753,
+      "residents": 49.999999999968,
+      "shelterId": 23
+    },
+    {
+      "id": 10754,
+      "residents": 35.000000000045,
+      "shelterId": 23
+    },
+    {
+      "id": 10755,
+      "residents": 23.999999999995,
+      "shelterId": 23
+    },
+    {
+      "id": 10756,
+      "residents": 5.999999999997,
+      "shelterId": 23
+    },
+    {
+      "id": 10757,
+      "residents": 49.000000000011,
+      "shelterId": 23
+    },
+    {
+      "id": 10758,
+      "residents": 57.000000000061,
+      "shelterId": 23
+    },
+    {
+      "id": 10759,
+      "residents": 8.999999999994,
+      "shelterId": 23
+    },
+    {
+      "id": 10760,
+      "residents": 58.999994077372,
+      "shelterId": 23
+    },
+    {
+      "id": 10761,
+      "residents": 53.999999999977,
+      "shelterId": 23
+    },
+    {
+      "id": 10768,
+      "residents": 38.999999999992,
+      "shelterId": 6
+    },
+    {
+      "id": 10769,
+      "residents": 9.999999999996,
+      "shelterId": 6
+    },
+    {
+      "id": 10771,
+      "residents": 34.000000000037,
+      "shelterId": 6
+    },
+    {
+      "id": 10931,
+      "residents": 70.000000000045,
+      "shelterId": 9
+    },
+    {
+      "id": 10932,
+      "residents": 186.999999999839,
+      "shelterId": 27
+    },
+    {
+      "id": 10939,
+      "residents": 8.000000000002,
+      "shelterId": 27
+    },
+    {
+      "id": 10940,
+      "residents": 4.000000000002,
+      "shelterId": 27
+    },
+    {
+      "id": 10941,
+      "residents": 12.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 10942,
+      "residents": 34.999999999992,
+      "shelterId": 27
+    },
+    {
+      "id": 10943,
+      "residents": 28.000000000036,
+      "shelterId": 27
+    },
+    {
+      "id": 10944,
+      "residents": 16.999999999982,
+      "shelterId": 27
+    },
+    {
+      "id": 10945,
+      "residents": 36,
+      "shelterId": 27
+    },
+    {
+      "id": 10946,
+      "residents": 24.000000000026,
+      "shelterId": 23
+    },
+    {
+      "id": 10947,
+      "residents": 42.999999999982,
+      "shelterId": 23
+    },
+    {
+      "id": 10948,
+      "residents": 52.999999999943,
+      "shelterId": 23
+    },
+    {
+      "id": 10951,
+      "residents": 34.000000000007,
+      "shelterId": 23
+    },
+    {
+      "id": 10953,
+      "residents": 21,
+      "shelterId": 23
+    },
+    {
+      "id": 10954,
+      "residents": 15.999999999986,
+      "shelterId": 23
+    },
+    {
+      "id": 10955,
+      "residents": 68.99999999997,
+      "shelterId": 23
+    },
+    {
+      "id": 10956,
+      "residents": 28.999999999988,
+      "shelterId": 23
+    },
+    {
+      "id": 10957,
+      "residents": 21.999999999995,
+      "shelterId": 23
+    },
+    {
+      "id": 10958,
+      "residents": 38.999896167373,
+      "shelterId": 23
+    },
+    {
+      "id": 10959,
+      "residents": 26.999955447584,
+      "shelterId": 23
+    },
+    {
+      "id": 10960,
+      "residents": 17.999998103275,
+      "shelterId": 23
+    },
+    {
+      "id": 10971,
+      "residents": 23.00000000001,
+      "shelterId": 6
+    },
+    {
+      "id": 11139,
+      "residents": 6.999999999998,
+      "shelterId": 27
+    },
+    {
+      "id": 11140,
+      "residents": 19.999999999987,
+      "shelterId": 27
+    },
+    {
+      "id": 11141,
+      "residents": 9,
+      "shelterId": 27
+    },
+    {
+      "id": 11142,
+      "residents": 27.000000000017,
+      "shelterId": 27
+    },
+    {
+      "id": 11143,
+      "residents": 27.999999999982,
+      "shelterId": 27
+    },
+    {
+      "id": 11145,
+      "residents": 13.999999999994,
+      "shelterId": 27
+    },
+    {
+      "id": 11147,
+      "residents": 15.000000000003,
+      "shelterId": 23
+    },
+    {
+      "id": 11148,
+      "residents": 8.999999999992,
+      "shelterId": 23
+    },
+    {
+      "id": 11153,
+      "residents": 78.999999999949,
+      "shelterId": 23
+    },
+    {
+      "id": 11154,
+      "residents": 68.000000000044,
+      "shelterId": 23
+    },
+    {
+      "id": 11155,
+      "residents": 15.999999999993,
+      "shelterId": 23
+    },
+    {
+      "id": 11156,
+      "residents": 41.999964780987,
+      "shelterId": 23
+    },
+    {
+      "id": 11157,
+      "residents": 11.999971297555,
+      "shelterId": 23
+    },
+    {
+      "id": 11158,
+      "residents": 11.999955173135,
+      "shelterId": 23
+    },
+    {
+      "id": 11159,
+      "residents": 15.999979534791,
+      "shelterId": 23
+    },
+    {
+      "id": 11160,
+      "residents": 29.999999999994,
+      "shelterId": 23
+    },
+    {
+      "id": 11339,
+      "residents": 14.999999999981,
+      "shelterId": 27
+    },
+    {
+      "id": 11340,
+      "residents": 28,
+      "shelterId": 27
+    },
+    {
+      "id": 11341,
+      "residents": 55.000000000035,
+      "shelterId": 27
+    },
+    {
+      "id": 11342,
+      "residents": 13.999999999991,
+      "shelterId": 27
+    },
+    {
+      "id": 11343,
+      "residents": 22,
+      "shelterId": 27
+    },
+    {
+      "id": 11344,
+      "residents": 47.99999999999,
+      "shelterId": 4
+    },
+    {
+      "id": 11348,
+      "residents": 58.999999999962,
+      "shelterId": 4
+    },
+    {
+      "id": 11349,
+      "residents": 11.999999999995,
+      "shelterId": 4
+    },
+    {
+      "id": 11350,
+      "residents": 120.000000000026,
+      "shelterId": 4
+    },
+    {
+      "id": 11351,
+      "residents": 17.000000000004,
+      "shelterId": 4
+    },
+    {
+      "id": 11353,
+      "residents": 11.000000000007,
+      "shelterId": 4
+    },
+    {
+      "id": 11354,
+      "residents": 112.00000000012,
+      "shelterId": 4
+    },
+    {
+      "id": 11355,
+      "residents": 11.999999999995,
+      "shelterId": 4
+    },
+    {
+      "id": 11356,
+      "residents": 3.999955769644,
+      "shelterId": 4
+    },
+    {
+      "id": 11357,
+      "residents": 31.999760803983,
+      "shelterId": 4
+    },
+    {
+      "id": 11359,
+      "residents": 38.000000000033,
+      "shelterId": 4
+    },
+    {
+      "id": 11360,
+      "residents": 4.000000000005,
+      "shelterId": 4
+    },
+    {
+      "id": 11361,
+      "residents": 26.999999999994,
+      "shelterId": 4
+    },
+    {
+      "id": 11535,
+      "residents": 12.999999999997,
+      "shelterId": 27
+    },
+    {
+      "id": 11540,
+      "residents": 31.000000000007,
+      "shelterId": 27
+    },
+    {
+      "id": 11541,
+      "residents": 77.999999999983,
+      "shelterId": 27
+    },
+    {
+      "id": 11542,
+      "residents": 41.999999999982,
+      "shelterId": 4
+    },
+    {
+      "id": 11543,
+      "residents": 65,
+      "shelterId": 4
+    },
+    {
+      "id": 11546,
+      "residents": 9.000000000006,
+      "shelterId": 4
+    },
+    {
+      "id": 11547,
+      "residents": 40.999999999947,
+      "shelterId": 4
+    },
+    {
+      "id": 11548,
+      "residents": 64.999999999916,
+      "shelterId": 4
+    },
+    {
+      "id": 11549,
+      "residents": 57,
+      "shelterId": 4
+    },
+    {
+      "id": 11550,
+      "residents": 4.999999999999,
+      "shelterId": 4
+    },
+    {
+      "id": 11551,
+      "residents": 57.999999999975,
+      "shelterId": 4
+    },
+    {
+      "id": 11554,
+      "residents": 6.999948808276,
+      "shelterId": 4
+    },
+    {
+      "id": 11555,
+      "residents": 34.999651970695,
+      "shelterId": 4
+    },
+    {
+      "id": 11556,
+      "residents": 5.000000000004,
+      "shelterId": 4
+    },
+    {
+      "id": 11558,
+      "residents": 14.999999999994,
+      "shelterId": 4
+    },
+    {
+      "id": 11559,
+      "residents": 13.999999999979,
+      "shelterId": 4
+    },
+    {
+      "id": 11560,
+      "residents": 8.000000000005,
+      "shelterId": 4
+    },
+    {
+      "id": 11561,
+      "residents": 26.999999999994,
+      "shelterId": 4
+    },
+    {
+      "id": 11741,
+      "residents": 40.999999999965,
+      "shelterId": 4
+    },
+    {
+      "id": 11742,
+      "residents": 59,
+      "shelterId": 4
+    },
+    {
+      "id": 11743,
+      "residents": 44.000000000019,
+      "shelterId": 4
+    },
+    {
+      "id": 11746,
+      "residents": 5.999999999992,
+      "shelterId": 4
+    },
+    {
+      "id": 11747,
+      "residents": 28.000000000024,
+      "shelterId": 4
+    },
+    {
+      "id": 11748,
+      "residents": 13.000000000003,
+      "shelterId": 4
+    },
+    {
+      "id": 11749,
+      "residents": 9.999999999991,
+      "shelterId": 4
+    },
+    {
+      "id": 11750,
+      "residents": 24.000000000005,
+      "shelterId": 4
+    },
+    {
+      "id": 11753,
+      "residents": 105.999503651259,
+      "shelterId": 4
+    },
+    {
+      "id": 11754,
+      "residents": 18.000000000015,
+      "shelterId": 4
+    },
+    {
+      "id": 11755,
+      "residents": 28.000000000024,
+      "shelterId": 4
+    },
+    {
+      "id": 11756,
+      "residents": 28.000000000036,
+      "shelterId": 4
+    },
+    {
+      "id": 11757,
+      "residents": 10.999999999993,
+      "shelterId": 4
+    },
+    {
+      "id": 11758,
+      "residents": 21.999999999991,
+      "shelterId": 4
+    },
+    {
+      "id": 11759,
+      "residents": 43.000000000018,
+      "shelterId": 4
+    },
+    {
+      "id": 11760,
+      "residents": 8.999999999988,
+      "shelterId": 4
+    },
+    {
+      "id": 11761,
+      "residents": 9.000000000012,
+      "shelterId": 4
+    },
+    {
+      "id": 11946,
+      "residents": 32.999999999993,
+      "shelterId": 4
+    },
+    {
+      "id": 11947,
+      "residents": 26.999999999988,
+      "shelterId": 4
+    },
+    {
+      "id": 11948,
+      "residents": 3.999999999997,
+      "shelterId": 4
+    },
+    {
+      "id": 11949,
+      "residents": 46.00000000001,
+      "shelterId": 4
+    },
+    {
+      "id": 11950,
+      "residents": 38.999867669289,
+      "shelterId": 4
+    },
+    {
+      "id": 11951,
+      "residents": 19.999983520336,
+      "shelterId": 4
+    },
+    {
+      "id": 11952,
+      "residents": 4.000000000003,
+      "shelterId": 4
+    },
+    {
+      "id": 11953,
+      "residents": 9.999999999991,
+      "shelterId": 4
+    },
+    {
+      "id": 11955,
+      "residents": 53.999999999977,
+      "shelterId": 4
+    },
+    {
+      "id": 11956,
+      "residents": 57.999999999913,
+      "shelterId": 4
+    },
+    {
+      "id": 11957,
+      "residents": 7.999999999993,
+      "shelterId": 4
+    },
+    {
+      "id": 11958,
+      "residents": 8.000000000009,
+      "shelterId": 4
+    },
+    {
+      "id": 12144,
+      "residents": 5.999999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 12146,
+      "residents": 8,
+      "shelterId": 4
+    },
+    {
+      "id": 12147,
+      "residents": 8,
+      "shelterId": 4
+    },
+    {
+      "id": 12149,
+      "residents": 43.999728325566,
+      "shelterId": 4
+    },
+    {
+      "id": 12150,
+      "residents": 62.000000000013,
+      "shelterId": 4
+    },
+    {
+      "id": 12151,
+      "residents": 44.000000000009,
+      "shelterId": 4
+    },
+    {
+      "id": 12152,
+      "residents": 10.999999999988,
+      "shelterId": 4
+    },
+    {
+      "id": 12156,
+      "residents": 6.000000000009,
+      "shelterId": 4
+    },
+    {
+      "id": 12157,
+      "residents": 24.000000000021,
+      "shelterId": 4
+    },
+    {
+      "id": 12330,
+      "residents": 4.999999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 12345,
+      "residents": 5.000000000001,
+      "shelterId": 4
+    },
+    {
+      "id": 12346,
+      "residents": 13,
+      "shelterId": 4
+    },
+    {
+      "id": 12347,
+      "residents": 9.999920022311,
+      "shelterId": 4
+    },
+    {
+      "id": 12348,
+      "residents": 8.99998428366,
+      "shelterId": 4
+    },
+    {
+      "id": 12349,
+      "residents": 30.999999999973,
+      "shelterId": 4
+    },
+    {
+      "id": 12350,
+      "residents": 79.000000000034,
+      "shelterId": 4
+    },
+    {
+      "id": 12351,
+      "residents": 33.000000000007,
+      "shelterId": 4
+    },
+    {
+      "id": 12529,
+      "residents": 4.000000000003,
+      "shelterId": 5
+    },
+    {
+      "id": 12543,
+      "residents": 25,
+      "shelterId": 5
+    },
+    {
+      "id": 12545,
+      "residents": 4.000000000005,
+      "shelterId": 5
+    },
+    {
+      "id": 12547,
+      "residents": 17.999987679639,
+      "shelterId": 4
+    },
+    {
+      "id": 12548,
+      "residents": 22.99999999999,
+      "shelterId": 4
+    },
+    {
+      "id": 12549,
+      "residents": 48,
+      "shelterId": 4
+    },
+    {
+      "id": 12550,
+      "residents": 22.000000000014,
+      "shelterId": 4
+    },
+    {
+      "id": 12729,
+      "residents": 4,
+      "shelterId": 5
+    },
+    {
+      "id": 12745,
+      "residents": 3.999999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 12748,
+      "residents": 20.999999999995,
+      "shelterId": 5
+    },
+    {
+      "id": 12749,
+      "residents": 4,
+      "shelterId": 4
+    },
+    {
+      "id": 12750,
+      "residents": 16.999999999989,
+      "shelterId": 4
+    },
+    {
+      "id": 12928,
+      "residents": 5.000000000004,
+      "shelterId": 5
+    },
+    {
+      "id": 12946,
+      "residents": 8.000000000003,
+      "shelterId": 5
+    },
+    {
+      "id": 12948,
+      "residents": 13.000000000011,
+      "shelterId": 5
+    },
+    {
+      "id": 12949,
+      "residents": 17.999999999988,
+      "shelterId": 5
+    },
+    {
+      "id": 12951,
+      "residents": 7.999999999998,
+      "shelterId": 4
+    },
+    {
+      "id": 12958,
+      "residents": 9.000000000004,
+      "shelterId": 4
+    },
+    {
+      "id": 13145,
+      "residents": 3.999999999997,
+      "shelterId": 5
+    },
+    {
+      "id": 13146,
+      "residents": 18.999999999992,
+      "shelterId": 5
+    },
+    {
+      "id": 13147,
+      "residents": 20.000000000004,
+      "shelterId": 5
+    },
+    {
+      "id": 13148,
+      "residents": 26.000000000017,
+      "shelterId": 5
+    },
+    {
+      "id": 13149,
+      "residents": 9.000000000002,
+      "shelterId": 5
+    },
+    {
+      "id": 13151,
+      "residents": 4.000000000002,
+      "shelterId": 4
+    },
+    {
+      "id": 13152,
+      "residents": 22.999999999965,
+      "shelterId": 4
+    },
+    {
+      "id": 13156,
+      "residents": 4.999999999996,
+      "shelterId": 4
+    },
+    {
+      "id": 13157,
+      "residents": 12.000000000003,
+      "shelterId": 4
+    },
+    {
+      "id": 13158,
+      "residents": 3.616042324155,
+      "shelterId": 4
+    },
+    {
+      "id": 13342,
+      "residents": 5.999999999997,
+      "shelterId": 5
+    },
+    {
+      "id": 13345,
+      "residents": 22.000000000024,
+      "shelterId": 5
+    },
+    {
+      "id": 13346,
+      "residents": 91.99999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 13347,
+      "residents": 22.000000000014,
+      "shelterId": 5
+    },
+    {
+      "id": 13348,
+      "residents": 27,
+      "shelterId": 5
+    },
+    {
+      "id": 13349,
+      "residents": 14.000000000015,
+      "shelterId": 5
+    },
+    {
+      "id": 13350,
+      "residents": 5,
+      "shelterId": 5
+    },
+    {
+      "id": 13351,
+      "residents": 28.000000000036,
+      "shelterId": 5
+    },
+    {
+      "id": 13352,
+      "residents": 35.999999999954,
+      "shelterId": 5
+    },
+    {
+      "id": 13353,
+      "residents": 10.000000000006,
+      "shelterId": 4
+    },
+    {
+      "id": 13354,
+      "residents": 24.000000000005,
+      "shelterId": 4
+    },
+    {
+      "id": 13355,
+      "residents": 19.999999999996,
+      "shelterId": 4
+    },
+    {
+      "id": 13356,
+      "residents": 22.000000000005,
+      "shelterId": 4
+    },
+    {
+      "id": 13357,
+      "residents": 43,
+      "shelterId": 4
+    },
+    {
+      "id": 13540,
+      "residents": 27.000000000029,
+      "shelterId": 5
+    },
+    {
+      "id": 13541,
+      "residents": 21.999999999962,
+      "shelterId": 5
+    },
+    {
+      "id": 13542,
+      "residents": 9.000000000008,
+      "shelterId": 5
+    },
+    {
+      "id": 13543,
+      "residents": 12.000000000005,
+      "shelterId": 5
+    },
+    {
+      "id": 13545,
+      "residents": 146.999999999968,
+      "shelterId": 5
+    },
+    {
+      "id": 13546,
+      "residents": 129.999999999832,
+      "shelterId": 5
+    },
+    {
+      "id": 13547,
+      "residents": 20.000000000004,
+      "shelterId": 5
+    },
+    {
+      "id": 13548,
+      "residents": 23.000000000015,
+      "shelterId": 5
+    },
+    {
+      "id": 13549,
+      "residents": 4.000000000001,
+      "shelterId": 5
+    },
+    {
+      "id": 13550,
+      "residents": 16.999999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 13551,
+      "residents": 18.000000000008,
+      "shelterId": 5
+    },
+    {
+      "id": 13552,
+      "residents": 25.000000000005,
+      "shelterId": 5
+    },
+    {
+      "id": 13554,
+      "residents": 18.999999999992,
+      "shelterId": 5
+    },
+    {
+      "id": 13555,
+      "residents": 10.000000000002,
+      "shelterId": 4
+    },
+    {
+      "id": 13556,
+      "residents": 20.754687162055,
+      "shelterId": 4
+    },
+    {
+      "id": 13740,
+      "residents": 3.999999999998,
+      "shelterId": 5
+    },
+    {
+      "id": 13743,
+      "residents": 25.999999999989,
+      "shelterId": 5
+    },
+    {
+      "id": 13744,
+      "residents": 117.000000000076,
+      "shelterId": 5
+    },
+    {
+      "id": 13747,
+      "residents": 47.999999999907,
+      "shelterId": 5
+    },
+    {
+      "id": 13748,
+      "residents": 7.999999999995,
+      "shelterId": 5
+    },
+    {
+      "id": 13749,
+      "residents": 12.999999999992,
+      "shelterId": 5
+    },
+    {
+      "id": 13750,
+      "residents": 7.000000000005,
+      "shelterId": 5
+    },
+    {
+      "id": 13751,
+      "residents": 15.000000000003,
+      "shelterId": 5
+    },
+    {
+      "id": 13752,
+      "residents": 67.999999999941,
+      "shelterId": 5
+    },
+    {
+      "id": 13753,
+      "residents": 27.999999999994,
+      "shelterId": 5
+    },
+    {
+      "id": 13754,
+      "residents": 9.999999999989,
+      "shelterId": 5
+    },
+    {
+      "id": 13755,
+      "residents": 21.599695665743,
+      "shelterId": 5
+    },
+    {
+      "id": 13943,
+      "residents": 4.999999999997,
+      "shelterId": 5
+    },
+    {
+      "id": 13944,
+      "residents": 4.999999999999,
+      "shelterId": 5
+    },
+    {
+      "id": 13945,
+      "residents": 174.000000000037,
+      "shelterId": 5
+    },
+    {
+      "id": 13946,
+      "residents": 39.000000000017,
+      "shelterId": 5
+    },
+    {
+      "id": 13947,
+      "residents": 58,
+      "shelterId": 5
+    },
+    {
+      "id": 13948,
+      "residents": 67.000000000058,
+      "shelterId": 5
+    },
+    {
+      "id": 13949,
+      "residents": 11.999999999987,
+      "shelterId": 5
+    },
+    {
+      "id": 13950,
+      "residents": 49.999999999935,
+      "shelterId": 5
+    },
+    {
+      "id": 13951,
+      "residents": 7.999999999993,
+      "shelterId": 5
+    },
+    {
+      "id": 13952,
+      "residents": 15.000000000019,
+      "shelterId": 5
+    },
+    {
+      "id": 13953,
+      "residents": 19.999999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 14132,
+      "residents": 8.999999999992,
+      "shelterId": 5
+    },
+    {
+      "id": 14140,
+      "residents": 45.000000000019,
+      "shelterId": 5
+    },
+    {
+      "id": 14143,
+      "residents": 5.999999999999,
+      "shelterId": 5
+    },
+    {
+      "id": 14146,
+      "residents": 130,
+      "shelterId": 5
+    },
+    {
+      "id": 14147,
+      "residents": 99.000000000021,
+      "shelterId": 5
+    },
+    {
+      "id": 14148,
+      "residents": 212.999999999954,
+      "shelterId": 5
+    },
+    {
+      "id": 14149,
+      "residents": 34.000000000015,
+      "shelterId": 5
+    },
+    {
+      "id": 14150,
+      "residents": 4.173592221413,
+      "shelterId": 5
+    },
+    {
+      "id": 14151,
+      "residents": 19.380473584207,
+      "shelterId": 5
+    },
+    {
+      "id": 14153,
+      "residents": 3.058381153968,
+      "shelterId": 5
+    },
+    {
+      "id": 14332,
+      "residents": 4.000000000003,
+      "shelterId": 5
+    },
+    {
+      "id": 14333,
+      "residents": 9.999999999994,
+      "shelterId": 5
+    },
+    {
+      "id": 14334,
+      "residents": 8.000000000002,
+      "shelterId": 5
+    },
+    {
+      "id": 14340,
+      "residents": 25.999991121842,
+      "shelterId": 5
+    },
+    {
+      "id": 14346,
+      "residents": 69.619165948529,
+      "shelterId": 5
+    },
+    {
+      "id": 14347,
+      "residents": 162.453988309992,
+      "shelterId": 5
+    },
+    {
+      "id": 14531,
+      "residents": 4,
+      "shelterId": 5
+    },
+    {
+      "id": 14532,
+      "residents": 4.000000000004,
+      "shelterId": 5
+    },
+    {
+      "id": 14533,
+      "residents": 3.999999999995,
+      "shelterId": 5
+    },
+    {
+      "id": 14535,
+      "residents": 4.000000000003,
+      "shelterId": 5
+    },
+    {
+      "id": 14536,
+      "residents": 42.000000000009,
+      "shelterId": 5
+    },
+    {
+      "id": 14538,
+      "residents": 27,
+      "shelterId": 5
+    },
+    {
+      "id": 14539,
+      "residents": 12.000000000015,
+      "shelterId": 5
+    },
+    {
+      "id": 14730,
+      "residents": 4.000000000002,
+      "shelterId": 5
+    },
+    {
+      "id": 14731,
+      "residents": 18.999999999996,
+      "shelterId": 5
+    },
+    {
+      "id": 14732,
+      "residents": 10.000000000015,
+      "shelterId": 5
+    },
+    {
+      "id": 14733,
+      "residents": 13.000000000008,
+      "shelterId": 5
+    },
+    {
+      "id": 14734,
+      "residents": 9.000000000008,
+      "shelterId": 5
+    },
+    {
+      "id": 14735,
+      "residents": 13.999999999985,
+      "shelterId": 5
+    },
+    {
+      "id": 14736,
+      "residents": 58.999999999949,
+      "shelterId": 5
+    },
+    {
+      "id": 14737,
+      "residents": 33.999999999985,
+      "shelterId": 5
+    },
+    {
+      "id": 14738,
+      "residents": 41.000000000044,
+      "shelterId": 5
+    },
+    {
+      "id": 14739,
+      "residents": 31.00000000002,
+      "shelterId": 5
+    },
+    {
+      "id": 14932,
+      "residents": 8.000000000003,
+      "shelterId": 5
+    },
+    {
+      "id": 14933,
+      "residents": 8.000000000007,
+      "shelterId": 5
+    },
+    {
+      "id": 14934,
+      "residents": 11.000000000002,
+      "shelterId": 5
+    },
+    {
+      "id": 14936,
+      "residents": 33.999999999978,
+      "shelterId": 5
+    },
+    {
+      "id": 14937,
+      "residents": 37.000000000056,
+      "shelterId": 5
+    },
+    {
+      "id": 14938,
+      "residents": 10.999999999995,
+      "shelterId": 5
+    },
+    {
+      "id": 14939,
+      "residents": 10.999999999995,
+      "shelterId": 5
+    },
+    {
+      "id": 14940,
+      "residents": 15.000000000006,
+      "shelterId": 5
+    },
+    {
+      "id": 15131,
+      "residents": 5.999999999999,
+      "shelterId": 5
+    },
+    {
+      "id": 15133,
+      "residents": 14.000000000009,
+      "shelterId": 5
+    },
+    {
+      "id": 15135,
+      "residents": 10,
+      "shelterId": 5
+    },
+    {
+      "id": 15137,
+      "residents": 10.999999999993,
+      "shelterId": 5
+    },
+    {
+      "id": 15138,
+      "residents": 9.000000000008,
+      "shelterId": 5
+    },
+    {
+      "id": 15139,
+      "residents": 14.000000000015,
+      "shelterId": 5
+    },
+    {
+      "id": 15140,
+      "residents": 11.999999999992,
+      "shelterId": 5
+    },
+    {
+      "id": 15332,
+      "residents": 8,
+      "shelterId": 5
+    },
+    {
+      "id": 15333,
+      "residents": 5.999999999991,
+      "shelterId": 5
+    },
+    {
+      "id": 15334,
+      "residents": 9,
+      "shelterId": 5
+    },
+    {
+      "id": 15335,
+      "residents": 7.999999999993,
+      "shelterId": 5
+    },
+    {
+      "id": 15336,
+      "residents": 13.999999999997,
+      "shelterId": 5
+    },
+    {
+      "id": 15337,
+      "residents": 10.000000000002,
+      "shelterId": 5
+    },
+    {
+      "id": 15339,
+      "residents": 7,
+      "shelterId": 5
+    },
+    {
+      "id": 15531,
+      "residents": 7.999999999995,
+      "shelterId": 5
+    },
+    {
+      "id": 15537,
+      "residents": 9.999999999994,
+      "shelterId": 5
+    },
+    {
+      "id": 15730,
+      "residents": 3.999999999997,
+      "shelterId": 5
+    },
+    {
+      "id": 15929,
+      "residents": 4.551537042656,
+      "shelterId": 5
+    }
+  ],
+  "shelterCount": 27,
+  "waterCount": 8,
+  "engine": {
+    "R": "4.5.3",
+    "sf": "1.1.1",
+    "GEOS": "3.14.1"
+  }
+}

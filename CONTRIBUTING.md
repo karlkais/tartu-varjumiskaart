@@ -1,59 +1,96 @@
 # Arendamine ja avaldamine
 
-## Projekti käivitamine
+## Kohalik käivitamine
+
+Vajalikud on Node.js 22 või uuem ja pnpm. Projekti sõltuvused on lukustatud failis
+`pnpm-lock.yaml`; kontrollitud paketihaldur on pnpm 11.25.0.
 
 ```sh
 git clone https://github.com/karlkais/tartu-varjumiskaart.git
 cd tartu-varjumiskaart
+pnpm install --frozen-lockfile
+pnpm test
+pnpm build
+pnpm serve
 ```
 
-Valmis veebikaart asub failis `docs/index.html`. Selle vaatamiseks pole R-i ega
-Shiny serverit vaja. Taustakaart laaditakse OpenStreetMapist interneti kaudu.
+Ava `http://localhost:8765`. Kasuta HTTP-serverit: faili otse kettalt avades ei
+pruugi brauser lubada andmepäringuid ega arvutustööd.
 
-## Kaardi genereerimine
+`pnpm build` koostab `src/` lähtekoodist rakenduse kausta `docs/`. See ei laadi
+avaandmeid ega muuda `docs/snapshot.json` uuendamiskuupäeva. Kaardi jooksutamiseks
+pole Node.js-i ega R-i vaja; teegid on avaldatud veebifailidega kaasas.
 
-Vajalik on R ning paketid `tidyverse`, `sf`, `leaflet`, `htmlwidgets`, `htmltools` ja `scales`.
-Paigalda puuduvad paketid R-konsoolis:
+## Veebiga kaasas oleva andmeversiooni uuendamine
 
-```r
-install.packages(c("tidyverse", "sf", "leaflet", "htmlwidgets", "htmltools", "scales"))
-```
-
-Käivita repositooriumi juurkaustast:
+Tavakasutaja andmed uuenevad vajadusel brauseris. Veebiga kaasas olevat algversiooni
+saab lisaks värskendada projekti juurkaustas:
 
 ```sh
-Rscript scripts/build_map.R
+pnpm snapshot
 ```
 
-Skript loeb andmed kaustast `data/raw` ning salvestab veebikaardi ja vajalikud
-ressursid kausta `docs`. Hoia Shapefile'i `.shp`, `.shx`, `.dbf`, `.prj` ja `.cpg`
-failid koos. Andmekihtide välju ja arvutusmudelit kirjeldab [andmete juhend](data/README.md).
+Skript leiab uusima rahvastikukihi, laadib kõik neli andmekihti, arvutab mudeli ja
+kontrollib tulemust. Edu korral salvestab see `data/source-snapshot.json` ning
+`docs/snapshot.json`. Päringu või arvutuse tõrke korral ei kirjutata varasemat
+andmeversiooni üle. Uuendamise kuupäev tähistab edukalt lõpetatud laadimist ja arvutust,
+mitte algandmete tootja viimast muutmisaega.
 
-Kontrollitud keskkond: R 4.5.3, tidyverse 2.0.0, sf 1.1.1, leaflet 2.2.3,
-htmlwidgets 1.6.4, htmltools 0.5.9 ja scales 1.4.0. Salvesta R-skriptid UTF-8 kodeeringus.
+Kui muudad algversiooni või arvutusmudelit, uuenda sõltumatut võrdlust R-iga
+(paketid `sf`, `dplyr`, `jsonlite`) ja käivita testid:
 
-## Muudatuste kontrollimine
+```sh
+Rscript scripts/reference-model.R
+pnpm test
+pnpm build
+```
 
-Pärast genereerimist ava `docs/index.html` brauseris. Kontrolli taustakaarti,
-varjumiskohtade hüpikaknaid, kihtide lülitamist ning legendide avamist kitsas aknas.
-Algandmete muutmisel kontrolli ka genereerimise lõpus väljastatud varjumiskohtade arvu.
+R-skript kirjutab ainult `tests/reference.json`. See ei genereeri ega asenda veebikaarti.
+Brauseri ruumiarvutused kasutavad Proj4js-i ja JSTS-i; võrdlusarvutus kasutab sf/GEOS-i.
+Testid kontrollivad iga ruudu määrangut, pindalaga kaalutud rahvaarvu ja varjumiskoha
+koormust (rahvaarvu lubatud arvuline erinevus alla 0,01 inimese).
+
+## Uuendamise käitumise kontroll
+
+Automaattestid katavad kuue kalendrikuu täpse piiri ja kuu lõpu, puuduva/korduva
+andmelehe, muutunud andmeväljad, uuema rahvastikuaasta leidmise, katkise vahemälu,
+päringu- ja arvutustõrke, salvestustõrke ning vana brauseri vahekaardi võimaliku
+ülekirjutuse. Edukas uuendus salvestatakse tervikliku IndexedDB tehinguga.
+
+Päris brauseri kontrolliks on kohalikus serveris kaks testrežiimi:
+
+```sh
+node scripts/serve.mjs --test-stale
+# http://localhost:8765 — aegunud algversioon, päris avaandmed ja arvutus
+
+node scripts/serve.mjs --test-failure
+# http://localhost:8766 — aegunud algversioon, tahtlik andmeteenuse tõrge
+```
+
+Kasuta nende kontrollimiseks värsket brauseriprofiili või tühjenda ainult vastava
+localhost-aadressi andmehoidla. Eduka testi järel uuesti avamisel peab kaart kasutama
+salvestatud tulemust ja jätma päringu tegemata. Tõrketestis peab vana kuupäev ning
+kasutatav kaart alles jääma ja ilmuma „Proovi uuesti“. Testirežiimid asuvad ainult
+kohalikus serveris ega ole avaldatavas rakenduses.
+
+Kontrolli lisaks varjumiskoha hüpikakent, rahvastikukihi sisse-välja lülitamist,
+legendi ja info avamist kitsas vaates. Kaardi kuupäev ja rahvastikuaasta peavad
+olema nähtavad ka mobiilis.
 
 ## Avaldamine
 
-GitHub Pages kasutab haru `main` kausta `/docs`. Algandmete või R-skripti muutmise
-järel genereeri kaart uuesti ning salvesta ka veebifailide muudatused:
+GitHub Pages kasutab haru `main` kausta `/docs`. Pärast muudatusi käivita testid ja
+koostamine ning salvesta lähtekood koos genereeritud veebifailidega:
 
 ```sh
-git add README.md CONTRIBUTING.md docs scripts data
+pnpm test
+pnpm build
+git add src scripts tests docs data README.md CONTRIBUTING.md package.json pnpm-lock.yaml pnpm-workspace.yaml licenses .gitattributes
 git commit -m "Uuenda varjumiskaarti"
 git push
 ```
 
-Avaldamine käivitub automaatselt. Selle olekut näeb repo **Actions** vaates ja
-**Settings → Pages** lehel.
+Avaldamise olekut näeb repo **Actions** vaates ja **Settings → Pages** lehel.
+Pagesi seadistus: **Deploy from a branch → main → /docs**.
 
-Kui seadistus on vaja taastada, vali **Settings → Pages → Build and deployment** all
-**Source: Deploy from a branch**, haru **main** ja kaust **/docs**, seejärel **Save**.
-
-- [Veebikaart](https://karlkais.github.io/tartu-varjumiskaart/)
-- [GitHub Pagesi juhend](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+[Ava avaldatud kaart](https://karlkais.github.io/tartu-varjumiskaart/)
