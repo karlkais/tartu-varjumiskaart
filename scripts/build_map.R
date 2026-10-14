@@ -247,6 +247,29 @@ kaart2 = leaflet(width = "100%", height = "100vh") %>%
     position = "topleft"
   )
 
+# Kitsas aknas saab legendid ja selgituse avada vajaduse järgi.
+kaart2 = htmlwidgets::onRender(kaart2, "function(el) {
+  var narrow = window.matchMedia('(max-width: 700px)');
+  el.querySelectorAll('.info.legend').forEach(function(control) {
+    var text = control.textContent;
+    var title = text.includes('Tartu varjumiskohtade') ? 'Kaardi info' :
+      text.includes('Koormussurve') ? 'Koormussurve' :
+      text.includes('Varjumiskoha mahutavus') ? 'Mahutavus' : 'Rahvastiku legend';
+    var details = document.createElement('details');
+    var summary = document.createElement('summary');
+    summary.textContent = title;
+    var content = document.createElement('div');
+    while (control.firstChild) content.appendChild(control.firstChild);
+    details.appendChild(summary);
+    details.appendChild(content);
+    control.appendChild(details);
+    details.open = !narrow.matches;
+    narrow.addEventListener('change', function() { details.open = !narrow.matches; });
+    L.DomEvent.disableClickPropagation(control);
+    L.DomEvent.disableScrollPropagation(control);
+  });
+}")
+
 kaart2
 
 kaardi_fail = "docs/index.html"
@@ -262,7 +285,17 @@ saveWidget(
 # Keelemärgend ja mobiili vaateala säilivad ka kaardi uuesti genereerimisel.
 html = readLines(kaardi_fail, encoding = "UTF-8", warn = FALSE)
 html = sub('<html lang="en">', '<html lang="et">', html, fixed = TRUE)
-html = sub('<head>', '<head>\n<style>html,body,#htmlwidget_container{width:100%;height:100%;margin:0;}</style>', html, fixed = TRUE)
+html = sub('<head>', paste0(
+  '<head>\n<style>',
+  'html,body,#htmlwidget_container{width:100%;height:100%;margin:0;}',
+  '.legend summary{display:none;cursor:pointer;font-weight:600;}',
+  '@media(max-width:700px){',
+  '.legend summary{display:list-item;}',
+  '.leaflet-control.legend{max-width:calc(100vw - 40px);max-height:35vh;overflow:auto;}',
+  '.legend details[open]>div{margin-top:8px;}',
+  '}',
+  '</style>'
+), html, fixed = TRUE)
 html = sub(
   '<meta charset="utf-8"/>',
   '<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1"/>',
