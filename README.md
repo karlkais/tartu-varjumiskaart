@@ -17,7 +17,7 @@ vajutades nende andmeid vaadata.
 - `data/README.md` — andmete päritolu ja analüüsi selgitus.
 
 Kaardi vaatamiseks ei ole vaja R-i ega Shiny serverit. Kogu `docs` kausta saab
-alla laadida ja avada `index.html` brauseris. CARTO/OpenStreetMapi taustakaardi
+alla laadida ja avada `index.html` brauseris. OpenStreetMapi taustakaardi
 laadimiseks on vaja internetiühendust.
 
 ## GitHub Pages

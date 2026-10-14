@@ -162,7 +162,10 @@ mahutavus_legend_html = str_c(
 )
 
 kaart2 = leaflet(width = "100%", height = "100vh") %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  addTiles(
+    urlTemplate = "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  ) %>%
   addPolygons(
     data = linnaosad_wgs,
     fill = FALSE,
