@@ -1,0 +1,11 @@
+* text=auto
+*.R text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.geojson text eol=lf
+*.shp binary
+*.shx binary
+*.dbf binary
+*.png binary
+docs/assets/** linguist-vendored
+docs/index.html linguist-generated

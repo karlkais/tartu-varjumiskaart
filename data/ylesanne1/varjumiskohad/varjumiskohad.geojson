@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3301"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [661287.799999997, 6473901.5]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "Nimetus": "Tartu Descartes'i Kool",
+        "Aadress": "Anne tn 65, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 428,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{5477628F-FF31-4E1D-8912-E906F954ED74}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658912.814599998, 6470857.1238]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "Nimetus": "Tartu Rakenduslik Kolledž (VOCO)",
+        "Aadress": "Kopli tn 1, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 285,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{A4BA3DFF-4572-46B6-91D7-9966712BC858}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659098.799999997, 6474538.9]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "Nimetus": "Hugo Treffneri Gümnaasium",
+        "Aadress": "Munga tn 12, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 357,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{E48A91BC-E85C-4FD6-A83A-849152EA59DE}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659354.799999997, 6475525.3]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "Nimetus": "Endise Kroonuaia Kooli hoone",
+        "Aadress": "Puiestee tn 62, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 142,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{D3AC7D6C-EC8A-491E-8911-17939F6DAB31}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658627.9749, 6476389.0645]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "Nimetus": "Tartu Rakenduslik Kolledž (VOCO)",
+        "Aadress": "Põllu 11, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 499,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{592791CA-7EA0-48A4-93CF-C72B8293BA5C}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [660565.299999997, 6474290.2]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "Nimetus": "Tartu Jogentaga Kool",
+        "Aadress": "Uus tn 54, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 1000,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{19D491B5-CCB8-4151-B9B9-A4E8D3069E00}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659099, 6473815.6]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "Nimetus": "Tartu Herbert Masingu Kool",
+        "Aadress": "Vanemuise tn 33, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 285,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{A1AFE594-47FA-4D74-934A-F10E4BBC2B7A}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659077.214599997, 6473755.3353]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "Nimetus": "Tartu Jaan Poska Gümnaasium",
+        "Aadress": "Vanemuise tn 35, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 171,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{7C1355D6-3DC0-43B1-AF66-754C47E90846}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [657157.700000003, 6473648.1]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "Nimetus": "Tartu Veeriku Kool",
+        "Aadress": "Veeriku tn 41, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 128,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{C70846A4-13C3-44EE-8052-A632989770C9}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659021.600000002, 6474174]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "Nimetus": "Püssirohukelder",
+        "Aadress": "Lossi tn 28, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 714,
+        "Sissepaas": "Sissepääs peauksest",
+        "Toimiv": 1,
+        "GlobalID": "{21569775-678E-4285-A60F-23198E016EFA}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658725.299999997, 6472723.3]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "Nimetus": "Tamme staadioni spordihoone",
+        "Aadress": "Tamme pst 1, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 171,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{4D47ACF9-0000-40A8-9FC0-FFB889AE6569}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659291.881999999, 6474447.7466]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "Nimetus": "Tartu Linnaraamatukogu",
+        "Aadress": "Kompanii tn 3 // 5, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 142,
+        "Sissepaas": "Sissepääs Kompanii tänavalt keldrisse viivast trepist, ukse juures on märgis",
+        "Toimiv": 1,
+        "GlobalID": "{2D759848-D8BF-4818-A371-F4A2C35B4CDD}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [656844.399999999, 6471606]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "Nimetus": "Endine arestimaja",
+        "Aadress": "Riia tn 179a, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 357,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{568389F6-BDE4-4368-A65F-0E27BB9F3670}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [662139.799999997, 6473985.4]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "Nimetus": "Kristjan Jaak Petersoni Gümnaasium",
+        "Aadress": "Kaunase pst 70, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 142,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{6E4B493F-A690-44D7-BFF4-FB310032E9B6}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659132.207800001, 6473916.1392]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "Nimetus": "Tartu Ülikooli raamatukogu",
+        "Aadress": "W. Struve tn 1, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 824,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{510974B5-5D25-4C67-9796-832947FEC5F1}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659369.1347, 6474919.2402]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "Nimetus": "Delta õppehoone maa-alune parkla",
+        "Aadress": "Narva mnt 18 // 20, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 6714,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{8DF642FB-6DE9-4CB6-AD87-2C864CCD89D2}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [657402.585299999, 6472677.7879]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "Nimetus": "Tartu Ülikooli Füüsika Instituut",
+        "Aadress": "Ravila tn 14a // 14b // W. Ostwaldi tn 1, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 407,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{882DC37C-0C19-45F8-8728-81C2988287A9}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659068.333899997, 6474301.3277]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "Nimetus": "Tartu Ülikooli õppehoone",
+        "Aadress": "Lossi tn 3, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 250,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{58DBDE20-E478-4408-819F-3014A380D61D}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659748.872000001, 6472056.4274]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "Nimetus": "Tartu Forseliuse Kool",
+        "Aadress": "Tähe tn 103, Tartu linn\r\n",
+        "Tyyp": 1,
+        "Mahutavus": 912,
+        "Sissepaas": "Sissepääs maja Tehase tn poolse külje pealt, ukse kõrval on märgis",
+        "Toimiv": 1,
+        "GlobalID": "{DB4E5AEF-BA75-4F90-9F5A-FBCF7C5160DF}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658941.1774, 6474515.2749]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "Nimetus": "Mänguasjamuuseum",
+        "Aadress": "Lutsu tn 2 // 4, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 170,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{A78554D2-2C87-41BC-BB82-302C585FA528}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659759.460600004, 6472164.9155]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "Nimetus": "Tartu Forseliuse kooli loovusmaja",
+        "Aadress": "Tähe tn 101, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 122,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{B22CB108-3C4C-486A-B157-886CD14398FD}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659521.455399998, 6474071.9086]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "Nimetus": "Tartu Kaubamaja",
+        "Aadress": "Riia tn 1, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 8000,
+        "Sissepaas": "Sissepääs Uueturu tn ja Turu tn autode sissesõidu juures, kus on märgis",
+        "Toimiv": 1,
+        "GlobalID": "{3B425DDD-A7ED-4CD9-AA24-CDB0BE247B62}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659612.926600002, 6473966.6869]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "Nimetus": "Kvartali keskus",
+        "Aadress": "Riia tn 2, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 13333,
+        "Sissepaas": "Sissepääs Soola tn, autode sissesõidu juures, kus on märgis",
+        "Toimiv": 1,
+        "GlobalID": "{7E1AA792-FB01-45F6-A65F-023D2D08E4F2}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [659588.514300004, 6474162.4832]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "Nimetus": "Tartu Turuhoone",
+        "Aadress": "Vabaduse pst 1, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": 840,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{B2928B5D-8490-42B5-8485-F6A8D78F0EE8}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 439,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658837.857000001, 6473481.484]
+      },
+      "properties": {
+        "OBJECTID": 439,
+        "Nimetus": "Tartu Mart Reiniku Kool",
+        "Aadress": "Vanemuise tn 48, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": null,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{2A1B736D-59C9-4C48-AEED-54C077B4BB8D}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658923.597599998, 6473383.0411]
+      },
+      "properties": {
+        "OBJECTID": 440,
+        "Nimetus": "Tartu Mart Reiniku Kooli hoone",
+        "Aadress": "Riia tn 25, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": null,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{2577B24E-BD37-41E8-837E-96E2F439B9F3}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658874.376100004, 6473352.8731]
+      },
+      "properties": {
+        "OBJECTID": 441,
+        "Nimetus": "Pauluse kirik",
+        "Aadress": "Riia tn 27, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": null,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{A7EE1719-D9EF-4786-AE22-1EF3CA218EB4}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 442,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [658440.149999999, 6473905.51]
+      },
+      "properties": {
+        "OBJECTID": 442,
+        "Nimetus": "Miina Härma Gümnaasium",
+        "Aadress": "J. Tõnissoni tn 3, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": null,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{98D1F8FF-E90F-4F82-8285-9F9AE6AF3B5B}"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [661300.148699999, 6473981.7067]
+      },
+      "properties": {
+        "OBJECTID": 443,
+        "Nimetus": "Tartu Hansa Kool",
+        "Aadress": "Anne tn 63, Tartu linn",
+        "Tyyp": 1,
+        "Mahutavus": null,
+        "Sissepaas": null,
+        "Toimiv": 1,
+        "GlobalID": "{01056B03-FEEB-43AD-B664-E5A09781E55E}"
+      }
+    }
+  ]
+}
