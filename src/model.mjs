@@ -78,3 +78,9 @@ export function calculateModel(raw) {
     }
   };
 }
+
+export function cityOutline(districts) {
+  const geometries = districts.features.map(f => writer.write(planar(f)));
+  const union = reader.read({ type: 'GeometryCollection', geometries }).union();
+  return feature(union, { name: 'Tartu linnapiir' });
+}

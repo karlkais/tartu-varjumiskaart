@@ -18,7 +18,8 @@ Ava `http://localhost:8765`. Kasuta HTTP-serverit: faili otse kettalt avades ei
 pruugi brauser lubada andmepäringuid ega arvutustööd.
 
 `pnpm build` koostab `src/` lähtekoodist rakenduse kausta `docs/`. See ei laadi
-avaandmeid ega muuda `docs/snapshot.json` uuendamiskuupäeva. Kaardi jooksutamiseks
+avaandmeid ega muuda salvestiste uuendamiskuupäevi. Aluskaardi algversioon
+pakitakse GZIP-failiks, mille brauser avab `DecompressionStream` abil. Kaardi jooksutamiseks
 pole Node.js-i ega R-i vaja; teegid on avaldatud veebifailidega kaasas.
 
 ## Veebiga kaasas oleva andmeversiooni uuendamine
@@ -28,6 +29,8 @@ saab lisaks värskendada projekti juurkaustas:
 
 ```sh
 pnpm snapshot
+pnpm basemap
+pnpm build
 ```
 
 Skript leiab uusima rahvastikukihi, laadib kõik neli andmekihti, arvutab mudeli ja
@@ -35,6 +38,13 @@ kontrollib tulemust. Edu korral salvestab see `data/source-snapshot.json` ning
 `docs/snapshot.json`. Päringu või arvutuse tõrke korral ei kirjutata varasemat
 andmeversiooni üle. Uuendamise kuupäev tähistab edukalt lõpetatud laadimist ja arvutust,
 mitte algandmete tootja viimast muutmisaega.
+
+`pnpm basemap` laadib kõik kuus ETAK kihti Tartu linnaosade ja ligikaudu 3 km
+ümbruse jaoks. Edu korral kirjutab see atomaarse failiasendusega
+`data/basemap-snapshot.json`. `pnpm build` avaldab sellest `docs/basemap.json.gz`.
+API-võtmeid, kontosid ega ajastatud GitHub Actionsi töid ei ole vaja.
+Suurte aluskaartide laadimisel jäta brauseri vahekaart avatuks; pooleli jäänud
+uuendus ei asenda viimast toimivat salvestist.
 
 Kui muudad algversiooni või arvutusmudelit, uuenda sõltumatut võrdlust R-iga
 (paketid `sf`, `dplyr`, `jsonlite`) ja käivita testid:
@@ -65,13 +75,21 @@ node scripts/serve.mjs --test-stale
 
 node scripts/serve.mjs --test-failure
 # http://localhost:8766 — aegunud algversioon, tahtlik andmeteenuse tõrge
+
+node scripts/serve.mjs --test-basemap-failure --port=8768
+# Varjumisandmed uuenevad, aluskaardi teenuse tõrge jätab vana aluskaardi alles.
+
+node scripts/serve.mjs --test-no-webgl --port=8769
+# Kuvatakse Canvas-varuvariant; varjumiskohad ja linnamask jäävad kasutatavaks.
 ```
 
 Kasuta nende kontrollimiseks värsket brauseriprofiili või tühjenda ainult vastava
 localhost-aadressi andmehoidla. Eduka testi järel uuesti avamisel peab kaart kasutama
 salvestatud tulemust ja jätma päringu tegemata. Tõrketestis peab vana kuupäev ning
 kasutatav kaart alles jääma ja ilmuma „Proovi uuesti“. Testirežiimid asuvad ainult
-kohalikus serveris ega ole avaldatavas rakenduses.
+kohalikus serveris ega ole avaldatavas rakenduses. `--test-stale` muudab mõlemad
+andmestikud aegunuks; pärast edukat uuendust peab kordusavamine kasutama brauserisalvestist.
+Uue `--port` väärtusega saab testida eraldi päritolu ja tühja andmehoidlat.
 
 Kontrolli lisaks varjumiskoha hüpikakent, rahvastikukihi sisse-välja lülitamist,
 legendi ja info avamist kitsas vaates. Kaardi kuupäev ja rahvastikuaasta peavad

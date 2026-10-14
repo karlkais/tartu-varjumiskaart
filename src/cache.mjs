@@ -1,4 +1,5 @@
 import { newestSnapshot } from './snapshot.mjs';
+import { newestBasemap } from './basemap-data.mjs';
 
 const DATABASE = 'tartu-varjumiskaart';
 
@@ -12,24 +13,27 @@ export async function openCache(indexedDB = globalThis.indexedDB) {
     request.onblocked = () => reject(new Error('Andmesalvestus on teises aknas blokeeritud.'));
   });
   db.onversionchange = () => db.close();
-  return {
+  function record(key, newest) { return {
     read: () => new Promise((resolve, reject) => {
-      const request = db.transaction('snapshots').objectStore('snapshots').get('current');
+      const request = db.transaction('snapshots').objectStore('snapshots').get(key);
       request.onsuccess = () => resolve(request.result ?? null);
       request.onerror = () => reject(request.error);
     }),
     save: snapshot => new Promise((resolve, reject) => {
+      if (newest([snapshot]) !== snapshot) { reject(new Error('Vigast andmeversiooni ei salvestata.')); return; }
       const transaction = db.transaction('snapshots', 'readwrite');
       const store = transaction.objectStore('snapshots');
-      const request = store.get('current');
+      const request = store.get(key);
       // A slower tab must never overwrite a newer successful refresh.
       request.onsuccess = () => {
-        if (newestSnapshot([snapshot, request.result]) === snapshot) store.put(snapshot, 'current');
+        if (newest([snapshot, request.result]) === snapshot) store.put(snapshot, key);
       };
       transaction.oncomplete = () => resolve();
       transaction.onerror = () => reject(transaction.error);
       transaction.onabort = () => reject(transaction.error ?? new Error('Salvestamine katkes.'));
-    }),
-    close: () => db.close()
-  };
+    })
+  }; }
+  const data = record('current', newestSnapshot);
+  const basemap = record('basemap', newestBasemap);
+  return { ...data, readBasemap: basemap.read, saveBasemap: basemap.save, close: () => db.close() };
 }

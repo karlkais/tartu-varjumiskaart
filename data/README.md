@@ -25,6 +25,42 @@ Rahvastikukihi 1000 objekti päringupiir ei jäta ülejäänud ruute välja.
 
 ## Salvestised
 
+### Aluskaart
+
+Alusandmed: **Maa- ja Ruumiamet, Eesti topograafia andmekogu (ETAK)**.
+[Avalik WFS-teenus](https://gsavalik.envir.ee/geoserver/etak/wfs?service=WFS&request=GetCapabilities)
+ja [kasutustingimused](https://geoportaal.maaruum.ee/est/teenused/wms-wfs-wcs-teenused/maa-ja-ruumiameti-kaarditeenuste-kasutustingimused-p24.html).
+Kaardi kujundus on projekti enda oma. Laaditud 14.10.2026; see ei ole kõigi
+objektide mõõdistamise või muutmise kuupäev.
+
+| Kujutatud objektid | ETAK kiht | Algversiooni objekte |
+| --- | --- | ---: |
+| Puittaimestik | `e_305_puittaimestik_a` | 1303 |
+| Seisuveekogud | `e_202_seisuveekogu_a` | 998 |
+| Vooluveekogud | `e_203_vooluveekogu_a` | 112 |
+| Hooned | `e_401_hoone_ka` | 33333 |
+| Teed ja tänavanimed | `e_501_tee_j` | 20656 |
+| Raudteed | `e_502_roobastee_j` | 159 |
+
+Päringuala on linnaosade ulatus koos ligikaudu 3 km laiuse ümbrusega. WFS 2.0.0
+kasutab GeoJSON-i ja CRS84 koordinaadijärjekorda (pikkus, laius). Päringutes valitakse
+ainult kaardile vajalikud väljad; salvestuses ümardatakse koordinaadid kuue komakohani.
+Kõiki kuut kihti laaditakse järjest, 1000 objekti kaupa ja ühe kattuva kontrollobjektiga.
+Teenuse `numberMatched` võib piirduda 5000-ga; laadimine jätkub ka sellest edasi.
+Kontrollitakse lehepiiri, ID-de järjekorda, geomeetriat ning kohustuslikke välju.
+Alla 60% eelmise versiooni objektide arvust vähenev kiht lükatakse kaitseks tagasi.
+
+`basemap-snapshot.json` sisaldab kõiki kuut kihti ja laadimisaega. Brauseris on
+aluskaart varjumisandmetest eraldi IndexedDB kirjes. Üle kuue kalendrikuu vanune
+versioon uuendatakse avamisel; nurjunud laadimine ei muuda eelmist versiooni ega
+selle tähtaega. Uuemad varjumisandmed säilivad ka aluskaardi uuenduse tõrke korral.
+MapLibre joonistab kohalikud andmed ja kasutab seadme fonte; välist stiili-, fondi-
+ega kaardipilditeenust ei kasutata. WebGL-i puudumisel kasutatakse lihtsustatud
+Canvas-aluskaarti ilma tänavanimedeta. Linnamask põhineb Tartu linnaosade ühendil,
+mitte kogu Tartu omavalitsuse, sealhulgas maapiirkondade, piiridel.
+
+### Varjumisandmed
+
 - `source-snapshot.json`: veebiga kaasas oleva algversiooni kõik neli lähtekihti,
   teenuste aadressid, rahvastikuaasta ja laadimise aeg. Salvestatud 14.10.2026.
 - `../docs/snapshot.json`: nendest lähteandmetest arvutatud kaardikihid ja viimane
