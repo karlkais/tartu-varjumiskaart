@@ -1,18 +1,18 @@
 # Andmed ja arvutus
 
-Andmed pärinevad [Tartu avaandmete portaalist](https://geohub.tartulv.ee/pages/avaandmed)
-ja on kopeeritud olemasoleva kodutöö kaustast muutmata kujul.
+Kaardi algandmed pärinevad [Tartu avaandmete portaalist](https://geohub.tartulv.ee/pages/avaandmed)
+ja asuvad kaustas `raw`.
 
 | Kaust | Sisu |
 | --- | --- |
-| `ylesanne1/linnaosa_piir` | Tartu linnaosade piirid Shapefile'ina koos kaasfailide ja metaandmetega. |
-| `ylesanne1/2025_rahvastik_100m_andmed` | 2025. aasta rahvastik 100 m ruudustikus. |
-| `ylesanne1/varjumiskohad` | Avalike varjumiskohtade GeoJSON, sh nimetused, aadressid, mahutavus ja tunnus `Toimiv`. |
-| `ylesanne1/veekogud` | Tartu `KT_veekogud` kihi GeoJSON; algne failinimi on `veekogud.geojson.txt`. |
+| `raw/linnaosa_piir` | Tartu linnaosade piirid Shapefile'ina koos kaasfailide ja metaandmetega. |
+| `raw/2025_rahvastik_100m_andmed` | 2025. aasta rahvastik 100 m ruudustikus. |
+| `raw/varjumiskohad` | Avalike varjumiskohtade GeoJSON, sh nimetused, aadressid, mahutavus ja tunnus `Toimiv`. |
+| `raw/veekogud` | Tartu `KT_veekogud` kihi GeoJSON failis `veekogud.geojson`. |
 
-Algse lähtekoodi järgi laaditi linnaosade piirid ja rahvastik alla Shapefile'idena,
-varjumiskohad ning veekogud salvestati ametlike kihtide REST-teenustest GeoJSON-ina.
-Täpsed REST-päringud ja allalaadimise kuupäev ei olnud lähteprojektis dokumenteeritud.
+Linnaosade piirid ja rahvastik on salvestatud Shapefile'idena, varjumiskohad ning
+veekogud ametlike kihtide REST-teenustest GeoJSON-ina. Rahvastiku võrdlusaasta on
+2025. Andmete täpne allalaadimise kuupäev pole teada; kihid ei uuene automaatselt.
 
 ## Koormussuhte mudel
 
@@ -29,4 +29,4 @@ Täpsed REST-päringud ja allalaadimise kuupäev ei olnud lähteprojektis dokume
 
 Rahvastik kirjeldab elukohti. Mudel ei arvesta päevast liikumist, tänavavõrku,
 sissepääsude kasutatavust ega kohtade tegelikku täituvust. `Toimiv` kajastab
-salvestatud andmeid. Selle repo avaldamine ei tähenda andmete ajakohastamist.
+salvestatud andmeid.

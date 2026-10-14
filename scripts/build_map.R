@@ -1,12 +1,12 @@
 # Käivita repositooriumi juurkaustast: Rscript scripts/build_map.R
-# Eraldatud Kodutoo3.Rmd interaktiivse kaardi ülesandest.
+# Genereerib Tartu varjumiskaardi projekti algandmetest.
 required_packages = c("tidyverse", "sf", "leaflet", "htmlwidgets", "htmltools", "scales")
 missing_packages = required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages)) {
   stop("Paigalda esmalt R-paketid: ", paste(missing_packages, collapse = ", "))
 }
-if (!dir.exists("data/ylesanne1")) {
-  stop("Käivita skript repositooriumi juurkaustast, kus asub data/ylesanne1.")
+if (!dir.exists("data/raw")) {
+  stop("Käivita skript repositooriumi juurkaustast, kus asub data/raw.")
 }
 
 library(tidyverse)
@@ -21,19 +21,19 @@ sf_use_s2(FALSE)
 dir.create("docs", showWarnings = FALSE)
 
 # Kasutame projektiga kaasas olevaid Tartu avaandmete salvestisi.
-linnaosad = st_read("data/ylesanne1/linnaosa_piir/linnaosa_piir.shp", quiet = TRUE) %>%
+linnaosad = st_read("data/raw/linnaosa_piir/linnaosa_piir.shp", quiet = TRUE) %>%
   st_transform(3301) %>%
   st_make_valid()
 
-rahvastik = st_read("data/ylesanne1/2025_rahvastik_100m_andmed/2025_rahvastik_100m_andmed.shp", quiet = TRUE) %>%
+rahvastik = st_read("data/raw/2025_rahvastik_100m_andmed/2025_rahvastik_100m_andmed.shp", quiet = TRUE) %>%
   rename(rahvaarv = sum_sum_ko) %>%
   st_transform(3301) %>%
   st_make_valid()
 
-varjumiskohad = st_read("data/ylesanne1/varjumiskohad/varjumiskohad.geojson", quiet = TRUE) %>%
+varjumiskohad = st_read("data/raw/varjumiskohad/varjumiskohad.geojson", quiet = TRUE) %>%
   st_transform(3301)
 
-veekogud = st_read("data/ylesanne1/veekogud/veekogud.geojson.txt", quiet = TRUE) %>%
+veekogud = st_read("data/raw/veekogud/veekogud.geojson", quiet = TRUE) %>%
   st_transform(3301) %>%
   st_make_valid()
 
@@ -279,7 +279,7 @@ saveWidget(
   kaardi_fail,
   selfcontained = FALSE,
   libdir = "assets",
-  title = "Tartu varjumiskohtade koormuskaart"
+  title = "Tartu varjumiskaart"
 )
 
 # Keelemärgend ja mobiili vaateala säilivad ka kaardi uuesti genereerimisel.
@@ -298,7 +298,9 @@ html = sub('<head>', paste0(
 ), html, fixed = TRUE)
 html = sub(
   '<meta charset="utf-8"/>',
-  '<meta charset="utf-8"/>\n<meta name="viewport" content="width=device-width, initial-scale=1"/>',
+  paste0('<meta charset="utf-8"/>\n',
+    '<meta name="viewport" content="width=device-width, initial-scale=1"/>\n',
+    '<meta name="description" content="Tartu avalike varjumiskohtade interaktiivne kaart: aadressid, mahutavus, rahvastik ja piirkondlik koormussuhe."/>'),
   html,
   fixed = TRUE
 )
