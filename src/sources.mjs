@@ -1,4 +1,5 @@
-import { checkGeometry } from './snapshot.mjs';
+import { validateSourceFeature } from './geometry-validation.mjs';
+import { fetchNationalShelters } from './national-shelters.mjs';
 
 const BASE = 'https://gis.tartulv.ee/arcgis/rest/services/';
 export const SOURCES = {
@@ -20,6 +21,7 @@ function query(url, parameters) { return `${url}?${new URLSearchParams(parameter
 
 export async function discoverPopulation(fetcher = fetch, year = new Date().getUTCFullYear()) {
   const candidates = [];
+  const comparisons = [];
   let start = 1;
   const visited = new Set();
   while (start > 0) {
@@ -30,12 +32,18 @@ export async function discoverPopulation(fetcher = fetch, year = new Date().getU
     for (const item of page.results) {
       const title = item.title ?? '';
       const match = title.match(/(?:^|[^0-9])(20\d{2})(?:[^0-9]|$)/);
-      if (item.type !== 'Feature Service' || !/rahvastik/i.test(title) || !/100\s*m/i.test(title) || !/andmed/i.test(title) || !match) continue;
+      if (item.type !== 'Feature Service' || !/rahvastik/i.test(title) || !/andmed/i.test(title) || !match) continue;
       const populationYear = Number(match[1]);
       if (populationYear > year) continue;
-      const url = new URL(item.url);
+      let url;
+      try { url = new URL(item.url); } catch { continue; }
       if (url.origin !== 'https://gis.tartulv.ee' || !/^\/arcgis\/rest\/services\/Hosted\/.+\/FeatureServer\/?$/.test(url.pathname)) continue;
-      candidates.push({ year: populationYear, url: url.href.replace(/\/$/, ''), title, itemId: item.id });
+      const candidate = { year: populationYear, url: url.href.replace(/\/$/, ''), title, itemId: item.id,
+        description: typeof item.description === 'string' ? item.description : '',
+        snippet: typeof item.snippet === 'string' ? item.snippet : '',
+        modifiedAt: Number.isFinite(item.modified) ? new Date(item.modified).toISOString() : null };
+      if (/100\s*m/i.test(title)) candidates.push(candidate);
+      else if (/linnaosa/i.test(title)) comparisons.push(candidate);
     }
     if (!Number.isInteger(page.nextStart)) throw new Error('Puudulik andmekataloogi vastus.');
     start = page.nextStart;
@@ -48,7 +56,10 @@ export async function discoverPopulation(fetcher = fetch, year = new Date().getU
   for (const layer of service.layers) {
     const url = `${latest.url}/${layer.id}`;
     const metadata = await getJSON(query(url, { f: 'json' }), fetcher);
-    if (metadata.geometryType === 'esriGeometryPolygon' && metadata.fields?.some(f => f.name === 'sum_sum_kokku')) return { ...latest, url };
+    if (metadata.geometryType === 'esriGeometryPolygon' && metadata.fields?.some(f => f.name === 'sum_sum_kokku')) {
+      const comparison = comparisons.filter(item => item.year === latest.year).sort((a, b) => a.url.localeCompare(b.url))[0] ?? null;
+      return { ...latest, url, comparison };
+    }
   }
   throw new Error('Uusima rahvastikukihi väljad ei sobi arvutuseks.');
 }
@@ -56,7 +67,7 @@ export async function discoverPopulation(fetcher = fetch, year = new Date().getU
 export async function downloadLayer(url, kind, fetcher = fetch) {
   const metadata = await getJSON(query(url, { f: 'json' }), fetcher);
   const idField = metadata.objectIdField ?? metadata.fields?.find(f => f.type === 'esriFieldTypeOID')?.name;
-  const required = { shelters: ['Nimetus', 'Aadress', 'Mahutavus', 'Toimiv'], districts: ['NIMI'], population: ['sum_sum_kokku'], water: ['Nimi'] }[kind];
+  const required = { shelters: ['Nimetus', 'Aadress', 'Mahutavus', 'Toimiv'], districts: ['NIMI'], population: ['sum_sum_kokku'], populationTotals: ['nimi', 'sum_sum_kokku'], water: ['Nimi'] }[kind];
   if (!idField || !required || required.some(name => !metadata.fields?.some(f => f.name === name))) throw new Error(`Andmekihi väljad muutusid: ${kind}.`);
   const countURL = query(`${url}/query`, { f: 'json', where: '1=1', returnCountOnly: true });
   const { count } = await getJSON(countURL, fetcher);
@@ -73,12 +84,9 @@ export async function downloadLayer(url, kind, fetcher = fetch) {
     for (const feature of page.features) {
       const p = feature.properties;
       const id = p?.[idField];
-      if (feature.type !== 'Feature' || id == null || ids.has(id) || required.some(name => !(name in p))) throw new Error(`Puudulik või korduv objekt: ${kind}.`);
-      checkGeometry(feature.geometry ?? {});
-      if (kind === 'shelters' && (feature.geometry.type !== 'Point' || !Number.isFinite(p.Toimiv) || !(p.Mahutavus === null || Number.isFinite(p.Mahutavus)) || typeof p.Nimetus !== 'string')) throw new Error('Vigased varjumiskoha andmed.');
-      if (kind !== 'shelters' && !['Polygon', 'MultiPolygon'].includes(feature.geometry.type)) throw new Error(`Vigane pindobjekt: ${kind}.`);
-      if (kind === 'population' && (!Number.isFinite(p.sum_sum_kokku) || p.sum_sum_kokku < 0)) throw new Error('Vigane rahvaarv.');
-      ids.add(id);
+      if (feature.type !== 'Feature' || id == null || ids.has(String(id)) || required.some(name => !(name in p))) throw new Error(`Puudulik või korduv objekt: ${kind}.`);
+      validateSourceFeature({ ...feature, id }, kind);
+      ids.add(String(id));
       features.push({ ...feature, id });
     }
   }
@@ -87,13 +95,47 @@ export async function downloadLayer(url, kind, fetcher = fetch) {
   return { type: 'FeatureCollection', features };
 }
 
+function sourceMetadata(candidate) {
+  const { year, url, title, itemId, description, snippet, modifiedAt } = candidate;
+  return { year, url, title, itemId, description, snippet, modifiedAt, retrievedAt: new Date().toISOString() };
+}
+
+export async function fetchPopulationContext(population, fetcher = fetch) {
+  const context = { source: sourceMetadata(population), comparison: null,
+    unavailableReason: 'Sama aasta linnaosade koondandmeid ei leitud.' };
+  if (!population.comparison) return context;
+  try {
+    const candidate = population.comparison;
+    if (candidate.year !== population.year) throw new Error('Võrdlusaastad ei ühti.');
+    const service = await getJSON(query(candidate.url, { f: 'json' }), fetcher);
+    for (const layer of service.layers ?? []) {
+      const url = `${candidate.url}/${layer.id}`;
+      const metadata = await getJSON(query(url, { f: 'json' }), fetcher);
+      if (metadata.geometryType !== 'esriGeometryPolygon' ||
+          !['nimi', 'sum_sum_kokku'].every(name => metadata.fields?.some(f => f.name === name))) continue;
+      const data = await downloadLayer(url, 'populationTotals', fetcher);
+      return { ...context, comparison: { source: sourceMetadata({ ...candidate, url }), data }, unavailableReason: null };
+    }
+    throw new Error('Võrdluskihi väljad puuduvad.');
+  } catch {
+    // An unavailable comparison must not block fresh shelter data or imply full coverage.
+    return { ...context, unavailableReason: 'Sama aasta linnaosade koondandmeid ei saanud laadida.' };
+  }
+}
+
 export async function fetchAllData(fetcher = fetch) {
   const population = await discoverPopulation(fetcher);
   const urls = { ...SOURCES, population: population.url };
-  const entries = await Promise.all(Object.entries(urls).map(async ([kind, url]) => [kind, await downloadLayer(url, kind, fetcher)]));
+  const [entries, populationContext, national] = await Promise.all([
+    Promise.all(Object.entries(urls).map(async ([kind, url]) => [kind, await downloadLayer(url, kind, fetcher)])),
+    fetchPopulationContext(population, fetcher),
+    fetchNationalShelters(fetcher)
+  ]);
   return {
     populationYear: population.year,
     sources: { ...urls, populationTitle: population.title, populationItemId: population.itemId },
+    populationContext,
+    shelterSources: { city: { url: SOURCES.shelters, retrievedAt: new Date().toISOString() }, national },
     layers: Object.fromEntries(entries)
   };
 }

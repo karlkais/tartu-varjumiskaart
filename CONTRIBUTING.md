@@ -33,11 +33,32 @@ pnpm basemap
 pnpm build
 ```
 
-Skript leiab uusima rahvastikukihi, laadib kõik neli andmekihti, arvutab mudeli ja
+Skript leiab uusima rahvastikukihi, laadib Tartu andmekihid ja Päästeameti CSV, arvutab mudeli ja
 kontrollib tulemust. Edu korral salvestab see `data/source-snapshot.json` ning
-`docs/snapshot.json`. Päringu või arvutuse tõrke korral ei kirjutata varasemat
+`docs/snapshot.json` ning `data/national-shelters.csv`. Päringu või arvutuse tõrke korral ei kirjutata varasemat
 andmeversiooni üle. Uuendamise kuupäev tähistab edukalt lõpetatud laadimist ja arvutust,
 mitte algandmete tootja viimast muutmisaega.
+
+Suurt muutust võrdluses senise salvestisega automaatselt vastu ei võeta.
+Skript jätab senised lähte- ja kaardifailid muutmata ning kirjutab ülevaatamiseks
+`data/update-review.json` (muutused ja SHA-256 tunnus) ning `data/update-candidate.json`
+(arvutatud kandidaat). Need ajutised failid on Gitist välja jäetud.
+Kontrolli raporti iga muutust lähtekihi avaliku kirjelduse ja geomeetriatega:
+objektide arv, rahvaarv, mahutavus ja linnaosade katvus. Kooskõlastust ametiga ei nõuta.
+Kui põhjus on avalike allikatega põhjendatud, käivita:
+
+```sh
+node scripts/refresh-snapshot.mjs --accept-change=RAPORTIS_OLEV_TUNNUS --reason="Sisuline põhjendus koos kontrollitud allikaga"
+```
+
+Skript laadib andmed uuesti. Tunnus kehtib ainult sama lähteversiooniga võrreldud
+sama kaardikandidaadi kohta; teistsugust kandidaati ei võeta selle tunnusega vastu.
+Laadimisajad tunnust ei muuda. Põhjendus ja muudatuste loetelu jäävad avaldatud
+salvestise `changeReview` välja. Vigast skeemi, arvutust ega vanemat rahvastikuaastat
+ei saa selle käsuga lubada. Uus aastanumber üksi kvaliteedikontrolle ei leevenda.
+Brauser ei kinnita suurt muutust ise: see säilitab senise kaardi ja näitab teadet.
+Vastuvõetud versiooni kasutajateni jõudmiseks tuleb algsalvestis tavapäraselt avaldada.
+[Kontrollid ja lävendid](data/README.md#andmekvaliteedi-kontroll).
 
 `pnpm basemap` laadib kõik kuus ETAK kihti Tartu linnaosade ja ligikaudu 3 km
 ümbruse jaoks. Edu korral kirjutab see atomaarse failiasendusega
@@ -59,6 +80,13 @@ R-skript kirjutab ainult `tests/reference.json`. See ei genereeri ega asenda vee
 Brauseri ruumiarvutused kasutavad Proj4js-i ja JSTS-i; võrdlusarvutus kasutab sf/GEOS-i.
 Testid kontrollivad iga ruudu määrangut, pindalaga kaalutud rahvaarvu ja varjumiskoha
 koormust (rahvaarvu lubatud arvuline erinevus alla 0,01 inimese).
+Lisaks võrreldakse iga linnaosa avaldatud rahvastiku summat R/sf-arvutusega.
+Rahvastiku katvuse testid kontrollivad sama aasta võrdlust, koondteenuse tõrget,
+sobimatut piirkonda, avaldatud nullväärtusi ja vanu metaandmeteta salvestisi.
+Varjumiskohtade ühildamise testid kontrollivad CSV eraldajaid ja koordinaatide telgi,
+23 ühist ja kuut ühe allika kirjet, Põllu 11a/11c eristamist, mitmetähenduslikke vasteid,
+staatuse vastuolu ja allikatõrget. Lisanduvad teadmata mahutavusega punktid ei muuda
+seniseid määranguid ega koormusi; R-võrdlus kontrollib jätkuvalt Tartu mahutavuskihi arvutusi.
 
 ## Uuendamise käitumise kontroll
 
@@ -81,6 +109,9 @@ node scripts/serve.mjs --test-basemap-failure --port=8768
 
 node scripts/serve.mjs --test-no-webgl --port=8769
 # Kuvatakse Canvas-varuvariant; varjumiskohad ja linnamask jäävad kasutatavaks.
+
+node scripts/serve.mjs --test-population-loss --port=8774
+# Kohalik 100 lähteobjektiga mudel. Uuendus blokeeritakse; kaart ja 2020. aasta kuupäev säilivad.
 ```
 
 Kasuta nende kontrollimiseks värsket brauseriprofiili või tühjenda ainult vastava
@@ -90,10 +121,21 @@ kasutatav kaart alles jääma ja ilmuma „Proovi uuesti“. Testirežiimid asuv
 kohalikus serveris ega ole avaldatavas rakenduses. `--test-stale` muudab mõlemad
 andmestikud aegunuks; pärast edukat uuendust peab kordusavamine kasutama brauserisalvestist.
 Uue `--port` väärtusega saab testida eraldi päritolu ja tühja andmehoidlat.
+`--test-population-loss` ei laadi avalikke teenuseid: server arvutab salvestatud
+lähtefaili esimesest 100 rahvastikuobjektist kandidaadi ja annab selle uuendustöö
+tulemusena brauserile. Kontrolli ka korduskatset ning vana kuupäeva säilimist pärast
+lehe taasavamist. Teenuse enda 100 objektiga koguarvu ja lehekülgede juhtumit katab automaattest.
 
 Kontrolli lisaks varjumiskoha hüpikakent, rahvastikukihi sisse-välja lülitamist,
 legendi ja info avamist kitsas vaates. Kaardi kuupäev ja rahvastikuaasta peavad
 olema nähtavad ka mobiilis.
+Kontrolli ka nuppu „Rahvastiku võrdlus“, selle tabelit ja allikakirjeldusi ning
+rahvastikukihi halli tausta selgitust. Dialoog peab avanema klaviatuuriga ja sulguma
+Esc-klahviga; fookus peab naasma avamisnupule. Puuduva võrdluse korral ei tohi
+eelmise aasta koondarve kuvada sama aasta andmetena.
+Kontrolli ka „Kohtade allikad“ dialoogi: Metsamaja, Põllu ühiselamu, Puiestee nimede
+erinevus ja neli ainult Tartu kihis olevat kohta. Iga koha algallika kirje peab olema
+avatav. Katkine Päästeameti päring peab jätma eelmise tervikliku kaardi alles.
 
 ## Avaldamine
 

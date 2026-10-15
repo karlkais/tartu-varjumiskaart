@@ -9308,5 +9308,119 @@
     "R": "4.5.3",
     "sf": "1.1.1",
     "GEOS": "3.14.1"
+  },
+  "populationComparison": {
+    "year": 2026,
+    "officialTotal": 91634,
+    "districts": [
+      {
+        "id": 1,
+        "name": "Ropka",
+        "official": 4661,
+        "published": 4016.938094786281
+      },
+      {
+        "id": 2,
+        "name": "Variku",
+        "official": 1698,
+        "published": 1209.343356421511
+      },
+      {
+        "id": 3,
+        "name": "Ihaste",
+        "official": 3117,
+        "published": 1816.489398596596
+      },
+      {
+        "id": 4,
+        "name": "Maarjamõisa",
+        "official": 473,
+        "published": 412.131796072637
+      },
+      {
+        "id": 5,
+        "name": "Tammelinna",
+        "official": 8060,
+        "published": 5983.070199795338
+      },
+      {
+        "id": 6,
+        "name": "Annelinna",
+        "official": 24540,
+        "published": 24232.524683097829
+      },
+      {
+        "id": 7,
+        "name": "Ülejõe",
+        "official": 7215,
+        "published": 6935.718433379698
+      },
+      {
+        "id": 8,
+        "name": "Supilinna",
+        "official": 2231,
+        "published": 1914.165695676546
+      },
+      {
+        "id": 9,
+        "name": "Veeriku",
+        "official": 4943,
+        "published": 4314.261554195458
+      },
+      {
+        "id": 10,
+        "name": "Ropka tööstuse",
+        "official": 2164,
+        "published": 2011.887076191767
+      },
+      {
+        "id": 11,
+        "name": "Raadi-Kruusamäe",
+        "official": 4712,
+        "published": 3852.22919411366
+      },
+      {
+        "id": 12,
+        "name": "Tähtvere",
+        "official": 3083,
+        "published": 2834.86906700367
+      },
+      {
+        "id": 13,
+        "name": "Kvissentali",
+        "official": 945,
+        "published": 779.990911977087
+      },
+      {
+        "id": 14,
+        "name": "Karlova",
+        "official": 8702,
+        "published": 7829.630295017513
+      },
+      {
+        "id": 15,
+        "name": "Kesklinna",
+        "official": 6582,
+        "published": 6428.125030894022
+      },
+      {
+        "id": 16,
+        "name": "Ränilinna",
+        "official": 2174,
+        "published": 2138.008051674429
+      },
+      {
+        "id": 17,
+        "name": "Vaksali",
+        "official": 2872,
+        "published": 2709.332231074392
+      },
+      {
+        "id": 18,
+        "name": "Jaamamõisa",
+        "official": 3462,
+        "published": 3379.262243419545
+      }
+    ]
   }
 }
