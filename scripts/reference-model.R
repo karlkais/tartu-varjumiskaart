@@ -28,6 +28,22 @@ result = list(
   waterCount = nrow(st_intersection(read_layer('water'), mask)),
   engine = list(R = paste(R.version$major, R.version$minor, sep = '.'), sf = as.character(packageVersion('sf')), GEOS = unname(sf_extSoftVersion()['GEOS']))
 )
+
+# Compare the full published population layer with the official aggregate boundaries.
+# This is separate from the city-mask allocation above; it does not fill suppressed cells.
+if (!is.null(raw$populationContext$comparison)) {
+  comparison = raw$populationContext$comparison
+  official = st_read(toJSON(comparison$data, auto_unbox = TRUE, null = 'null', digits = NA), quiet = TRUE) %>%
+    st_transform(3301) %>% st_make_valid()
+  all_population = read_layer('population') %>% mutate(original_area = as.numeric(st_area(.)))
+  rows = lapply(seq_len(nrow(official)), function(i) {
+    clipped = st_intersection(all_population, st_geometry(official[i, ]))
+    data.frame(id = official$objectid[i], name = official$nimi[i], official = official$sum_sum_kokku[i],
+      published = sum(clipped$sum_sum_kokku * as.numeric(st_area(clipped)) / clipped$original_area))
+  })
+  result$populationComparison = list(year = comparison$source$year,
+    officialTotal = sum(official$sum_sum_kokku), districts = bind_rows(rows))
+}
 dir.create('tests', showWarnings = FALSE)
 writeLines(toJSON(result, auto_unbox = TRUE, digits = 12, pretty = TRUE), 'tests/reference.json', useBytes = TRUE)
 message('Reference saved: tests/reference.json')

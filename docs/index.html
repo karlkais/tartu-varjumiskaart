@@ -15,7 +15,19 @@
     <div class="brand"><h1>Tartu varjumiskaart</h1><p>Avalikud varjumiskohad ja piirkondlik koormus</p></div>
     <div class="freshness"><div id="data-date">Laadin kaardi andmeid…</div><div id="basemap-date">Laadin aluskaarti…</div><div class="status-row"><span id="status" role="status" aria-live="polite"></span><button id="retry" hidden>Proovi uuesti</button></div><div id="map-note" role="status"></div></div>
   </header>
+  <section class="population-notice" aria-label="Rahvastikuandmete piirang">
+    <p>Koormushinnang hõlmab ainult avaldatud rahvastikku. Kõik elanikud ei pruugi olla arvestatud.</p>
+    <div class="data-actions"><button id="population-details" disabled aria-haspopup="dialog">Rahvastiku võrdlus</button><button id="shelter-details" disabled aria-haspopup="dialog">Kohtade allikad</button></div>
+  </section>
   <main id="map" aria-label="Tartu varjumiskohtade interaktiivne kaart"></main>
+  <dialog id="population-dialog" aria-labelledby="population-title">
+    <div class="population-dialog-heading"><h2 id="population-title">Rahvastikuandmete katvus</h2><button id="population-close" autofocus>Sulge</button></div>
+    <div id="population-context"></div>
+  </dialog>
+  <dialog id="shelter-dialog" aria-labelledby="shelter-title">
+    <div class="population-dialog-heading"><h2 id="shelter-title">Varjumiskohtade allikavõrdlus</h2><button id="shelter-close" autofocus>Sulge</button></div>
+    <div id="shelter-context"></div>
+  </dialog>
   <div id="fatal" hidden role="alert"></div>
   <noscript>Kaardi kasutamiseks luba brauseris JavaScript.</noscript>
   <script type="module" src="./app/app.js?v=2.1.0"></script>

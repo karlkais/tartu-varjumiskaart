@@ -6,3 +6,5 @@
 Thumbs.db
 node_modules/
 *.log
+data/update-review.json
+data/update-candidate.json

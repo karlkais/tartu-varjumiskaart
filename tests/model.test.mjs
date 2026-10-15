@@ -10,7 +10,8 @@ const reference = JSON.parse(await readFile(new URL('./reference.json', import.m
 test('browser model agrees with independent R/sf/GEOS reference for every cell and shelter', () => {
   const result = validateSnapshot({ ...calculateModel(raw), updatedAt: raw.retrievedAt });
   assert.equal(result.populationYear, reference.populationYear);
-  assert.equal(result.layers.shelters.features.length, reference.shelterCount);
+  // The R allocation reference uses the city capacity layer. National-only points have no capacity.
+  assert.equal(result.layers.shelters.features.filter(f => !f.properties.sourceAudit || f.properties.sourceAudit.city).length, reference.shelterCount);
   assert.equal(result.layers.water.features.length, reference.waterCount);
   assert.equal(result.layers.population.features.length, reference.population.length);
   const actualShelters = new Map(result.layers.shelters.features.map(f => [f.properties.id, f.properties]));
@@ -25,5 +26,12 @@ test('browser model agrees with independent R/sf/GEOS reference for every cell a
     const actual = actualCells.get(expected.id);
     assert.equal(actual.shelterId, expected.shelterId, `Assignment ${expected.id}`);
     assert.ok(Math.abs(actual.residents - expected.residents) < .01, `Area weighting ${expected.id}`);
+  }
+  const comparison = result.populationContext.comparison;
+  assert.equal(comparison.officialTotal, reference.populationComparison.officialTotal);
+  const byId = new Map(comparison.districts.map(row => [row.id, row]));
+  for (const expected of reference.populationComparison.districts) {
+    assert.equal(byId.get(expected.id).official, expected.official);
+    assert.ok(Math.abs(byId.get(expected.id).published - expected.published) < .01, `District comparison ${expected.id}`);
   }
 });
