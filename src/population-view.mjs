@@ -24,7 +24,10 @@ export function createPopulationView() {
     details.append(link);
     // Preserve the original HTML in the snapshot, but never execute source markup.
     const plain = source.description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-    details.append(element('p', plain || source.snippet || 'Allikakirjeldus puudub.'));
+    const summary = source.snippet.trim();
+    if (summary) details.append(element('p', summary));
+    if (plain && plain !== summary) details.append(element('p', plain));
+    if (!plain && !summary) details.append(element('p', 'Allikakirjeldus puudub.'));
     details.append(element('p', `Laaditud ${date(source.retrievedAt)}${source.modifiedAt ? ` · Kataloogikirje muudetud ${date(source.modifiedAt)}` : ''}. Kataloogikirje kuupäev ei kinnita iga lähteobjekti muutmise aega.`, 'population-note'));
     return details;
   }
@@ -34,6 +37,7 @@ export function createPopulationView() {
     content.replaceChildren();
     content.append(element('p', 'Koormushinnang hõlmab ainult avaldatud rahvastikku. Privaatsuse tõttu avaldamata elanikud jäävad arvutusest välja. Andmekihist puuduva ala rahvaarvu ei saa lugeda nulliks.'));
     content.append(element('p', 'Rahvastikukihi hallil taustal puudub avaldatud rahvaarv. Avaldatud nullväärtusega alad on värviskaala heledaimat tooni ja nende hüpikaknas on 0. Puuduvaid elanikke ei ole hinnanguliselt juurde lisatud.', 'population-note'));
+    content.append(element('p', 'Rahvastikualade kuju kirjeldab allikas allpool. Linnapiiril lõigatud alad on väiksemad ning nende elanike arvu kaalutakse alles jäänud pindala osakaaluga. Kaardi värviskaala näitab elanike arvu kuvataval alal, mitte rahvastikutihedust (elanikke/km²).', 'population-note'));
     const stats = element('dl', null, 'population-stats');
     stats.append(element('dt', `Kaardimudelis (${snapshot.populationYear})`), element('dd', number(total)));
     if (comparison) {
