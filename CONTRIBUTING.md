@@ -78,7 +78,7 @@ pnpm build
 
 R-skript kirjutab ainult `tests/reference.json`. See ei genereeri ega asenda veebikaarti.
 Brauseri ruumiarvutused kasutavad Proj4js-i ja JSTS-i; võrdlusarvutus kasutab sf/GEOS-i.
-Testid kontrollivad iga ruudu määrangut, pindalaga kaalutud rahvaarvu ja varjumiskoha
+Testid kontrollivad iga rahvastikuala määrangut, pindalaga kaalutud rahvaarvu ja varjumiskoha
 koormust (rahvaarvu lubatud arvuline erinevus alla 0,01 inimese).
 Lisaks võrreldakse iga linnaosa avaldatud rahvastiku summat R/sf-arvutusega.
 Rahvastiku katvuse testid kontrollivad sama aasta võrdlust, koondteenuse tõrget,
@@ -129,6 +129,14 @@ lehe taasavamist. Teenuse enda 100 objektiga koguarvu ja lehekülgede juhtumit k
 Kontrolli lisaks varjumiskoha hüpikakent, rahvastikukihi sisse-välja lülitamist,
 legendi ja info avamist kitsas vaates. Kaardi kuupäev ja rahvastikuaasta peavad
 olema nähtavad ka mobiilis.
+Rahvastikukiht kannab nime „Rahvastikualad (100 m)”; legend selgitab elanike arvu
+ja tiheduse erinevust. Ala hüpikaknas peab pindala vastama kuvatavale, vajadusel
+linnapiiriga lõigatud geomeetriale. Rahvastiku allikakirjelduses kuvatakse eraldi
+nii lühikirjeldus (2026. aastal kuusnurksed kärjed) kui ka pikem kirjeldus.
+Kontrolli alale vajutamist nii nähtavate kui ka peidetud varjumiskohtadega ning
+kihtide korduva sisse-välja lülitamise järel. Ülemised veekogu-, piiri- ja
+varjumiskohtade kihid kasutavad SVG-d, et nende objektide vahele jääv läbipaistev pind
+ei püüaks rahvastikukihi klõpse kinni; rahvastikualad kasutavad jätkuvalt Canvas-joonistust.
 Kontrolli ka nuppu „Rahvastiku võrdlus“, selle tabelit ja allikakirjeldusi ning
 rahvastikukihi halli tausta selgitust. Dialoog peab avanema klaviatuuriga ja sulguma
 Esc-klahviga; fookus peab naasma avamisnupule. Puuduva võrdluse korral ei tohi

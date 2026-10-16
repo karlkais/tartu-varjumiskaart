@@ -9,15 +9,21 @@ rahvastiku uurimiseks.
 
 - **Varjumiskohad:** nimi, aadress ja teadaolev mahutavus.
 - **Koormussuhe:** lähima varjumiskoha mudeliga määratud elanike arv võrrelduna koha mahutavusega.
-- **Rahvastik:** uusim sobiv Tartu avaandmete 100 meetri rahvastikuruudustik.
+- **Rahvastik:** uusim sobiv Tartu avaandmete 100 m rahvastikukiht; 2026. aasta lähtealad on kuusnurksed kärjed.
 - **Piirkonnad:** Tartu linnaosade piirid ning linnast väljapoole jääva ala varjutus.
 - **Aluskaart:** enda kujundatud hele kaart Maa- ja Ruumiameti ETAK hoonete, teede,
   tänavanimede, haljastuse, veekogude ja raudteedega. API-võtit ega kaardikontot pole vaja.
 
 Markerile vajutades avaneb koha täpsem info. Kihtide menüüst saab sisse lülitada
-rahvastikuruudustiku. Ringide suurus näitab mahutavust ja värv koormusklassi;
+rahvastikualad. Ringide suurus näitab mahutavust ja värv koormusklassi;
 teadmata mahutavusega kohad on sinised markerid. Väiksel ekraanil on selgitus ja
 legend kokkupandavad.
+
+Rahvastikukihi värv näitab **elanike arvu kuvataval alal**, mitte rahvastikutihedust.
+2026. aasta terve kärje pindala on ligikaudu **8659 m²**, mitte 10 000 m².
+Linnapiiril lõigatud alad on väiksemad ja nende rahvaarvu kaalutakse alles jäänud
+pindala osakaaluga. Ala hüpikaken näitab nii modelleeritud elanike arvu kui ka
+kuvatava ala tegelikku pindala. Allika „100 m” tähist ei kasutata pindala valemina.
 
 ## Automaatne uuendamine
 

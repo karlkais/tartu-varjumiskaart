@@ -12,7 +12,7 @@ kaardi avamisel uuesti ning arvutused tehakse tervikuna uuesti.
 | Riiklikud varjumiskohad | [Päästeameti CSV](https://opendata.smit.ee/gis/varjumiskohad.csv): `id`, `nimi`, `aadress`, `tyyp`, `lest_x`, `lest_y`. Mahutavust ei sisalda. |
 | Linnaosad | [KT_haldusjaotus, kiht 1](https://gis.tartulv.ee/arcgis/rest/services/Aluskaardid/KT_haldusjaotus/FeatureServer/1): `OBJECTID`, `NIMI`. |
 | Veekogud | [KT_veekogud, kiht 0](https://gis.tartulv.ee/arcgis/rest/services/Aluskaardid/KT_veekogud/FeatureServer/0): `OBJECTID`, `Nimi`. |
-| Rahvastik | [2026. aasta 100 m ruudustik](https://gis.tartulv.ee/arcgis/rest/services/Hosted/Rahvastik_2026_100m_Kuvamine/FeatureServer/0): `objectid`, `sum_sum_kokku`. Uuendamisel leitakse uusim sobiv aastakiht kataloogist. |
+| Rahvastik | [2026. aasta 100 m rahvastikukärjed](https://gis.tartulv.ee/arcgis/rest/services/Hosted/Rahvastik_2026_100m_Kuvamine/FeatureServer/0): `objectid`, `sum_sum_kokku`. Uuendamisel leitakse uusim sobiv aastakiht kataloogist. |
 
 Rahvastikukihti otsitakse [Tartu andmekataloogist](https://gis.tartulv.ee/portal/sharing/rest/search?f=pjson&q=rahvastik*).
 Valitakse Tartu ametliku serveri uusim, mitte tulevikus olev aastakiht, mille
@@ -22,7 +22,30 @@ kuvatakse tõrge. See kaitseb sobimatu või pooliku andmekihi kasutamise eest.
 
 Tartu päringud tagastavad WGS84 GeoJSON-i. Kõik objektid laaditakse ID järgi järjestatud
 lehekülgedena; kontrollitakse koguarvu, kordumatuid tunnuseid, välju ja koordinaate.
-Rahvastikukihi 1000 objekti päringupiir ei jäta ülejäänud ruute välja.
+Rahvastikukihi 1000 objekti päringupiir ei jäta ülejäänud alasid välja.
+
+### Rahvastikualade kuju ja pindala
+
+2026. aasta allika lühikirjeldus nimetab kuusnurki. Salvestatud lähteandmete kõik
+2086 ala on kuue tipuga polügoonid; nende EPSG:3301-s arvutatud pindala on
+8659,19–8659,37 m² (keskmiselt 8659,32 m² ehk ligikaudu 0,866 ha).
+Allika „100 m” tähis ei tähenda 100 × 100 m ruute ega 10 000 m² pindala.
+Kuju kontroll on tehtud tegelikest geomeetriatest, mitte ainult kihi pealkirjast.
+Kataloogi nime järgi leitakse kandidaat; F3 kontrollid kontrollivad lisaks selle
+välju, geomeetriastruktuuri, geograafilist ulatust ning muutust eelmise versiooni suhtes.
+
+Kaardil on kasutusel üldnimetus **rahvastikuala**, mis hõlmab ka linnapiiriga
+lõigatud kärjeosi ega eelda tulevaste aastakihtide kuju. Praeguse kaardiversiooni
+1832 positiivse rahvaarvuga ala pindalad on 2407,58–8659,37 m².
+Hüpikakna pindala arvutatakse kuvatavast geomeetriast EPSG:3301-s, siseringide pindala
+lahutatakse ja tulemus ümardatakse täisruutmeetriteni. See ümardus ei mõjuta mudelit.
+
+Värviskaala näitab **elanike arvu kuvataval alal**, mitte elanikke/km².
+Piiriga lõigatud ala rahvaarv on lähteala elanike arv × alles jäänud pindala /
+algne pindala. Seega ei ole kõik kuvatavad alad võrdse pindalaga ja nende värve
+ei saa tõlgendada otse rahvastikutihedusena. Eraldi tihedusekihti see versioon ei lisa.
+
+### Varjumisallikate ühildamine
 
 Päästeameti UTF-8 CSV kasutab semikoolonit. `lest_x` on põhjakoordinaat ja `lest_y`
 idakoordinaat; teisendus EPSG:3301-st WGS84-sse kasutab järjekorda `[lest_y, lest_x]`.
@@ -153,7 +176,7 @@ mitte kogu Tartu omavalitsuse, sealhulgas maapiirkondade, piiridel.
   ning `shelterSources` all Päästeameti andmed koos päritoluga. Salvestatud 15.10.2026.
 - `national-shelters.csv`: sama uuenduse riiklik lähtefail; võimaldab CSV teisendust korrata.
 - `../docs/snapshot.json`: nendest lähteandmetest arvutatud kaardikihid ja viimane
-  eduka uuendamise aeg. Praeguses versioonis 29 varjumiskohta ja 1832 rahvastikuruutu.
+  eduka uuendamise aeg. Praeguses versioonis 29 varjumiskohta ja 1832 rahvastikuala.
 - `raw/`: varasemate lähteandmete arhiiv, sh 2025. aasta rahvastiku Shapefile,
   linnaosade piirid ning varjumiskohtade ja veekogude GeoJSON. Nende failide algne
   allalaadimiskuupäev pole teada; brauser kasutab uut salvestist ja ametlikke teenuseid.
@@ -171,12 +194,12 @@ vaid alles sellest üle minnes. Avatud lehel taimeriga päringuid ei tehta.
 ## Koormussuhte mudel
 
 1. Andmed teisendatakse Eesti tasapinnalisse koordinaatsüsteemi EPSG:3301.
-2. Linnaosad ühendatakse linnamaskiks. Rahvastikuruudud lõigatakse selle piiridega;
-   piiril oleva ruudu rahvaarvu kaalutakse alles jäänud pindala osakaaluga.
+2. Linnaosad ühendatakse linnamaskiks. Rahvastikualad lõigatakse selle piiridega;
+   piiril oleva ala rahvaarvu kaalutakse alles jäänud pindala osakaaluga.
 3. Maski sees ühildatakse Tartu toimivad varjumiskohad (`Toimiv == 1`) ja Päästeameti
    avalikud varjumiskohad. Sõnaselgelt vastuoluline staatus kuvatakse eraldi ja sellise
    koha mahutavus jäetakse arvutusest välja. Allikaseosed säilivad `sourceAudit` väljas.
-4. Iga rahvastikuruudu sisepunkt määratakse geomeetriliselt lähimale teadaoleva
+4. Iga rahvastikuala sisepunkt määratakse geomeetriliselt lähimale teadaoleva
    positiivse mahutavusega varjumiskohale. Teekonda tänavatel ei arvutata.
 5. Koormussuhe = varjumiskohale määratud elanike arv / mahutavus.
 6. Koormusklassid: madal `< 0,75`, piiril `0,75–1,25`, kõrge `> 1,25`.

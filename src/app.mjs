@@ -5,6 +5,7 @@ import { newestBasemap, refreshBasemapIfDue } from './basemap-data.mjs';
 import { createBasemapView } from './basemap-view.mjs';
 import { createPopulationView } from './population-view.mjs';
 import { createShelterView, appendShelterSourceInfo } from './shelter-view.mjs';
+import { polygonArea } from './data-quality.mjs';
 
 const number = value => new Intl.NumberFormat('et-EE', { maximumFractionDigits: 0 }).format(value);
 const date = value => new Intl.DateTimeFormat('et-EE', { dateStyle: 'medium' }).format(new Date(value));
@@ -28,6 +29,9 @@ map.createPane('population'); map.getPane('population').style.zIndex = 350;
 map.createPane('water'); map.getPane('water').style.zIndex = 360;
 map.createPane('districts'); map.getPane('districts').style.zIndex = 370;
 map.createPane('shelters'); map.getPane('shelters').style.zIndex = 450;
+// Upper canvases intercept clicks across their entire rectangles, even between
+// objects. SVG only targets painted paths, letting clicks reach population areas.
+const upperRenderers = Object.fromEntries(['water', 'districts', 'shelters'].map(pane => [pane, L.svg({ pane })]));
 
 function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -53,8 +57,8 @@ function panel(title, position, html, open = !narrow.matches) {
   return content;
 }
 
-panel('Kaardi info', 'topleft', `<p>Markerile vajutades näed aadressi, mahutavust ja hinnangulist koormussuhet.</p><p>Iga rahvastikuruut määratakse sirgjooneliselt lähimale teadaoleva mahutavusega varjumiskohale. Koormussuhe on määratud elanike arvu ja mahutavuse suhe.</p><p>Elukohapõhine hinnang ei kajasta tegelikku täituvust ega arvesta tänavavõrku või päevast liikumist.</p><p>Hele aluskaart põhineb Maa- ja Ruumiameti ETAK andmetel. Tartu linnaosade piiridest väljapoole jääv ala on varjutatud.</p><p>Üle kuue kuu vanused varjumisandmed, arvutused ja aluskaart uuenevad kaardi avamisel. Mõlemal andmestikul on oma eduka uuenduse kuupäev. Tõrke korral jääb senine versioon alles. Salvestus on selle brauseri põhine.</p><p>Kuupäevad tähistavad edukat laadimist ja arvutamist, mitte kõigi lähteobjektide viimast muutmisaega.</p><p><a href="https://geohub.tartulv.ee/pages/avaandmed" target="_blank" rel="noopener">Tartu avaandmed</a> · <a href="https://geoportaal.maaruum.ee/" target="_blank" rel="noopener">Maa- ja Ruumiamet</a> · <a href="https://github.com/karlkais/tartu-varjumiskaart" target="_blank" rel="noopener">Projekt GitHubis</a></p>`, false);
-const legend = panel('Kaardi legend', 'bottomleft', `<h2>Koormussurve</h2>${Object.entries(categories).map(([key, label]) => `<div class="legend-row"><span class="swatch" style="background:${colors[key]}"></span>${label}</div>`).join('')}<div class="legend-row unknown-key">● Mahutavus teadmata</div><h2>Varjumiskoha mahutavus</h2><div class="size-row">${[250, 1000, 5000, 13000].map(value => `<div class="size-key"><svg width="40" height="40" aria-hidden="true"><circle cx="20" cy="20" r="${Math.sqrt(value) / 8 + 4}" fill="#8c9d9155" stroke="#5b6f63"/></svg>${number(value)}</div>`).join('')}</div><h2>Elanikke 100 m ruudus</h2><div class="gradient"></div><div class="gradient-labels"><span>0</span><span id="population-max"></span></div>`);
+panel('Kaardi info', 'topleft', `<p>Markerile vajutades näed aadressi, mahutavust ja hinnangulist koormussuhet.</p><p>Iga rahvastikuala määratakse sirgjooneliselt lähimale teadaoleva mahutavusega varjumiskohale. Koormussuhe on määratud elanike arvu ja mahutavuse suhe.</p><p>Rahvastikualade kuju pärineb lähtekihist. Allika 100 m tähis ei tähenda 100 × 100 m ruute. Linnapiiril alad lõigatakse ja elanike arvu kaalutakse alles jäänud pindala osakaaluga. Ala hüpikaken näitab kuvatava ala pindala.</p><p>Elukohapõhine hinnang ei kajasta tegelikku täituvust ega arvesta tänavavõrku või päevast liikumist.</p><p>Hele aluskaart põhineb Maa- ja Ruumiameti ETAK andmetel. Tartu linnaosade piiridest väljapoole jääv ala on varjutatud.</p><p>Üle kuue kuu vanused varjumisandmed, arvutused ja aluskaart uuenevad kaardi avamisel. Mõlemal andmestikul on oma eduka uuenduse kuupäev. Tõrke korral jääb senine versioon alles. Salvestus on selle brauseri põhine.</p><p>Kuupäevad tähistavad edukat laadimist ja arvutamist, mitte kõigi lähteobjektide viimast muutmisaega.</p><p><a href="https://geohub.tartulv.ee/pages/avaandmed" target="_blank" rel="noopener">Tartu avaandmed</a> · <a href="https://geoportaal.maaruum.ee/" target="_blank" rel="noopener">Maa- ja Ruumiamet</a> · <a href="https://github.com/karlkais/tartu-varjumiskaart" target="_blank" rel="noopener">Projekt GitHubis</a></p>`, false);
+const legend = panel('Kaardi legend', 'bottomleft', `<h2>Koormussurve</h2>${Object.entries(categories).map(([key, label]) => `<div class="legend-row"><span class="swatch" style="background:${colors[key]}"></span>${label}</div>`).join('')}<div class="legend-row unknown-key">● Mahutavus teadmata</div><h2>Varjumiskoha mahutavus</h2><div class="size-row">${[250, 1000, 5000, 13000].map(value => `<div class="size-key"><svg width="40" height="40" aria-hidden="true"><circle cx="20" cy="20" r="${Math.sqrt(value) / 8 + 4}" fill="#8c9d9155" stroke="#5b6f63"/></svg>${number(value)}</div>`).join('')}</div><h2>Elanikke rahvastikualal</h2><div class="gradient"></div><div class="gradient-labels"><span>0</span><span id="population-max"></span></div><p class="population-note">Värv näitab elanike arvu kuvataval alal, mitte tihedust (elanikke/km²). Linnapiiril lõigatud alad on väiksemad.</p>`);
 
 const missingPopulationLegend = element('div', null, 'legend-row');
 missingPopulationLegend.append(element('span', null, 'swatch population-missing'), element('span', 'Andmekihis rahvaarv puudub'));
@@ -79,6 +83,14 @@ function popup(properties) {
   return container;
 }
 
+function populationPopup(feature) {
+  const container = element('div');
+  container.append(element('strong', `Elanikke alal (mudelis): ${number(feature.properties.residents)}`),
+    element('div', `Kuvatava ala pindala: ${number(polygonArea(feature.geometry))} m²`),
+    element('p', 'Linnapiiril lõigatud ala rahvaarv on kaalutud alles jäänud pindala osakaaluga. Värv näitab elanike arvu, mitte rahvastikutihedust.', 'popup-note'));
+  return container;
+}
+
 let mapLayers, layerControl, current, currentBasemap, cache, busy = false;
 function render(snapshot) {
   const visibility = mapLayers ? Object.fromEntries(Object.entries(mapLayers).map(([key, layer]) => [key, map.hasLayer(layer)])) : { districts: true, water: true, population: false, shelters: true, unknown: true };
@@ -89,22 +101,22 @@ function render(snapshot) {
     style: { stroke: false, fillColor: '#cbd0d5', fillOpacity: 1 } });
   const zeroPopulation = L.geoJSON(snapshot.layers.zeroPopulation ?? { type: 'FeatureCollection', features: [] }, {
     pane: 'population', style: { weight: 0, fillOpacity: 1, fillColor: palette[0] },
-    onEachFeature: (f, l) => l.bindPopup(element('div', 'Avaldatud rahvaarv: 0'))
+    onEachFeature: (f, l) => l.bindPopup(populationPopup(f))
   });
   const publishedPopulation = L.geoJSON(snapshot.layers.population, { pane: 'population',
     style: f => ({ weight: 0, fillOpacity: 1, fillColor: palette[Math.min(8, Math.floor(f.properties.residents / populationMax * 8))] }),
-    onEachFeature: (f, l) => l.bindPopup(element('div', `Avaldatud rahvaarv mudelis: ${number(f.properties.residents)}. Piirialadel pindalaga kaalutud hinnang.`)) });
+    onEachFeature: (f, l) => l.bindPopup(populationPopup(f)) });
   const nextLayers = {
-    districts: L.geoJSON(snapshot.layers.districts, { pane: 'districts', style: { fill: false, color: '#798781', weight: .8, opacity: .6 }, onEachFeature: (f, l) => { onEach(f, l); l.bindTooltip(element('span', f.properties.name)); } }),
-    water: L.geoJSON(snapshot.layers.water, { pane: 'water', style: { color: '#a7c9d6', weight: .5, fillColor: '#c7dce4', fillOpacity: 1 }, onEachFeature: onEach }),
+    districts: L.geoJSON(snapshot.layers.districts, { pane: 'districts', renderer: upperRenderers.districts, style: { fill: false, color: '#798781', weight: .8, opacity: .6 }, onEachFeature: (f, l) => { onEach(f, l); l.bindTooltip(element('span', f.properties.name)); } }),
+    water: L.geoJSON(snapshot.layers.water, { pane: 'water', renderer: upperRenderers.water, style: { color: '#a7c9d6', weight: .5, fillColor: '#c7dce4', fillOpacity: 1 }, onEachFeature: onEach }),
     population: L.layerGroup([unavailable, zeroPopulation, publishedPopulation]),
-    shelters: L.geoJSON(snapshot.layers.shelters, { filter: f => f.properties.capacity > 0, pointToLayer: (f, ll) => L.circleMarker(ll, { pane: 'shelters', radius: Math.sqrt(f.properties.capacity) / 8 + 4, color: colors[f.properties.category], fillOpacity: .9, weight: 1 }), onEachFeature: (f, l) => { l.bindPopup(popup(f.properties)); l.bindTooltip(element('span', f.properties.name)); } }),
+    shelters: L.geoJSON(snapshot.layers.shelters, { filter: f => f.properties.capacity > 0, pointToLayer: (f, ll) => L.circleMarker(ll, { pane: 'shelters', renderer: upperRenderers.shelters, radius: Math.sqrt(f.properties.capacity) / 8 + 4, color: colors[f.properties.category], fillOpacity: .9, weight: 1 }), onEachFeature: (f, l) => { l.bindPopup(popup(f.properties)); l.bindTooltip(element('span', f.properties.name)); } }),
     unknown: L.geoJSON(snapshot.layers.shelters, { filter: f => !(f.properties.capacity > 0), pointToLayer: (f, ll) => L.marker(ll, { pane: 'shelters', title: f.properties.name, icon: L.icon({ iconUrl: './app/images/marker-icon.png', iconRetinaUrl: './app/images/marker-icon-2x.png', shadowUrl: './app/images/marker-shadow.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41] }) }), onEachFeature: (f, l) => { l.bindPopup(popup(f.properties)); l.bindTooltip(element('span', f.properties.name)); } })
   };
   if (layerControl) layerControl.remove();
   if (mapLayers) Object.values(mapLayers).forEach(layer => map.removeLayer(layer));
   for (const [key, layer] of Object.entries(nextLayers)) if (visibility[key]) layer.addTo(map);
-  layerControl = L.control.layers(null, { 'Rahvastik 100 m ruudus': nextLayers.population, 'Varjumiskohad': nextLayers.shelters, 'Mahutavuseta varjumiskohad': nextLayers.unknown }, { collapsed: narrow.matches }).addTo(map);
+  layerControl = L.control.layers(null, { 'Rahvastikualad (100 m)': nextLayers.population, 'Varjumiskohad': nextLayers.shelters, 'Mahutavuseta varjumiskohad': nextLayers.unknown }, { collapsed: narrow.matches }).addTo(map);
   const toggle = layerControl.getContainer().querySelector('.leaflet-control-layers-toggle');
   toggle.title = 'Kaardi kihid'; toggle.setAttribute('aria-label', 'Kaardi kihid');
   legend.querySelector('#population-max').textContent = number(populationMax);

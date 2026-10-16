@@ -50,7 +50,7 @@ export function calculateModel(raw) {
   for (const source of raw.layers.population.features) {
     const geometry = planar(source);
     const area = geometry.getArea();
-    if (!(area > 0)) throw new Error('Rahvastikuruudu pindala puudub.');
+    if (!(area > 0)) throw new Error('Rahvastikuala pindala puudub.');
     populationAreas.push({ geometry, area, residents: source.properties.sum_sum_kokku });
     if (!geometry.getEnvelopeInternal().intersects(mask.getEnvelopeInternal())) continue;
     const clipped = geometry.intersection(mask);
